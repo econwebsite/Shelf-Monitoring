@@ -1,0 +1,129 @@
+.keyfeatures-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.keyfeatures-content {
+    background-color: #344ea1;
+    color: #00aeef;
+    padding: 1em;
+    max-width: 100%;
+    text-align: center;
+}
+
+.keyfeatures-centered-text .keyfeatures-main-title {
+    font-size: 2em;
+    margin: 15px 0;
+    font-weight: 200;
+    color: #b8f2ff;
+}
+
+.keyfeatures-centered-text .keyfeatures-sub-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+    font-weight: 200;
+    color: #ffffff;
+    margin-bottom: 1.5em;
+    
+}
+
+.keyfeatures-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+.keyfeatures-grid-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+/* Rectangle Box styles */
+.keyfeatures-rectangle-box {
+    background-color: #ffffff;
+    width: 38%; 
+    height: 140px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container-blue,
+.image-container-green,
+.image-container-yellow,
+.image-container-pink {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.image-container-blue {
+    background-color: #f0feff; 
+}
+
+.image-container-green {
+    background-color: #f0feff; 
+}
+
+.image-container-yellow {
+    background-color: #f0feff; 
+}
+
+.image-container-pink {
+    background-color: #f0feff; 
+}
+
+.keyfeatures-icon {
+    width: 60%; 
+}
+
+.keyfeatures-text-container {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.keyfeatures-text-container h4 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.keyfeatures-text-container p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+    .keyfeatures-grid-layout {
+        grid-template-columns: 1fr; 
+        gap: 1px;
+    }.keyfeatures-rectangle-box {
+        width: 100%; 
+        height: auto;
+    }
+    .keyfeatures-content {
+        padding: 1em;
+    }
+    .keyfeatures-grid-row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .keyfeatures-rectangle-box {
+        width: 90%; 
+        margin: 10px 0 ; 
+    }
+
+    .keyfeatures-centered-text .keyfeatures-main-title {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+
+    .keyfeatures-centered-text .keyfeatures-sub-title {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+}
