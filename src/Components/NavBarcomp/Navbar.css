@@ -1,6 +1,6 @@
 .navbarpage-navbar {
   width: 100%;
-  background-color: #f0feff;
+  background-color: white;
   display: flex;
   box-shadow: 0 4px 30px rgba(121, 116, 116, 0.1);
   flex-direction: column;
