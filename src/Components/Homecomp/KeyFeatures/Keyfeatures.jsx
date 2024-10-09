@@ -1,55 +1,62 @@
 import React from 'react';
 import './Keyfeatures.css';
+import highre from "../../../assets/homepage/4k.jpg"
+import wideangle from "../../../assets/homepage/wideangle.jpg"
+import flexible from "../../../assets/homepage/flexiblecapture.jpg"
+import lowpower from "../../../assets/homepage/lowpower.jpg"
+import configurable from "../../../assets/homepage/configurable.jpg"
+import GDPR from "../../../assets/homepage/gdpr.jpg"
+import customenclosure from "../../../assets/homepage/custom-enclosure.jpg"
+import recharge from "../../../assets/homepage/rechargable-battery.jpg"
 
 const KeyFeatures = () => {
-  // Array of feature data with left and right content
   const features = [
     {
       left: {
         title: 'High-Resolution (13 MP Sensor)',
         description: 'Captures high-quality image for accurate analysis',
-        icon: 'icon-left-1.png',
+        icon: highre,
       },
       right: {
         title: 'Wide-Angle Optics (120-degree FOV)',
         description: 'covers extensive shelf space,monitoring over 300 products up to 5 meters,reducing blind sports',
-        icon: 'icon-right-1.png',
+        icon: wideangle,
       },
     },
     {
       left: {
         title: 'Flexible Captures Modes',
         description: 'Supports continous,scheduled and motion-triggred modes',
-        icon: 'icon-left-2.png',
+        icon: flexible,
       },
       right: {
         title: 'Low-Power Wi-Fi',
         description: 'Ensure smooth data transmission without quick power drain',
-        icon: 'icon-right-2.png',
+        icon: lowpower,
       },
     },
     {
       left: {
         title: 'Configurable Status LED',
         description: 'Allows easy monitoring of camera functionality',
-        icon: 'icon-left-3.png',
+        icon: configurable,
       },
       right: {
         title: 'GDPR Complience',
         description: 'Prevents image capture of people/motion to avoid legal issues',
-        icon: 'icon-right-3.png',
+        icon: GDPR,
       },
     },
     {
       left: {
         title: 'Custom Enclosures',
         description: 'Adapatable to varoius retail environment for enhanced durablity',
-        icon: 'icon-left-4.png',
+        icon: customenclosure,
       },
       right: {
         title: 'Rechargable Battery',
         description: 'Enables easy installation in the dynamic of retail aisles',
-        icon: 'icon-right-4.png',
+        icon: recharge,
       },
     },
   ];
@@ -65,6 +72,8 @@ const KeyFeatures = () => {
     <div className='keyfeatures-container'>
       <div className="keyfeatures-content">
         {/* Centered Text */}
+        <div className='mainContainer'>
+
         <div className="keyfeatures-centered-text">
           <h2 className="keyfeatures-main-title">e-con Systems'</h2>
           <h3 className="keyfeatures-sub-title">Key Wi-Fi Camera Features for Shelf Monitoring</h3>
@@ -99,6 +108,7 @@ const KeyFeatures = () => {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
     </div>

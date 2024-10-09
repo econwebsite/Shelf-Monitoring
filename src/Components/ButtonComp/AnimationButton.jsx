@@ -3,12 +3,14 @@ import './AnimationButton.css';
 import { Link } from 'react-router-dom';
 
 const AnimationButton = ({
-  text = 'know more', // Set default text to lowercase
-  className = '',
-  backgroundColor = '#344ea1',
-  hoverColor = '#344ea1',
-  onClick,
-  to,
+  text = 'know more', 
+  className = '', 
+  backgroundColor = '#344ea1', 
+  textColor = '#def9fc', 
+  hoverBackgroundColor = '#def9fc',
+  hoverTextColor = '#344ea1', 
+  onClick, 
+  to, 
   ...props
 }) => {
   return (
@@ -16,11 +18,16 @@ const AnimationButton = ({
       <Link
         to={to}
         className={`btn ${className}`}
-        style={{ backgroundColor }}
+        style={{
+          '--btn-bg-color': backgroundColor,
+          '--btn-text-color': textColor,
+          '--btn-hover-bg-color': hoverBackgroundColor,
+          '--btn-hover-text-color': hoverTextColor,
+        }}
         onClick={onClick}
         {...props}
       >
-        {text} 
+        {text}
       </Link>
     </div>
   );

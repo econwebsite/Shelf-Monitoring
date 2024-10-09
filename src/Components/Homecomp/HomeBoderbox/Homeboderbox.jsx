@@ -1,9 +1,10 @@
 import React from 'react';
 import './Homeboder.css';
-
+import retailer from "../../../assets/homepage/retailer.jpg" 
 const Homeboderbox = () => {
   return (
     <div className="Homeboderbox-container">
+            <div className='mainContainer'>
       <div className="Homeboderbox-content-box">
         <div className="Homeboderbox-left-side">
           <h2>How e-con Systems Camera Solution Help Retailers with Shelf Monitoring</h2>
@@ -13,11 +14,12 @@ const Homeboderbox = () => {
         </div>
         <div className="Homeboderbox-right-side">
           <img
-            src="https://via.placeholder.com/150"
+            src={retailer}
             alt="Placeholder"
             className="Homeboderbox-placeholder-image"
           />
         </div>
+      </div>
       </div>
     </div>
   );

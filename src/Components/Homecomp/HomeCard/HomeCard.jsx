@@ -2,16 +2,18 @@ import React from 'react';
 import './Homecard.css';
 import { Link } from 'react-router-dom';
 import AnimationButton from '../../ButtonComp/AnimationButton';
-
+import chip from "../../../assets/homepage/chipimg.jpg"
+import vegitable from "../../../assets/homepage/vegitable.jpg"
+import products from "../../../assets/homepage/product.jpg"
 const HomeCard = () => {
   return (
     <div className="UniqueProductBlogs-Total">
       <h1 className="UniqueProductBlogs-title">Articles</h1>
-      <div className='UniqueMainContainer'>
+      <div className='mainContainer'>
         <div className="UniqueProductBlogs-cards">
           <div className="UniqueProductBlogs-card">
             <Link className="UniqueCardImgLink" to="/ForwardBlog" style={{ textDecoration: "none" }}>
-              <img src="https://placehold.jp/321x202.png" alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
+              <img src={chip} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
             </Link>
             <Link className="UniqueCardTitleLink" to="/ForwardBlog" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">Wide-Angle Optics (120-degree FOV)</h2>
@@ -21,7 +23,7 @@ const HomeCard = () => {
           </div>
           <div className="UniqueProductBlogs-card">
             <Link className="UniqueCardImgLink" to="/HdrLedBlog" style={{ textDecoration: "none" }}>
-              <img src="https://placehold.jp/321x202.png" alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
+              <img src={vegitable} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
             </Link>
             <Link className="UniqueCardTitleLink" to="/HdrLedBlog" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">Wide-Angle Optics (120-degree FOV)</h2>
@@ -31,7 +33,7 @@ const HomeCard = () => {
           </div>
           <div className="UniqueProductBlogs-card">
             <Link className="UniqueCardImgLink" to="/DrivermonBlog" style={{ textDecoration: "none" }}>
-              <img src="https://placehold.jp/321x202.png" alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
+              <img src={products} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
             </Link>
             <Link className="UniqueCardTitleLink" to="/DrivermonBlog" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">Wide-Angle Optics (120-degree FOV)</h2>

@@ -4,10 +4,10 @@
 }
 
 .btn {
-  --color: #def9fc;
-  --color2: #344ea1;
+  --color: #def9fc; /* Fallback color */
+  --color2: #344ea1; /* Fallback hover color */
   padding: 0.8em 1.5em;
-  background-color: transparent;
+  background-color: var(--btn-bg-color);
   border-radius: 6px;
   border: 0.3px solid white;
   transition: 0.5s;
@@ -17,7 +17,7 @@
   z-index: 1;
   font-weight: 300;
   font-size: 1em;
-  color:#def9fc;
+  color: var(--btn-text-color);
   text-decoration: none; 
 }
 
@@ -51,7 +51,7 @@
 }
 
 .btn:hover {
-  color: var(--color2);
+  color: var(--btn-hover-text-color);
 }
 
 .btn:active {

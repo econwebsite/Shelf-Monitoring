@@ -35,8 +35,9 @@
 
 .keyfeatures-grid-row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 10px 0;
+    gap: 50px;
 }
 
 /* Rectangle Box styles */
@@ -107,11 +108,12 @@
         height: auto;
     }
     .keyfeatures-content {
-        padding: 1em;
+        padding: 0.1em;
     }
     .keyfeatures-grid-row {
         flex-direction: column; 
         align-items: center; 
+        gap: 10px;
     }
 
     .keyfeatures-rectangle-box {
