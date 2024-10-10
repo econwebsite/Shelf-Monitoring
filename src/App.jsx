@@ -7,6 +7,9 @@ import NavBar from "./Components/NavBarcomp/NavBar";
 import Totalhome from "./Components/Homecomp/Totalhome";
 import Footerpage from "./Components/FooterComp/Footerpage";
 import ScrollToTop from "./Components/ScrollToTop"
+import NotFoundPage from "./Components/Notfoundpage"
+
+
 import AnimationButton from './Components/ButtonComp/AnimationButton';
 
 const App = () => {
@@ -21,7 +24,7 @@ const App = () => {
         <Route path="/" element={<Totalhome />} />
 
        
-        
+        <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footerpage/>
 
