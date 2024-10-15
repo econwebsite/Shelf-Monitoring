@@ -1,76 +1,115 @@
-.HomeBanner-carouselContainer {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background-color: #3d5ba9;
+/* .HomeBanner-carouselContainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #3d5ba9;
 }
 
 .HomeBanner-carouselSlide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; 
 }
 
-/* Image styling */
 .HomeBanner-carouselImage {
-    width: 100%;
-    height: auto; 
-    object-fit: cover;
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
 }
 
 .HomeBanner-homeBanner {
-    position: relative;
+  position: relative;
 }
 
 .HomeBanner-homeButton .HomeBanner-productIntraButtonEnd {
-    position: absolute;
-    display: flex;
-    justify-content: flex-start; 
-    bottom: 10%;
-    left: 5%;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start; 
+  bottom: 10%;
+  left: 5%;
 }
 
 .HomeBanner-homeButton .HomeBanner-productIntraButton2 {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end; 
-    bottom: 10%; 
-    right: 5%; 
+  position: absolute;
+  display: flex;
+  justify-content: flex-end; 
+  bottom: 10%; 
+  right: 5%; 
 }
 
 .HomeBanner-bannerLine {
-    border-bottom: 1px solid #f0feff;
-    width: 50%;
-    margin: 0 40px;
+  border-bottom: 1px solid #f0feff;
+  width: 50%;
+  margin: 0 40px;
 }
 
 .HomeBanner-banner2Line {
-    border-bottom: 1px solid #f0feff;
-    width: 50%;
-    margin-left: auto; 
-    margin-right: 40px;
+  border-bottom: 1px solid #f0feff;
+  width: 50%;
+  margin-left: auto; 
+  margin-right: 40px;
 }
 
 @media (max-width: 800px) {
-    .HomeBanner-carouselSlide {
-        height: auto;
-    }
+  .HomeBanner-carouselSlide {
+      height: auto;
+  }
 
-    .HomeBanner-carouselImage {
-        width: 100%; 
-        height: auto; 
-    }
+  .HomeBanner-carouselImage {
+      width: 100%; 
+      height: auto; 
+  }
 
-    .HomeBanner-homeButton {
-        display: none;
-    }
+  .HomeBanner-homeButton {
+      display: none;
+  }
 }
 
 @media (max-width: 500px) {
-    .HomeBanner-carouselImage {
-        width: 100%;
-        height: auto; 
-        object-fit: cover; 
-    }
+  .HomeBanner-carouselImage {
+      width: 100%;
+      height: auto; 
+      object-fit: cover; 
+  }
 }
+
+
+.HomeBanner-homeBanner {
+  opacity: 1; 
+  transform: translateX(0);
+}
+
+.animate-slide-2 {
+  animation: slideRightToLeft 2s ease-in-out forwards; 
+}
+
+.animate-slide-3 {
+  animation: slideLeftToRight 3s ease-in-out forwards;
+}
+
+.animate-slide-4 {
+  animation: slideRightToLeft 3.6s ease-in-out forwards; 
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */

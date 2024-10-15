@@ -1,0 +1,141 @@
+.bannerTwo-container-unique {
+  display: flex;
+  background-color: #6978ba;
+  width: 100%;
+  height: 500px; 
+  overflow-x: hidden;
+}
+
+.bannerTwo-left-unique {
+  width: 60%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerTwo-right-unique {
+  width: 40%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-right: 4em;
+  color: #ffffff; 
+}
+
+.spacer-unique {
+  margin-top: 10px; 
+}
+
+.spacer-large-unique {
+  margin-top: 20px;
+}
+
+.bannerTwo-button-unique {
+  align-self: flex-end;
+}
+
+.bannerTwo-right-unique h2 {
+  font-weight: 200;
+  font-size: 2.3em;
+  text-align: right;
+  color: white;
+}
+
+.bannerTwo-right-unique h3 {
+  color: white;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 1em;
+  text-align: right;
+}
+
+.image-row-unique {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  position: relative; 
+}
+
+.empty-unique {
+  width: 350px;
+  height: 390px;
+  position: absolute; 
+  left: -290px; 
+  z-index: 3; 
+}
+
+.lowstocks-unique {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  left: 30px; 
+  top: -70px; 
+  z-index: 2; 
+  opacity: 0; 
+}
+
+.lightimg-unique {
+  width: 450px;
+  height: auto;
+  position: absolute; 
+  left: 5px; 
+  top: -200px;
+  z-index: 1; 
+  opacity: 0; 
+}
+
+@keyframes bottom-to-top-unique {
+  0% {
+    transform: translateY(100px);
+    opacity: 0; 
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
+@keyframes right-to-left-unique {
+  0% {
+    transform: translateX(100px); 
+    opacity: 0; 
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+}
+
+.lowstocks-unique.animate {
+  animation: bottom-to-top-unique 2s ease-out forwards;
+}
+
+.lightimg-unique.animate {
+  animation: right-to-left-unique 2s ease-out forwards;
+}
+.bannerTwo-bannerLine-container {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%; 
+  padding-right: 4em; 
+  background-color: #6978ba;
+}
+
+.bannerTwo-bannerLine {
+  border-bottom: 1px solid #ffffff;
+  width: 50%; 
+}
+
+
+
+@media (min-width: 1450px) {
+  .bannerTwo-right-unique h3 {
+    color: white;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: right;
+  }
+  
+}
