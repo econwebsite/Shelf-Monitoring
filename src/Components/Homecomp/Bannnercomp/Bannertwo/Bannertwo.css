@@ -1,9 +1,8 @@
 .bannerTwo-container-unique {
   display: flex;
-  background-color: #6978ba;
+  background-color:white;
   width: 100%;
   height: 500px; 
-  overflow-x: hidden;
 }
 
 .bannerTwo-left-unique {
@@ -39,11 +38,11 @@
   font-weight: 200;
   font-size: 2.3em;
   text-align: right;
-  color: white;
+  color: #6978ba;
 }
 
 .bannerTwo-right-unique h3 {
-  color: white;
+  color: #6978ba;
   font-weight: 300;
   line-height: 1.5em;
   font-size: 1em;
@@ -139,3 +138,53 @@
   }
   
 }
+
+
+/* mobike */
+
+.placeholder-unique2 {
+  display: none; 
+}
+
+/* @media (max-width: 1015px) {
+  .bannerTwo-container-unique {
+    flex-direction: column;
+    height: auto; 
+  }
+  
+  .bannerTwo-left-unique,
+  .bannerTwo-right-unique {
+    width: 100%;
+    align-items: center; 
+    text-align: center;
+    padding: 0 1em; 
+  }
+
+  .image-row-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+
+  .empty-unique,
+  .lowstocks-unique,
+  .lightimg-unique {
+    display: none; 
+  }
+
+  .placeholder-unique2 {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+  }
+
+  .bannerTwo-button-unique {
+    margin-top: 10px; 
+  }
+
+  .bannerTwo-right-unique h2, .bannerTwo-right-unique h3 {
+    text-align: center; 
+  }
+} */

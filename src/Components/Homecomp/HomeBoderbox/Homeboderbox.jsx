@@ -5,7 +5,7 @@ const Homeboderbox = () => {
   return (
     <div className="Homeboderbox-container">
             <div className='mainContainer'>
-      <div className="Homeboderbox-content-box">
+      <div className="Homeboderbox-content-box" data-aos="flip-up" data-aos-duration="1100">
         <div className="Homeboderbox-left-side">
           <h2>How e-con Systems Camera Solution Help Retailers with Shelf Monitoring</h2>
           <p>

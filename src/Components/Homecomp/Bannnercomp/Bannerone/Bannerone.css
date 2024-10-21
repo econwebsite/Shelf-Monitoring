@@ -4,8 +4,7 @@
   width: 100%;
   height: 500px; 
   box-sizing: border-box;
-    overflow-x: hidden;
-
+  overflow: hidden;
 }
 
 .banner-left {
@@ -74,7 +73,7 @@
   margin-right: -460px;
   object-fit: contain; 
   z-index: 1;
-  animation: slideInFromBottom 1.5s ease-out forwards; 
+  animation: slideInFromBottom 1s ease-out forwards; 
 }
 
 .HomeBanner-bannerLine-container {
@@ -119,4 +118,63 @@
     position: relative; 
   }
   
+}
+
+
+/* mobile */
+
+/* @media (max-width: 1015px) {
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+    padding: 1em;
+  }
+
+  .banner-left {
+    width: 90%; 
+    text-align: center; 
+    padding: 1em 0; 
+  }
+
+  .banner-left h2,
+  .banner-left h3 {
+    margin: 0.5em 0; 
+  }
+  .banner-right {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    padding: 1em 0; 
+  }
+
+  .image-row {
+    display: none; 
+  }
+
+  .placeholder-one{
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+  }
+  .banner-button {
+    align-self: center;
+    margin-top: 15px; 
+  }
+}
+
+@media (min-width: 1016px) {
+  .placeholder-one{
+    display: none; 
+  }
+
+  .image-row {
+    display: flex;
+  }
+} */
+@media (min-width: 1016px) {
+  .placeholder-one{
+    display: none; 
+  }
 }

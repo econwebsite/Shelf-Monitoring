@@ -10,7 +10,7 @@ const HomeCard = () => {
     <div className="UniqueProductBlogs-Total">
       <h1 className="UniqueProductBlogs-title">Articles</h1>
       <div className='mainContainer'>
-        <div className="UniqueProductBlogs-cards">
+        <div className="UniqueProductBlogs-cards" data-aos="zoom-in-right" data-aos-duration="1300">
           <div className="UniqueProductBlogs-card">
             <Link className="UniqueCardImgLink" to="" style={{ textDecoration: "none" }}>
               <img src={chip} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />

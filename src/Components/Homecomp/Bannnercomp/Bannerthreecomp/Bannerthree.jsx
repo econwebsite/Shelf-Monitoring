@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';import './Bannerthree.css';
+import React, { useState, useEffect, useRef } from 'react';
+import './Bannerthree.css';
 import missplacesmall from "../../../../assets/homepage/misplacesmall.png";
 import misplacelarge from "../../../../assets/homepage/misplacelarge.png";
 import planlight from "../../../../assets/homepage/planlight.png";
@@ -16,7 +17,7 @@ const Bannerthree = () => {
           observer.unobserve(entry.target); // Stop observing after animation has been triggered
         }
       });
-    }, { threshold: 0.1 }); // Adjust threshold as needed
+    }, { threshold: 0.1 });
 
     if (bannerRef.current) {
       observer.observe(bannerRef.current);
@@ -31,31 +32,41 @@ const Bannerthree = () => {
 
   return (
     <div style={{ backgroundColor: "#3d5ba9" }}>
-                    <div className='mainContainer'>
-      <div ref={bannerRef} className="Bannerthree-container">
-        <div className="Bannerthree-left">
-          <h2>Planogram <br /> Compliance</h2>
-          <div className="Bannerthree-spacer"></div>
-          <h3>Ensure high-demand products are always available, boosting customer satisfaction and sales.</h3>
-          <div className="Bannerthree-spacer-large"></div>
-          <AnimationButton text="Know More" backgroundColor="#003873" textColor="white" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="Bannerthree-button" to="" />
-        </div>
-        <div className="Bannerthree-right">
-          <div className="Bannerthree-image-row">
-            <img src={planlight} className={`Bannerthree-planlight-animation ${hasAnimated ? 'animate' : ''}`} alt="Plan Light" />
-            <img src={missplacesmall} className={`Bannerthree-missplacesmall-animation ${hasAnimated ? 'animate' : ''}`} alt="Missplace Small" />
-            <img src={misplacelarge} className={`Bannerthree-misplacelarge-animation ${hasAnimated ? 'animate' : ''}`} alt="Misplace Large" />
+      <div className='mainContainer'>
+        <div ref={bannerRef} className="Bannerthree-container">
+          <div className="Bannerthree-left">
+            <h2>Planogram <br /> Compliance</h2>
+            <div className="Bannerthree-spacer"></div>
+            <h3>Ensure high-demand products are always available, boosting customer satisfaction and sales.</h3>
+            <div className="Bannerthree-spacer-large"></div>
+            <AnimationButton 
+              text="Know More" 
+              backgroundColor="#003873" 
+              textColor="white" 
+              hoverBackgroundColor="red" 
+              hoverTextColor="#344ea1" 
+              className="Bannerthree-button" 
+              to="" 
+            />
+          </div>
+          <div className="Bannerthree-right">
+            <div className="Bannerthree-image-row">
+              {/* Images that will be hidden on smaller screens */}
+              <img src={planlight} className={`Bannerthree-planlight-animation ${hasAnimated ? 'animate' : ''}`} alt="Plan Light" />
+              <img src={missplacesmall} className={`Bannerthree-missplacesmall-animation ${hasAnimated ? 'animate' : ''}`} alt="Missplace Small" />
+              <img src={misplacelarge} className={`Bannerthree-misplacelarge-animation ${hasAnimated ? 'animate' : ''}`} alt="Misplace Large" />
+
+              {/* Placeholder image for smaller screens */}
+              <img src="https://placehold.co/600x400/png" className="placeholder3" alt="Placeholder" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="HomeBanner-bannerLine-container">
-        <div className="HomeBanner-bannerLine"></div>
-      </div>
+        <div className="HomeBanner-bannerLine-container">
+          {/* <div className="HomeBanner-bannerLine"></div> */}
+        </div>
       </div>
     </div>
   );
 };
 
 export default Bannerthree;
-
-
