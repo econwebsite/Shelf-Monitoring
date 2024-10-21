@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Dropdown, Menu } from 'antd';
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
 import './Navbar.css';
-import dentallogo from "../../assets/homepage/NewDentallogo.svg";
+import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
 import AnimationButton from '../ButtonComp/AnimationButton';
 
 const NavBar = () => {
@@ -74,7 +74,7 @@ const NavBar = () => {
           <div className="navbarpage-header">
             <div className="navbarpage-logoContainer">
               <Link to="/">
-                <img src={dentallogo} alt="Dental Logo" className="navbarpage-logo" onClick={() => navigate('/Aguidtochoose')} style={{ cursor: "pointer" }} />
+                <img src={shelflogo} alt=" Logo" className="navbarpage-logo" onClick={() => navigate('/Aguidtochoose')} style={{ cursor: "pointer" }} />
               </Link>
             </div>
             <div className="navbarpage-navItems">
@@ -118,7 +118,7 @@ const NavBar = () => {
         <Container fluid>
           <Navbar.Brand href="#">
             <Link to="/">
-              <img src={dentallogo} alt="Dental Logo" className="navbarpage-logo-mobile" />
+              <img src={shelflogo} alt="Logo" className="navbarpage-logo-mobile" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />

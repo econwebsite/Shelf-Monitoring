@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Footerpage.css';
 import { message } from 'antd';
-// import dentallogo from "../../assets/homepage/NewDentallogo.svg";
-import econlogo from "../../assets/homepage/NewDentallogo.svg"
+import econlog from "../../assets/homepage/footerlogo-1.svg"
+// import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg"
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 
@@ -72,7 +72,7 @@ const Footerpage = () => {
         <div className="footer-inner">
           <div className="footer-column footer-column-logo">
             <div className="footer-logo">
-              {/* <img src={dentallogo} alt="Company Logo" /> */}
+              {/* <img src={shelflogo} alt="Company Logo" /> */}
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>
@@ -107,7 +107,7 @@ const Footerpage = () => {
             </div>
             <div className="footer-social-icons">
               <a href='https://www.e-consystems.com/'>
-                <img src={econlogo} alt="e-con Logo" style={{ width: "300px",backgroundColor:"white" }} /></a>
+                <img src={econlog} alt="e-con Logo" style={{ width: "300px",backgroundColor:"white" }} /></a>
             </div>
             <div className="footer-bottom-text">
               <p><span style={{ color: "white" }}>e-con Systems</span> 2024, all rights reserved.</p>
