@@ -137,9 +137,8 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding-left: 4em;
-    color: #ffffff;
+    color: #344ea1;
   }
   .Bannerthree-right {
     width: 40%;

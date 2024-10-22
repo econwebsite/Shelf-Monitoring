@@ -130,11 +130,10 @@
 
 @media (min-width: 1450px) {
   .bannerTwo-right-unique h3 {
-    color: white;
+    color: #344ea1;
     font-weight: 300;
     line-height: 1.5em;
     font-size: 1.2em;
-    text-align: right;
   }
   
 }

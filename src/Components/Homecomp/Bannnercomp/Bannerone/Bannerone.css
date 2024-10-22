@@ -109,7 +109,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 5em;
-    color: #ffffff; 
+    color: #344ea1; 
   }
   .banner-right {
     width: 45%; 
@@ -118,6 +118,7 @@
     justify-content: center;
     position: relative; 
   }
+ 
   
 }
 

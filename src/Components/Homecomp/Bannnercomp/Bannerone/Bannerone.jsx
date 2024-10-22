@@ -6,7 +6,7 @@ import AnimationButton from "../../../ButtonComp/AnimationButton";
 
 const Bannerone = () => {
   return (
-    <div style={{backgroundColor:"#3d5ba9"}}>
+    <div style={{backgroundColor:"#1050c1"}}>
       <div className='mainContainer'>
         <div className="banner-container">
           <div className="banner-left">
