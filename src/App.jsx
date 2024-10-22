@@ -9,7 +9,6 @@ import Footerpage from "./Components/FooterComp/Footerpage";
 import ScrollToTop from "./Components/ScrollToTop"
 import NotFoundPage from "./Components/Notfoundpage"
 
-// import Testing from "./Components/Homecomp/Testing/Testing"
 import AnimationButton from './Components/ButtonComp/AnimationButton';
 
 const App = () => {
@@ -22,7 +21,6 @@ const App = () => {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Totalhome />} />
-        {/* <Route path="/testing" element={<Testing />} /> */}
 
        
         <Route path="*" element={<NotFoundPage />} />

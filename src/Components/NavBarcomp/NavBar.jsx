@@ -81,7 +81,7 @@ const NavBar = () => {
             <Link to="/" className="navbarpage-navLink">Home</Link>
             <div className="navbarpage-divider"></div>
               <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
-                <Link className="navbarpage-navLink">Products</Link>
+                <Link className="navbarpage-navLink">ShelfTrack</Link>
               </Dropdown>
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
@@ -106,7 +106,7 @@ const NavBar = () => {
                     <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
                   </a>
                 </div>
-                <AnimationButton text="Get a Quote" backgroundColor="#3d5ba9" className='Navbargetquote' />
+                <AnimationButton text="Get a Quote" backgroundColor="#ffc107" textColor="#131b2d" hoverBackgroundColor="red" hoverTextColor="#344ea1" className='Navbargetquote' />
               </div>
             </div>
           </div>

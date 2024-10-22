@@ -1,21 +1,20 @@
 import React from 'react';
-// import Homebanner from './HomeBanner/Homebanner';
-import Keyfeatures from "./KeyFeatures/Keyfeatures"
 import HomeCard from "./HomeCard/HomeCard"
-import Homeboderbox from "./HomeBoderbox/Homeboderbox"
 import Bannerone from "./Bannnercomp/Bannerone/Bannerone"
-// import Bannertwo from "./Bannnercomp/Bannertwo/Bannertwo"
-// import Bannerthree from './Bannnercomp/Bannerthreecomp/Bannerthree';
-import Bannerfour from './Bannnercomp/Bannerfourcomp/Bannerfour';
 import HomeTabs from "./HomeTabs/HomeTabs"
+import ShelfPara from './Homepara/ShelfPara';
+import KeyFeatures from "./KeyFeaturescomp/KeyFeatures"
+import Specification from './SpecificationComp/Specification';
 
 const Totalhome = () => {
     return (
         <div>
             <Bannerone/>
+            <ShelfPara/>
+
             <HomeTabs/>
-            <Homeboderbox/>
-            <Keyfeatures/>
+            <KeyFeatures/>
+            <Specification/>
             <HomeCard/>
         </div>
     );

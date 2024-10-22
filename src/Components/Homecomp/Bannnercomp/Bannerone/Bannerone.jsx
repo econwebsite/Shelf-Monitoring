@@ -10,11 +10,12 @@ const Bannerone = () => {
       <div className='mainContainer'>
         <div className="banner-container">
           <div className="banner-left">
-            <h2>Enhance Store Efficiency with Vision-Based</h2>
+          <h3>ShelfTrack – Your Eyes on Every Shelf</h3>
+
             <div className="spacer"></div>
-            <h3>Shelf Monitoring<br /> Solutions</h3>
+            <h2>ShelfTrack captures real-time shelf images, turning visibility into actionable insights for smarter retail management</h2>
             <div className="spacer-large"></div>
-            <AnimationButton text="Contact US" backgroundColor="#003873" textColor="white" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="banner-button" to="" />
+            <AnimationButton text="Contact US" backgroundColor="#ffc107" textColor="#131b2d" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="banner-button" to="" />
           </div>
           <div className="banner-right">
             <div className="image-row">

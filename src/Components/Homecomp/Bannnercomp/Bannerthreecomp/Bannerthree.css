@@ -37,6 +37,7 @@
 .Bannerthree-left h3 {
   color: #6978ba;
   font-weight: 300;
+  text-align: justify;
   line-height: 1.5em;
   font-size: 1.2em;
 }

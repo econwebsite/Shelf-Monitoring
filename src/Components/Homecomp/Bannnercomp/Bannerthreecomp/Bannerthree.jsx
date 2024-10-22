@@ -37,12 +37,12 @@ const Bannerthree = () => {
           <div className="Bannerthree-left">
             <h2>Planogram <br /> Compliance</h2>
             <div className="Bannerthree-spacer"></div>
-            <h3>Ensure high-demand products are always available, boosting customer satisfaction and sales.</h3>
+            <h3>Achieve planogram compliance by ensuring every product is correctly placed according to your merchandising strategy. With ShelfTrack, you can capture clear shelf images to verify that products are positioned accurately, helping boost sales and optimize shelf space for maximum effectiveness.</h3>
             <div className="Bannerthree-spacer-large"></div>
             <AnimationButton 
               text="Know More" 
-              backgroundColor="#003873" 
-              textColor="white" 
+              backgroundColor="#ffc107" 
+              textColor="#131b2d" 
               hoverBackgroundColor="red" 
               hoverTextColor="#344ea1" 
               className="Bannerthree-button" 

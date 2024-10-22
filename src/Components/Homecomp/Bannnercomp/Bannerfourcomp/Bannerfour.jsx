@@ -57,12 +57,12 @@ const Bannerfour = () => {
           <div className="Bannerfour-right-unique">
             <h2>Pricing / Labeling <br /> Discrepancies</h2>
             <div className="Bannerfour-spacer-unique"></div>
-            <h3>Prevents pricing and labeling errors, enhancing customer satisfaction and the overall shopping experience</h3>
+            <h3>Accurate pricing is crucial for customer satisfaction and sales performance. ShelfTrack provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating ShelfTrack into broader pricing compliance systems, retailers can quickly detect and correct any discrepancies, ensuring promotions and prices are always up to date.</h3>
             <div className="Bannerfour-spacer-large-unique"></div>
             <AnimationButton
               text="Know more"
-              backgroundColor="#003873"
-              textColor="white"
+              backgroundColor="#ffc107"
+              textColor="#131b2d"
               hoverBackgroundColor="red"
               hoverTextColor="#344ea1"
               className="Bannerfour-button"

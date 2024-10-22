@@ -1,0 +1,77 @@
+.spec-container {
+    display: flex;
+    width: 100%;
+    background-color: #1050c1;
+    color: white;
+  }
+  
+  .spec-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .spec-image {
+    width: 280px;
+    height: auto;
+  }
+  
+  .spec-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .spec-title {
+    text-align: left;
+    font-size: 2em;
+    color: #f1f2f2;
+    margin-bottom: 25px;
+  }
+  
+  .spec-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .spec-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .spec-label {
+    width: 30%;
+    text-align: left;
+    color: white;
+
+  }
+  
+  .spec-colon {
+    flex-basis: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .spec-value {
+   width: 50%;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  .spec-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+ 
+  

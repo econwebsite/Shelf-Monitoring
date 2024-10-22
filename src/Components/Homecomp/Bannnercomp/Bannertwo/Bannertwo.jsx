@@ -57,12 +57,12 @@ const Bannertwo = () => {
           <div className="bannerTwo-right-unique">
             <h2>Reduced <br /> Out-of-Stock Issues</h2>
             <div className="spacer-unique"></div>
-            <h3>Ensures high-demand products are always available, boosting customer satisfaction and sales</h3>
+            <h3>Ensure your products are always available when customers need them. By utilizing ShelfTrack, retailers can capture real-time shelf images that help identify out-of-stock situations. This allows retailers to act swiftly, reducing the chances of empty shelves and ensuring that stock levels are maintained to meet customer demand.</h3>
             <div className="spacer-large-unique"></div>
             <AnimationButton 
-              text="Contact US" 
-              backgroundColor="#003873" 
-              textColor="white" 
+              text="Know more" 
+              backgroundColor="#ffc107" 
+              textColor="#131b2d" 
               hoverBackgroundColor="red" 
               hoverTextColor="#344ea1" 
               className="bannerTwo-button-unique" 

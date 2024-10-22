@@ -1,6 +1,6 @@
 .banner-container {
   display: flex;
-  background-color: #3d5ba9;
+  background-color: #1050c1;
   width: 100%;
   height: 500px; 
   box-sizing: border-box;
@@ -33,12 +33,13 @@
 .banner-left h2 {
   color: white;
   font-weight: 200;
-  font-size: 1.4em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .banner-left h3 {
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3em;
   font-size: 2.8em;
 }
