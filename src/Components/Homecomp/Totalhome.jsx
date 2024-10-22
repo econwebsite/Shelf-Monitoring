@@ -13,8 +13,8 @@ const Totalhome = () => {
             <ShelfPara/>
 
             <HomeTabs/>
-            <KeyFeatures/>
             <Specification/>
+            <KeyFeatures/>
             <HomeCard/>
         </div>
     );

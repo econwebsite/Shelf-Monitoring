@@ -86,10 +86,10 @@ const Footerpage = () => {
           <div className="footer-divider" />
           <div className="footer-column footer-column-contact">
             <div className="footer-contact-item">
-              <p><RiPhoneFill className='footer-con-icon' /><a style={{ textDecoration: "none", color: "white" }} href="tel:+14087667503">+1 408 766 7503 </a></p>
+              <p><RiPhoneFill className='footer-con-icon' /><a style={{ textDecoration: "none", color: "#344ea1" }} href="tel:+14087667503">+1 408 766 7503 </a></p>
             </div>
             <div className="footer-contact-item">
-              <p><RiMailFill className='footer-con-icon' /> <a style={{ textDecoration: "none", color: "white" }} href="mailto:camerasolutions@e-consystems.com">
+              <p><RiMailFill className='footer-con-icon' /> <a style={{ textDecoration: "none", color: "#344ea1" }} href="mailto:camerasolutions@e-consystems.com">
                 camerasolutions@e-consystems.com
               </a></p>
             </div>
@@ -110,7 +110,7 @@ const Footerpage = () => {
                 <img src={econlog} alt="e-con Logo" style={{ width: "300px",backgroundColor:"white" }} /></a>
             </div>
             <div className="footer-bottom-text">
-              <p><span style={{ color: "white" }}>e-con Systems</span> 2024, all rights reserved.</p>
+              <p><span style={{ color: "#344ea1" }}>e-con Systems</span> 2024, all rights reserved.</p>
             </div>
           </div>
         </div>

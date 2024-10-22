@@ -80,9 +80,10 @@ const NavBar = () => {
             <div className="navbarpage-navItems">
             <Link to="/" className="navbarpage-navLink">Home</Link>
             <div className="navbarpage-divider"></div>
-              <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
+              {/* <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
                 <Link className="navbarpage-navLink">ShelfTrack</Link>
-              </Dropdown>
+              </Dropdown> */}            <Link to="/" className="navbarpage-navLink">ShelfTrack</Link>
+
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
                 <Link className="navbarpage-navLink">Products</Link>

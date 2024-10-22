@@ -4,12 +4,15 @@
     padding: 20px;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #f0feff;
+    background-color: #1050c1;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
 }
   
 .UniqueProductBlogs-title {
     text-align: center;
     font-size: 2.5rem;
+    color: white;
     padding: 1em;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
