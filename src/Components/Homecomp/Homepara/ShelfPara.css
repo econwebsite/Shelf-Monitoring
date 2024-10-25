@@ -27,7 +27,6 @@
     line-height: 1.8em;
   }
   
-  /* Mobile responsiveness */
   @media (max-width: 768px) {
     .shelfPara-innerBox {
       width: 90%;

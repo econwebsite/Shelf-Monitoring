@@ -8,8 +8,7 @@ import Totalhome from "./Components/Homecomp/Totalhome";
 import Footerpage from "./Components/FooterComp/Footerpage";
 import ScrollToTop from "./Components/ScrollToTop"
 import NotFoundPage from "./Components/Notfoundpage"
-
-import AnimationButton from './Components/ButtonComp/AnimationButton';
+import Totalproducts from './Components/ProductComp/Totalproducts';
 
 const App = () => {
   return (
@@ -21,9 +20,11 @@ const App = () => {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Totalhome />} />
+        <Route path="/shelfTrack" element={<Totalproducts />} />
 
        
         <Route path="*" element={<NotFoundPage />} />
+        
         </Routes>
         <Footerpage/>
 

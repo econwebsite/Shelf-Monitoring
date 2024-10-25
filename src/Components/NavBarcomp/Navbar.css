@@ -84,7 +84,7 @@ width: 95% !important;
     white-space: nowrap;
   }
   .navbarpage-navLink:hover {
-    color: #00aeef;
+    color: #ffc107;
   }
 
   .navbarpage-divider {
@@ -200,7 +200,7 @@ width: 95% !important;
 }
 
 .ant-dropdown-menu {
-  background-color: #00aeef;
+  background-color: #ffc107;
   border: 1px solid #00aeef; 
   width: 200px;
   height: auto;
@@ -213,7 +213,7 @@ width: 95% !important;
 }
 
 .ant-dropdown-menu-item:hover {
-  background-color: #00aeef !important; 
+  background-color: #ffc107 !important; 
   color: white !important;
 }
 

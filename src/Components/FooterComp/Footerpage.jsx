@@ -76,11 +76,11 @@ const Footerpage = () => {
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>
-              <Link to="/Cameramobility">Solution</Link>
-              <Link to="/CasestudyHubpage">Casestudies</Link>
-              <Link to="/BlogHubpage">Blog</Link>
-              <Link to="/Partner">Partners</Link>
-              <Link to="/ContactUS">Contact Us</Link>
+              <Link to="/shelfTrack">ShelfTrack</Link>
+              <Link to="/">Casestudies</Link>
+              <Link to="/">Blog</Link>
+              <Link to="/">AboutUs</Link>
+              <Link to="/">ContactUs</Link>
             </div>
           </div>
           <div className="footer-divider" />

@@ -1,0 +1,63 @@
+.shelfImpact-outer-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shelfImpact-inner-box {
+    width: 90%;
+    background-color: #4190fc;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .shelfImpact-title {
+    color: white;
+    padding: 0.5em;
+    margin-bottom: 20px;
+  }
+  
+  .shelfImpact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+  }
+  
+  .shelfImpact-glass-box {
+    background: rgba(255, 255, 255, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px); 
+  }
+  
+  .shelfImpact-glass-box h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #69ba2f;
+    font-weight: 300;
+  }
+  
+  .shelfImpact-glass-box p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #4190fc;
+  }
+  
+  @media (max-width: 1024px) {
+    .shelfImpact-grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .shelfImpact-grid-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
