@@ -1,11 +1,10 @@
-/* AnimationButton.css */
 .btn-container {
   display: inline-block;
 }
 
 .btn {
-  --color: #def9fc; /* Fallback color */
-  --color2: #344ea1; /* Fallback hover color */
+  --color: #def9fc;
+  --color2: #344ea1; 
   padding: 0.8em 1.5em;
   background-color: var(--btn-bg-color);
   border-radius: 6px;

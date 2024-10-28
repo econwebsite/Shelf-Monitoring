@@ -9,7 +9,7 @@ import Footerpage from "./Components/FooterComp/Footerpage";
 import ScrollToTop from "./Components/ScrollToTop"
 import NotFoundPage from "./Components/Notfoundpage"
 import Totalproducts from './Components/ProductComp/Totalproducts';
-
+import BlogHub from "./Components/HubPageComp/BlogHubcomp/BlogHub"
 const App = () => {
   return (
 
@@ -21,8 +21,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Totalhome />} />
         <Route path="/shelfTrack" element={<Totalproducts />} />
+        <Route path="/BlogHubPage" element={<BlogHub />} />
 
-       
+        
         <Route path="*" element={<NotFoundPage />} />
         
         </Routes>
