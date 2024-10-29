@@ -18,7 +18,7 @@ const PricingLabeling = () => {
 
                             </div>
                             <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy?</h2>
-                            <p>By Balaji S, July 16, 2024</p>
+                            <p>By Ranjith Kumar, July 16, 2024</p>
 
                             <div className="blogborder-box">
                                 <p>Shelf monitoring cameras have gained a lot of prominence in smart retail operations for their role in driving pricing and labeling accuracy. Considering the retail world is more automated than ever before, cameras help streamline operations by monitoring product placement, pricing, and label accuracy across stores. Their rise also corresponds with the need for efficiency in meeting regulatory compliance and maintaining customer trust. </p>

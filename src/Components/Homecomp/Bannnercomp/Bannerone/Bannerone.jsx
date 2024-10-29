@@ -10,7 +10,7 @@ const Bannerone = () => {
       <div className='mainContainer'>
         <div className="banner-container">
           <div className="banner-left">
-          <h3>ShelfTrack – Your Eyes on Every Shelf</h3>
+          <h3>ShelfTrack – Eyes on Every Shelf</h3>
 
             <div className="spacer"></div>
             <h2>ShelfTrack captures real-time shelf images, turning visibility into actionable insights for smarter retail management</h2>

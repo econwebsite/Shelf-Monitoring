@@ -18,7 +18,7 @@ const PlanogramCompliance = () => {
 
                             </div>
                             <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
-                            <p>By Balaji S, July 16, 2024</p>
+                            <p>By Ranjith Kumar, July 16, 2024</p>
 
                             <div className="blogborder-box">
                               <p>According to the statistical reports, POG compliance in the retail industry is less than 70%. The primary reason for breaking POGs or not following them in the first place accounts for the lack of a proper monitoring system in place. </p>

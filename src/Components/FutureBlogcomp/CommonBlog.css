@@ -113,11 +113,11 @@
   
   .blog-breadcrumb a {
     text-decoration: none;
-    color: #003873;
+    color: #131b2d;
   }
   
   .blog-breadcrumb a:hover {
-    color: #00aeef;
+    color: #4190fc;
   }
   
   .content-Blog {
@@ -146,7 +146,7 @@
   
   .Blog-left-column p {
     text-align: left;
-    color: #003873;
+    color: #4190fc;
     text-align: justify;
     font-style: normal;
     font-weight: 400;
@@ -156,16 +156,16 @@
     width: 100%;
     color: #003873;
     text-align: justify;
-  font-weight: 400;
+  font-weight: 300;
     font-style: normal;
     font-size: 1em;
   }
   
   .blogborder-box h3 {
     width: 100%;
-    color: #00aeef;
+    color: #4190fc;
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -245,17 +245,18 @@
   }
   
   .CardBlogs h2 {
-    color: #003873;
+    color: #344ea1;
     text-align: left;
     line-height: 1.5em;
     font-size: 1.3em;
+    font-weight: 400;
     margin-top: 1em;
   }
   
   .CardBlogs p {
-    color: #344ea1;
+    color: #003873;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
     text-align: justify;
     margin-top: 15px;
   

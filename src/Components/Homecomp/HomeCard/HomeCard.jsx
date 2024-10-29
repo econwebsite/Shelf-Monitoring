@@ -18,7 +18,7 @@ const HomeCard = () => {
             <Link className="UniqueCardTitleLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2>
             </Link>
-            <p className="UniqueProductBlogs-card-text">Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+            {/* <p className="UniqueProductBlogs-card-text">Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required</p> */}
             <AnimationButton text="Read more" className="home-readmore-btn" to="/PricingLabeling" />
           </div>
           <div className="UniqueProductBlogs-card">
@@ -28,7 +28,7 @@ const HomeCard = () => {
             <Link className="UniqueCardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">What are the Latest Shelf Digitalization Technologies For Retailers?</h2>
             </Link>
-            <p className="UniqueProductBlogs-card-text">Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+            {/* <p className="UniqueProductBlogs-card-text">Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p> */}
             <AnimationButton text="Read more" className="home-readmore-btn" to="/ShelfDigitalization" />
           </div>
           <div className="UniqueProductBlogs-card">
@@ -38,7 +38,7 @@ const HomeCard = () => {
             <Link className="UniqueCardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
               <h2 className="UniqueProductBlogs-card-title">How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
             </Link>
-            <p className="UniqueProductBlogs-card-text">Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+            {/* <p className="UniqueProductBlogs-card-text">Planograms dictate the optimal placement of products on shelves to maximize visibility and sales. Shelf monitoring cameras automate the process of verifying product placement. Learn how shelf monitoring cameras automate planogram compliance verification, enabling real-time tracking of product placement and improving overall retail strategy. </p> */}
             <AnimationButton text="Read more" className="home-readmore-btn" to="/PlanogramCompliance"/>
           </div>
         </div>

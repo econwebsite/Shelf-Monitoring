@@ -75,12 +75,12 @@ const BlogArtical = () => {
       <div className="Artical-person">
         <div className="Articalleft-side">
           <img src="https://placehold.jp/228x222.png" alt="Person" className="Articalperson-photo" />
-          <p>Balaji S</p>
+          <p>Ranjith Kumar</p>
           <p>Product Manager</p>
         </div>
         <div className="Articalright-side">
           <p>
-            Balaji is a camera expert with 18+ years of experience in embedded product design, camera solutions, and product development. In e-con Systems, he has built numerous camera solutions in the field of ophthalmology, laboratory equipment, dentistry, assistive technology, dermatology, and more. He has played an integral part in helping many customers build their products by integrating the right vision technology into them.
+          Ranjith is a camera solution architect with over 16 years of experience in embedded product development, electronics design, and product solutioning. In e-con Systems, he has been responsible for building 100+ vision solutions for customers spanning multiple areas within retail including self service kiosks, access control systems, smart checkouts and carts, retail monitoring systems, and much more.
           </p>
         </div>
       </div>

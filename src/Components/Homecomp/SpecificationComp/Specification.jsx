@@ -4,6 +4,10 @@ import specimg from "../../../assets/homepage/specimg.png"
 import AnimationButton from "../../ButtonComp/AnimationButton"
 const Specification = () => {
   return (
+   
+<div className="spec-totcon">
+<div className='mainContainer'>
+
     <div className="spec-container">
       <div className="spec-left">
         <img
@@ -55,6 +59,8 @@ const Specification = () => {
         </div>
         <AnimationButton text="Learn more" backgroundColor="#ffc107" textColor="#344ea1" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="spec-button" to="" />
       </div>
+      </div>
+    </div>
     </div>
   );
 };

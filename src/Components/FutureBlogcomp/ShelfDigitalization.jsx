@@ -18,7 +18,7 @@ const ShelfDigitalization = () => {
 
                             </div>
                             <h2>What Are the Latest Shelf Digitalization Technologies For Retailers?</h2>
-                            <p>By Balaji S, July 16, 2024</p>
+                            <p>By Ranjith Kumar, July 16, 2024</p>
 
                             <div className="blogborder-box">
                                 <p>The need for accurate and updated shelf data across modern retail environments is at an all-time high. It's a surefire way for retailers to improve daily operations, intelligently manage stock levels, and drive customer satisfaction. At the center of this is shelf digitalization, as it leverages emerging technologies like robots, drones, and shelf monitoring cameras to track all their shelf inventory in real time. </p>

@@ -18,7 +18,7 @@ const RetailExperience = () => {
 
                             </div>
                             <h2>How Shelf Monitoring Cameras Enhance Consumer Retail Experience with Realtime Shelf Execution Data?</h2>
-                            <p>By Balaji S, July 16, 2024</p>
+                            <p>By Ranjith Kumar, July 16, 2024</p>
 
                             <div className="blogborder-box">
 
