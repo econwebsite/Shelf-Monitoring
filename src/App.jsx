@@ -10,6 +10,12 @@ import ScrollToTop from "./Components/ScrollToTop"
 import NotFoundPage from "./Components/Notfoundpage"
 import Totalproducts from './Components/ProductComp/Totalproducts';
 import BlogHub from "./Components/HubPageComp/BlogHubcomp/BlogHub"
+import PricingLabeling from "./Components/FutureBlogcomp/PricingLabeling"
+import ShelfDigitalization from "./Components/FutureBlogcomp/ShelfDigitalization"
+import PlanogramCompliance from "./Components/FutureBlogcomp/PlanogramCompliance"
+import RetailExperience from "./Components/FutureBlogcomp/RetailExperience"
+
+
 const App = () => {
   return (
 
@@ -22,7 +28,12 @@ const App = () => {
         <Route path="/" element={<Totalhome />} />
         <Route path="/shelfTrack" element={<Totalproducts />} />
         <Route path="/BlogHubPage" element={<BlogHub />} />
+        <Route path="/PricingLabeling" element={<PricingLabeling />} />
+        <Route path="/ShelfDigitalization" element={<ShelfDigitalization />} />
+        <Route path="/PlanogramCompliance" element={<PlanogramCompliance />} />
+        <Route path="/RetailExperience" element={<RetailExperience />} />
 
+          
         
         <Route path="*" element={<NotFoundPage />} />
         
