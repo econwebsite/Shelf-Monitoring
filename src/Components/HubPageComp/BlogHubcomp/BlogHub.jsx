@@ -9,7 +9,7 @@ const BlogHub = () => {
       <h1>Blogs</h1>
       <div className='mainContainer'>
       <div className="casehubpage-hubpageblog">
-        <div className="casehubpage-hubblog-column left">
+        <div className="casehubpage-hubblog-column left" data-aos="zoom-in-right" data-aos-duration="1000">
           <div className="casehubpage-hubblog-border-box">
             <Link to="/PricingLabeling" style={{ textDecoration: "none" }}>
               <img src="https://placehold.jp/500x450.png" alt="Image Description" />
@@ -31,7 +31,7 @@ const BlogHub = () => {
         </div>
 
         {/* Right four cards */}
-        <div className="casehubpage-hubblog-column right">
+        <div className="casehubpage-hubblog-column right" data-aos="zoom-in-left" data-aos-duration="1000">
           <div className="casehubpage-hubblog-card-row">
             <div className="casehubpage-hubblog-card">
               <Link to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
