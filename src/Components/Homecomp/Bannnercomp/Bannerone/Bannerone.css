@@ -2,23 +2,21 @@
   display: flex;
   background-color: #1050c1;
   width: 100%;
-  height: 500px; 
+  height: 500px;
   box-sizing: border-box;
   overflow: hidden;
 }
-
 .banner-left {
-  width: 45%; 
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 3em;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
-
 .spacer {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .spacer-large {
@@ -28,7 +26,6 @@
 .banner-button {
   align-self: flex-start;
 }
-
 
 .banner-left h2 {
   color: white;
@@ -43,68 +40,137 @@
   line-height: 1.3em;
   font-size: 2.8em;
 }
+
 .banner-right {
-  width: 55%; 
+  width: 55%;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; 
+  position: relative;
 }
 
 .image-row {
-  position: absolute; 
-  display: flex; 
+  position: absolute;
+  display: flex;
   align-items: flex-end;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   width: 100%;
-  height: 410px; 
+  height: 410px;
 }
 
-
 .mobilerack {
-  width: 400px; 
-  height: auto; 
+  width: 390px;
+  height: auto;
   object-fit: contain;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .mobileimg {
-  width: 800px; 
-  height: auto; 
+  width: 760px;
+  height: auto;
   margin-right: -460px;
-  object-fit: contain; 
+  object-fit: contain;
   z-index: 1;
-  animation: slideInFromBottom 1s ease-out forwards; 
+  animation: slideInFromBottom 1s ease-out forwards;
 }
 
-.HomeBanner-bannerLine-container {
-  display: flex;
-  justify-content: flex-start; 
-  padding-left: 1.5em; 
-  background-color: #3d5ba9;
-}
-
-.HomeBanner-bannerLine {
-  border-bottom: 1px solid #ffffff;
-  width: 50%;
-  margin: 0 40px;
-}
 @keyframes slideInFromBottom {
   0% {
-    transform: translateY(100%); 
-    opacity: 0; 
+    transform: translateY(100%);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1; 
+    opacity: 1;
   }
+}
+
+@media (max-width: 1015px) {
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    height: auto; 
+  }
+  .placeholder-one {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  .banner-left {
+    width: 90%; 
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .banner-left h2,
+  .banner-left h3,
+  .banner-left p {
+    margin: 10px 0;
+    color: white;
+    text-align: center; 
+  }
+
+  .banner-left p {
+    font-size: 1em;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .banner-button {
+    align-self: center;
+    margin-top: 20px;  
+  }
+
+  .image-row {
+    display: none;
+  }
+  .banner-right {
+    display: none;
+  }
+}
+
+@media (min-width: 1016px) {
+  .placeholder-one {
+    display: none; 
+  }
+ 
+  .image-row {
+    display: flex;
+  }
+}
+
+@media (max-width: 1150px) {
+.image-row {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  height: 400px;
+}
+
+.mobilerack {
+  width: 330px;
+  height: auto;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.mobileimg {
+  width: 700px;
+  height: auto;
+  margin-right: -460px;
+} 
 }
 
 
 @media (min-width: 1450px) {
 
   .banner-left {
-    width: 50%; 
+    width: 53%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +178,7 @@
     color: #344ea1; 
   }
   .banner-right {
-    width: 45%; 
+    width: 40%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,63 +186,4 @@
   }
  
   
-}
-
-
-/* mobile */
-
-/* @media (max-width: 1015px) {
-  .banner-container {
-    flex-direction: column;
-    align-items: center;
-    height: auto; 
-    padding: 1em;
-  }
-
-  .banner-left {
-    width: 90%; 
-    text-align: center; 
-    padding: 1em 0; 
-  }
-
-  .banner-left h2,
-  .banner-left h3 {
-    margin: 0.5em 0; 
-  }
-  .banner-right {
-    width: 100%; 
-    display: flex; 
-    justify-content: center;
-    padding: 1em 0; 
-  }
-
-  .image-row {
-    display: none; 
-  }
-
-  .placeholder-one{
-    display: block; 
-    width: 100%; 
-    height: auto; 
-    margin-top: 20px; 
-  }
-  .banner-button {
-    align-self: center;
-    margin-top: 15px; 
-  }
-}
-
-@media (min-width: 1016px) {
-  .placeholder-one{
-    display: none; 
-  }
-
-  .image-row {
-    display: flex;
-  }
-} */
-@media (min-width: 1016px) {
-  .placeholder-one{
-    display: none; 
-  }
 }

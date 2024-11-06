@@ -54,10 +54,16 @@
       grid-template-columns: repeat(2, 1fr); 
     }
   }
-  
   @media (max-width: 600px) {
     .shelfImpact-grid-container {
       grid-template-columns: 1fr; 
+    }
+    .shelfImpact-outer-container {
+      height: auto; 
+      padding: 20px 0; 
+    }
+    .shelfImpact-inner-box {
+      padding: 20px;
     }
   }
   

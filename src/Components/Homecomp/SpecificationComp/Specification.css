@@ -1,101 +1,178 @@
-.spec-totcon{
+.spec-totcon {
   width: 100%;
   background-color: #1050c1;
-
 }
-.spec-container {
-    display: flex;
-    width: 100%;
-    color: white;
-    padding: 2em;
-  }
-  
-  .spec-left {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  
-  .spec-image {
-    width: 280px;
-    height: auto;
-    animation: bounce 3s infinite ease-in-out;
-  }
-  
-  @keyframes bounce {
-    0% {
-      transform: translate(0, 0);
-    }
-    25% {
-      transform: translate(20px, -20px); 
-    }
-    50% {
-      transform: translate(0, -40px); 
-    }
-    75% {
-      transform: translate(-20px, -20px); 
-    }
-    100% {
-      transform: translate(0, 0); 
-    }
-  }
-  
-  .spec-right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 20px;
-  }
-  
-  .spec-title {
-    text-align: left;
-    font-size: 2em;
-    color: #f1f2f2;
-    margin-bottom: 25px;
-  }
-  
-  .spec-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .spec-item {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
-  }
-  
-  .spec-label {
-    width: 30%;
-    text-align: left;
-    color: white;
 
+.spec-container {
+  display: flex;
+  width: 100%;
+  color: white;
+  padding: 2em;
+}
+
+.spec-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.spec-image {
+  width: 280px;
+  height: auto;
+  animation: bounce 3s infinite ease-in-out;
+}
+
+.spec-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.spec-title {
+  text-align: left;
+  font-size: 2em;
+  color: #f1f2f2;
+  margin-bottom: 25px;
+}
+
+.spec-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.spec-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.spec-label {
+  width: 30%;
+  text-align: left;
+  color: white;
+}
+
+.spec-colon {
+  flex-basis: 20px;
+  color: white;
+  text-align: center;
+}
+
+.spec-value {
+  width: 50%;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.spec-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0);
   }
-  
-  .spec-colon {
-    flex-basis: 20px;
-    color: white;
+  25% {
+    transform: translate(20px, -20px); 
+  }
+  50% {
+    transform: translate(0, -40px); 
+  }
+  75% {
+    transform: translate(-20px, -20px); 
+  }
+  100% {
+    transform: translate(0, 0); 
+  }
+}
+@media (max-width: 900px) {
+  .spec-container {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .spec-left,
+  .spec-right {
+    width: 100%;
     text-align: center;
   }
-  
-  .spec-value {
-   width: 50%;
-    color: white;
+
+  .spec-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+
+  .spec-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .spec-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+
+  .spec-label {
+    width: 100%;
     text-align: left;
-    padding-left: 50px;
+    padding-bottom: 5px;
   }
-  
+
+  .spec-value {
+    width: 100%;
+    padding-left: 20px !important;
+    text-align: center;
+  }
+
   .spec-button {
-    margin-top: 30px;
-    padding: 10px 20px;
-    cursor: pointer;
-    align-self: flex-start;
+    align-self: center;
   }
-  
- 
-  
+}
+
+@media (max-width: 768px) {
+  .spec-title {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+  }
+
+  .spec-image {
+    width: 200px;
+  }
+
+  .spec-list {
+    gap: 8px;
+  }
+
+  .spec-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .spec-label {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+
+  .spec-value {
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .spec-button {
+    padding: 8px 16px;
+  }
+}
+
+

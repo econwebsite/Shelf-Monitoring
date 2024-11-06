@@ -9,8 +9,6 @@ import gdbr from "../../../assets/productpage/gdpr.png"
 import customenclosure from "../../../assets/productpage/customenclosure.png"
 import rechargebattery from "../../../assets/productpage/rechargebattery.png"
 
-
-
 const ShelfKey = () => {
   const data = [
     {

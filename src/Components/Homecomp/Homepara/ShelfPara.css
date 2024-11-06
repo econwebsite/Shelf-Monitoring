@@ -32,7 +32,7 @@
       width: 90%;
       padding: 15px;
     }
-  
+
     .shelfPara-paragraph {
         color: white;
         padding: 0.5em;
@@ -42,4 +42,8 @@
         line-height: auto;
       }
   }
-  
+  @media (max-width: 350px) {
+    .shelfPara-outerContainer {
+      height: 400px; 
+    }
+  }

@@ -81,4 +81,27 @@
     background-color: #00aeef; 
     margin-top: 5px;
   }
+  @media screen and (max-width: 768px) {
+    .solution-container {
+      flex-direction: column; 
+      padding: 1.5em;
+    }
+    .solution-left-section, .solution-center-section, .solution-right-section {
+      width: 100%; 
+      padding: 10px; 
+    }
   
+    .solution-left-section .solution-border-line {
+      display: none;
+    }
+  
+    .solution-center-section img {
+      max-width: 50%; 
+      margin: 0 auto; 
+    }
+  
+    .solution-right-section h3 {
+      font-size: 1em; 
+      margin-bottom: 15px; 
+    }
+  }

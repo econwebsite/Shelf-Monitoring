@@ -152,10 +152,9 @@
 
 
 /* Mobile */
-/* 
 @media (max-width: 1015px) {
   .Bannerthree-container {
-    flex-direction: column;
+    flex-direction: column; /* Stack items vertically */
     height: auto; 
   }
 
@@ -167,36 +166,45 @@
   }
 
   .Bannerthree-image-row {
-    display: flex; 
-    justify-content: flex-start; 
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
     align-items: center; 
-      height: 300px;
-  }
- 
-  .placeholder3 {
-    display: block;
-    width: 100%; 
-    height: auto; 
-    margin-top: 0px;
+    justify-content: center; 
+    height: auto; /* Let the content wrap naturally */
   }
 
+  .placeholder3 {
+    display: block;
+    width: 100%;
+    height: auto; 
+    margin-top: 0;
+    order: -1; 
+  }
+
+  /* Hide the animated images in mobile view */
   .Bannerthree-planlight-animation,
   .Bannerthree-missplacesmall-animation,
   .Bannerthree-misplacelarge-animation {
     display: none; 
   }
-} */
 
+  .Bannerthree-left {
+    order: 1; 
+  }
+
+  .Bannerthree-button {
+    margin-top: 20px; 
+  }
+}
 
 @media (min-width: 1016px) {
   .placeholder3 {
-    display: none;
+    display: none; 
   }
 }
-/* 
+
 @media (max-width: 400px) {
   .Bannerthree-image-row {
     height: 200px;
   }
-} */
+}

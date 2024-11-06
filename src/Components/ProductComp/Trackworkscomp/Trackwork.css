@@ -2,6 +2,7 @@
     width: 100%;
     background-color: white;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .Trackwork-main-title {
@@ -120,6 +121,11 @@
         height: auto; 
         padding: 10px; 
     }
+    .Trackwork-main-title {
+        margin-bottom: 1px;
+        padding: 1em;
+        font-size: 2em;
+    }
 
     .Trackwork-subtitle {
         margin-bottom: 15px; 
@@ -147,13 +153,14 @@
     .Trackwork-border-box {
         flex-direction: column; 
         align-items: center;
-        padding: 0em;
+        padding: 0.5em;
     }
 
     .Trackwork-box {
         width: 90%; 
         margin-bottom: 20px; 
-        padding: 1em;
+        padding: 1.1em;
     }
+   
     
 }

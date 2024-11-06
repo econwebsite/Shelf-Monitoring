@@ -138,15 +138,13 @@ const NavBar = () => {
                 {/* <Dropdown overlay={productMenu} placement="bottomLeft" className="nav-link">
                   <a className="nav-link">Products</a>
                 </Dropdown> */}
-                <Dropdown overlay={MobileMenu} placement="bottomLeft" className="nav-link">
-                  <a className="nav-link">Solutions</a>
-                </Dropdown>
-                <Dropdown overlay={resourceMenu} placement="bottomLeft" className="nav-link">
-                  <a className="nav-link">Resources</a>
-                </Dropdown>
-                <Link className="nav-link" to="/ContactUs" onClick={handleNavLinkClick}>Contact Us</Link>
+               <Link className="nav-link" to="/shelfTrack" onClick={handleNavLinkClick}>ShelfTrack</Link>
+
+               <Link className="nav-link" to="/BlogHubPage" onClick={handleNavLinkClick}>Blog</Link>
+
+                <Link className="nav-link" to="/Aboutus" onClick={handleNavLinkClick}>About Us</Link>
                 
-                <Link className="nav-link" to="/Partner" onClick={handleNavLinkClick}>Partners</Link>
+                <Link className="nav-link" to="/Contactus" onClick={handleNavLinkClick}>Contact Us</Link>
               </Nav>
               {/* <Form className="d-flex mt-3">
                 <Form.Control
