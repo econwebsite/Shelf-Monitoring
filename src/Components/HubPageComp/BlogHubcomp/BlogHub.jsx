@@ -17,8 +17,8 @@ const BlogHub = () => {
             <Link to="/PricingLabeling" style={{ textDecoration: "none" }}>
               <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy?</h2>
             </Link>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Nulla facilisi. Duis sit amet ipsum at elit auctor hendrerit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Nulla facilisi. Duis sit amet ipsum at elit auctor hendrerit.</p>
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risus.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risusleo urna hendrerit risus.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risus.</p>
+            <p>Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required. </p>
+            <p>Fusce faucibus, sem vel Fusce faucibus, sem velVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risus.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risusleo urna hendrerit risus.ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risus.Vestibulum ante ipsum ipsum primis in faucibus orci  Vestibulum ante Vestibulumipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce faucibus, sem vel malesuada placerat, leo urna hendrerit risus.</p>
             <AnimatedButton 
               className="casehubpage-read-more1" 
               text="Read more" 
@@ -38,7 +38,7 @@ const BlogHub = () => {
                 <img src="https://placehold.jp/259x156.png" alt="Card Image 1" />
               </Link>
               <h6>What are the Latest Shelf Digitalization Technologies For Retailers?</h6>
-              <p>Curabitur quis libero non urna commodo finibus non et justo. Phasellus consectetur gravida dui sit amet malesuada.</p>
+              <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations.</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
@@ -54,7 +54,7 @@ const BlogHub = () => {
                 <img src="https://placehold.jp/259x156.png" alt="Card Image 2" />
               </Link>
               <h6>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h6>
-              <p>Curabitur quis libero non urna commodo finibus non et justo. Phasellus consectetur gravida dui sit amet malesuada.</p>
+              <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail.</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
@@ -70,7 +70,7 @@ const BlogHub = () => {
                 <img src="https://placehold.jp/259x156.png" alt="Card Image 3" />
               </Link>
               <h6>How vision-based shelf monitoring helps retailers</h6>
-              <p>Curabitur quis libero non urna commodo finibus non et justo. Phasellus consectetur gravida dui sit amet malesuada.</p>
+              <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG).</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
@@ -86,7 +86,7 @@ const BlogHub = () => {
                 <img src="https://placehold.jp/259x156.png" alt="Card Image 4" />
               </Link>
               <h6>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h6>
-              <p>Curabitur quis libero non urna commodo finibus non et justo. Phasellus consectetur gravida dui sit amet malesuada.</p>
+              <p>Planograms dictate the optimal placement of products on shelves to maximize visibility and sales...</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 

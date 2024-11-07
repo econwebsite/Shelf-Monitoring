@@ -90,7 +90,7 @@ const NavBar = () => {
               </Dropdown> */}
             <Link to="/BlogHubPage" className="navbarpage-navLink">Blog</Link>
               <div className="navbarpage-divider"></div>
-              <Link to="/Partner" className="navbarpage-navLink">About Us</Link>
+              <Link to="/Aboutus" className="navbarpage-navLink">About Us</Link>
               <div className="navbarpage-divider"></div>
               <Link to="/ContactUs" className="navbarpage-navLink">Contact Us</Link>
             </div>

@@ -1,0 +1,149 @@
+.aboutus-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #344ea1;
+}
+
+.aboutus-header-image {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutus-img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+.aboutus-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.aboutus-left-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.aboutus-right-images {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-heading {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.aboutus-heading2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.aboutus-paragraph {
+    font-size: 1em;
+    color: white;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.aboutus-image-text-pair {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aboutus-img-thumbnail {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.aboutus-image-text-pair p {
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
+.aboutus-econ-systems {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.aboutus-econ-systems .aboutus-paragraph {
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+    line-height: 2em;
+}
+
+.aboutus-image-row {
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.aboutus-image-wrapper {
+    border: 2px solid #ccc;
+    padding: 5px;
+    /* background-color: #00aeef; */
+    width: 100px;
+    border-radius: 10px;
+}
+
+.aboutus-image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 769px) {
+    .aboutus-content {
+        flex-direction: column;
+        text-align: justify;
+        gap: 20px;
+    }
+
+    .aboutus-left-content,
+    .aboutus-right-images {
+        width: 100%;
+        max-width: none;
+    }
+
+    .aboutus-image-text-pair {
+        justify-content: flex-start;
+    }
+
+    .aboutus-econ-systems .aboutus-paragraph {
+        width: 100%;
+        text-align: justify;
+    }
+    .aboutus-image-row {
+        gap: 15px;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .aboutus-left-content,
+    .aboutus-right-images {
+        width: 50%;
+    }
+}

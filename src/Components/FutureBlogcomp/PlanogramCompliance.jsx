@@ -75,7 +75,7 @@ const PlanogramCompliance = () => {
                                         <img src="https://placehold.jp/251x151.png" alt="Camera Model 1" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
                                         <h2>How vision-based shelf monitoring helps retailers</h2></Link>
-                                        <p>Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+                                        <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
                                         <AnimatedButton className="Blogreadmore-1" text="Read more" to='/RetailExperience' />
                                 </div>
                                 <div className="CardBlogs">
@@ -83,7 +83,7 @@ const PlanogramCompliance = () => {
                                         <img src="https://placehold.jp/251x151.png" alt="Camera Model 2" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
-                                        <p>Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+                                        <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
                                         <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/ShelfDigitalization"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
@@ -92,7 +92,7 @@ const PlanogramCompliance = () => {
                                     <Link className="cardTitleLink" to="" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2>
                                     </Link>
-                                    <p>Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.</p>
+                                    <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
                                     <AnimatedButton className="Blogreadmore-1" text="Read more"  to=""></AnimatedButton>
                                 </div>
                             </div>
