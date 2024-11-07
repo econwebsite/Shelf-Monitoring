@@ -4,7 +4,7 @@ import empty from "../../../../assets/homepage/empty.png";
 import lowstocks from "../../../../assets/homepage/lowstocks.png";
 import lightimg from "../../../../assets/homepage/lightimg.png";
 import AnimationButton from "../../../ButtonComp/AnimationButton";
-
+import responsive2 from "../../../../assets/homepage/Responsive2.png"
 const Bannertwo = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const bannerRef = useRef(null);
@@ -48,7 +48,7 @@ const Bannertwo = () => {
                 alt="Rack"
               />
               <img
-                src="https://placehold.co/600x400"
+                src={responsive2}
                 className="placeholder-unique2"
                 alt="Placeholder"
                 data-aos="fade-left" data-aos-duration="1200"

@@ -1,6 +1,7 @@
 .ShelfKey-container {
   padding: 2em;
   background-color: white;
+  overflow-x: hidden;
 }
 
 .ShelfKey-title {

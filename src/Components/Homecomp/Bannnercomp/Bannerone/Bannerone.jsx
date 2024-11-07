@@ -3,6 +3,7 @@ import './Bannerone.css';
 import mobileimg from "../../../../assets/homepage/mobileimg.png";
 import mobilerack from "../../../../assets/homepage/mobilerack.png";
 import AnimationButton from "../../../ButtonComp/AnimationButton";
+import responsive1 from "../../../../assets/homepage/Responsive1.png"
 
 const Bannerone = () => {
   return (
@@ -10,7 +11,7 @@ const Bannerone = () => {
   <div className="mainContainer">
     <div className="banner-container">
       {/* Placeholder Image First */}
-      <img src="https://placehold.co/600x400" className="placeholder-one" alt="Placeholder" data-aos="fade-left" data-aos-duration="1300"/>
+      <img src={responsive1} className="placeholder-one" alt="Placeholder" data-aos="fade-left" data-aos-duration="1300"/>
       
       {/* Text Content Below the Placeholder */}
       <div className="banner-left">

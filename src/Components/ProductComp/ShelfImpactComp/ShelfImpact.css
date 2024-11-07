@@ -2,9 +2,10 @@
     width: 100%;
     background-color: white;
     display: flex;
-    height: 400px;
+    height: auto;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
   }
   
   .shelfImpact-inner-box {

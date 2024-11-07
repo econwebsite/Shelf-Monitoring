@@ -4,7 +4,7 @@ import missplacesmall from "../../../../assets/homepage/misplacesmall.png";
 import misplacelarge from "../../../../assets/homepage/misplacelarge.png";
 import planlight from "../../../../assets/homepage/planlight.png";
 import AnimationButton from "../../../ButtonComp/AnimationButton";
-
+import responsive3 from "../../../../assets/homepage/Responsive3.png"
 const Bannerthree = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const bannerRef = useRef(null);
@@ -57,7 +57,7 @@ const Bannerthree = () => {
               <img src={misplacelarge} className={`Bannerthree-misplacelarge-animation ${hasAnimated ? 'animate' : ''}`} alt="Misplace Large" />
 
               {/* Placeholder image for smaller screens */}
-              <img src="https://placehold.co/600x400/png" className="placeholder3" alt="Placeholder" />
+              <img src={responsive3} className="placeholder3" alt="Placeholder" />
             </div>
           </div>
         </div>

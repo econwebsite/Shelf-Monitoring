@@ -4,7 +4,7 @@ import energyrack from "../../../../assets/homepage/energyrack.png";
 import energydrink from "../../../../assets/homepage/energydrink.png";
 import pricinglight from "../../../../assets/homepage/pricinglight.png";
 import AnimationButton from "../../../ButtonComp/AnimationButton";
-
+import responsive4 from "../../../../assets/homepage/Responsive4.png"
 const Bannerfour = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const bannerRef = useRef(null);
@@ -48,7 +48,7 @@ const Bannerfour = () => {
                 alt="Pricing Light"
               />
               <img
-                src="https://placehold.co/600x400/png" // Placeholder image
+                src={responsive4} // Placeholder image
                 className="Bannerfour-placeholder-unique" // Class for placeholder
                 alt="Placeholder"
               />

@@ -4,6 +4,7 @@
     background-color: #f1f2f2;
     padding: 2em;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .tabs-container {

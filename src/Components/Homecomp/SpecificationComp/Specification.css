@@ -1,6 +1,7 @@
 .spec-totcon {
   width: 100%;
   background-color: #1050c1;
+  overflow-x: hidden;
 }
 
 .spec-container {

@@ -4,6 +4,7 @@
     width: 100%;
     padding: 3em;
     border-bottom: 1px solid #344ea1;
+    overflow-x: hidden;
   }
   
   .solution-left-section {

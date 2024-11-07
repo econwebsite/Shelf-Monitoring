@@ -3,6 +3,7 @@
   background-color: #1b66da;
   text-align: center;
   padding: 20px;
+  overflow-x: hidden;
 }
 
 .shelfVisible-image-wrapper {
