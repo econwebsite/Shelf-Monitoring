@@ -10,7 +10,7 @@ const Bannerone = () => {
   <div className="mainContainer">
     <div className="banner-container">
       {/* Placeholder Image First */}
-      <img src="https://placehold.co/600x400" className="placeholder-one" alt="Placeholder" />
+      <img src="https://placehold.co/600x400" className="placeholder-one" alt="Placeholder" data-aos="fade-left" data-aos-duration="1300"/>
       
       {/* Text Content Below the Placeholder */}
       <div className="banner-left">

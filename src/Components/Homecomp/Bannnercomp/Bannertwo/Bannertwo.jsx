@@ -51,6 +51,7 @@ const Bannertwo = () => {
                 src="https://placehold.co/600x400"
                 className="placeholder-unique2"
                 alt="Placeholder"
+                data-aos="fade-left" data-aos-duration="1200"
               />
             </div>
           </div>

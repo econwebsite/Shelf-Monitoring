@@ -99,3 +99,18 @@
   }
   
 }
+@media (max-width: 480px) {
+  .ShelfKey-grid {
+    grid-template-columns: 1fr;
+    gap: 20px; /* Adds space between items in the grid */
+  }
+
+  .ShelfKey-title {
+    font-size: 1.8em;
+    padding: 0.5em;
+  }
+
+  .ShelfKey-item {
+    padding: 20px;
+  }
+}

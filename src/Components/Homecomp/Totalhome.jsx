@@ -15,6 +15,7 @@ const Totalhome = () => {
             <HomeTabs/>
             <Specification/>
             <KeyFeatures/>
+            <br></br>
             <HomeCard/>
         </div>
     );
