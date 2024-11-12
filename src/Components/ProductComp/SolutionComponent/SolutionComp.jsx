@@ -7,7 +7,7 @@ const SolutionComp = () => {
     <div className="solution-container">
       
       <div className="solution-left-section">
-        <h1>How ShelfTrack help Retailers or Inventory Solution Providers</h1>
+        <h1>How ShelfTrack help <br></br>Retailers or Inventory <br></br>Solution Providers</h1>
         <div className="solution-border-line"></div>
       </div>
 

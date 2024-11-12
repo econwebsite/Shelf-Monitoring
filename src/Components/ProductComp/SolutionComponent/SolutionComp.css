@@ -20,6 +20,7 @@
     align-self: flex-start; 
     font-size: 2em;
     color: black;
+    padding:0px;
   }
   
   .solution-left-section .solution-border-line {
@@ -106,3 +107,5 @@
       margin-bottom: 15px; 
     }
   }
+
+  
