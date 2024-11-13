@@ -3,6 +3,8 @@ import './Bannerone.css';
 import mobileimg from "../../../../assets/homepage/mobileimg.png";
 import mobilerack from "../../../../assets/homepage/mobilerack.png";
 import AnimationButton from "../../../ButtonComp/AnimationButton";
+import Modelbutton from "../../../ButtonComp/Modelbutton";
+
 import responsive1 from "../../../../assets/homepage/Responsive1.png"
 
 const Bannerone = () => {
@@ -19,15 +21,13 @@ const Bannerone = () => {
         <div className="spacer"></div>
         <h2>Captures real-time shelf images, turning visibility into actionable insights for smarter retail management</h2>
         <div className="spacer-large"></div>
-        <AnimationButton 
-          text="Contact US" 
+       
+    <Modelbutton text="Contact Us" 
           backgroundColor="#ffc107" 
           textColor="#131b2d" 
-          hoverBackgroundColor="red" 
           hoverTextColor="#344ea1" 
-          className="banner-button" 
-          to="" 
-        />
+          className="banner-button" />
+
       </div>
 
       {/* Right side content (images) - Hidden on mobile */}

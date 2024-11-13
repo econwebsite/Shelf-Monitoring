@@ -2,6 +2,8 @@ import React from "react";
 import "./Specification.css";
 import specimg from "../../../assets/homepage/specimg.png"
 import AnimationButton from "../../ButtonComp/AnimationButton"
+import Modelbutton from "../../ButtonComp/Modelbutton"
+
 const Specification = () => {
   return (
    
@@ -58,8 +60,8 @@ const Specification = () => {
           </div>
         </div>
         <div className="spec-butt">
-        <AnimationButton text="Learn more" backgroundColor="#ffc107" textColor="#344ea1" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="spec-button" to="" />
-        <AnimationButton text="Download Tech document" backgroundColor="#ffc107" textColor="#344ea1" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="spec-button" to="" />
+        <AnimationButton text="Learn more" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button" to="" />
+        <Modelbutton text="Download Tech document" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button" to="" />
 
     </div>
       </div>

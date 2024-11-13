@@ -1,0 +1,91 @@
+/* AnimationButton.css */
+
+.btn {
+  padding: 0.8em 1.5em;
+  border-radius: 6px;
+  border: 0.3px solid white;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 1em;
+  color: var(--btn-text-color);           /* Text color variable */
+  background-color: var(--btn-bg-color);  /* Background color variable */
+  text-decoration: none; 
+}
+
+.btn:hover {
+  color: var(--btn-hover-text-color);     /* Hover text color */
+  background-color: var(--btn-hover-bg-color);  /* Hover background */
+}
+
+/* Hover animations */
+.btn::after, .btn::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: 0.5s ease-out;
+  background-color: var(--btn-hover-bg-color); /* Animation hover color */
+}
+
+.btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+  input::placeholder,
+textarea::placeholder {
+    color: #344ea1;
+    opacity: 1; 
+}
+
+
+.ant-input::placeholder,
+.ant-input-textarea::placeholder {
+    color: #69ba2f;
+    opacity: 1; 
+}
+.ant-select .ant-select-selector .ant-select-selection-placeholder {
+    color: #003873; 
+}
+
+.ant-select-item-option-content {
+    color: #003873; 
+}
+
+.ant-select-selector .ant-select-selection-item {
+    color: #003873; 
+}
+.custom-modal .ant-modal-title {
+  color: #003873; 
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+
+
+  @media (max-width: 600px) {
+    .modelaclass {
+      padding: 8px 20px; 
+      font-size: 0.9em; 
+    }
+  }

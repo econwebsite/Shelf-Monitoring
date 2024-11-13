@@ -4,7 +4,7 @@ import { Dropdown, Menu } from 'antd';
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
 import './Navbar.css';
 import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
-import AnimationButton from '../ButtonComp/AnimationButton';
+import Modelbutton from '../ButtonComp/Modelbutton';
 
 const NavBar = () => {
   const offcanvasRef = useRef(null);
@@ -105,7 +105,8 @@ const NavBar = () => {
                     <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
                   </a>
                 </div>
-                <AnimationButton text="Get a Quote" backgroundColor="#ffc107" textColor="#131b2d" hoverBackgroundColor="red" hoverTextColor="#344ea1" className='Navbargetquote' />
+                
+                <Modelbutton text="Contact Us" backgroundColor="#ffc107" textColor="#131b2d" hoverTextColor="#344ea1" className='Navbargetquote' />
               </div>
             </div>
           </div>
