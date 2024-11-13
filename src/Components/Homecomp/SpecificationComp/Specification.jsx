@@ -57,7 +57,11 @@ const Specification = () => {
             <span className="spec-value">12 hours continous use </span>
           </div>
         </div>
+        <div className="spec-butt">
         <AnimationButton text="Learn more" backgroundColor="#ffc107" textColor="#344ea1" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="spec-button" to="" />
+        <AnimationButton text="Download Tech document" backgroundColor="#ffc107" textColor="#344ea1" hoverBackgroundColor="red" hoverTextColor="#344ea1" className="spec-button" to="" />
+
+    </div>
       </div>
       </div>
     </div>

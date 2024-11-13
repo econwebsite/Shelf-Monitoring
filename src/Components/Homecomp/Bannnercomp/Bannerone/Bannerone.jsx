@@ -15,9 +15,9 @@ const Bannerone = () => {
       
       {/* Text Content Below the Placeholder */}
       <div className="banner-left">
-        <h3>ShelfTrack – Eyes on Every Shelf</h3>
+        <h3>SHELFTrack – Eyes on Every Shelf</h3>
         <div className="spacer"></div>
-        <h2>ShelfTrack captures real-time shelf images, turning visibility into actionable insights for smarter retail management</h2>
+        <h2>Captures real-time shelf images, turning visibility into actionable insights for smarter retail management</h2>
         <div className="spacer-large"></div>
         <AnimationButton 
           text="Contact US" 

@@ -8,7 +8,7 @@ import products from "../../../assets/homepage/product.jpg"
 const HomeCard = () => {
   return (
     <div className="UniqueProductBlogs-Total">
-      <h1 className="UniqueProductBlogs-title">Articles</h1>
+      <h1 className="UniqueProductBlogs-title">Blog</h1>
       <div className='mainContainer'>
         <div className="UniqueProductBlogs-cards" data-aos="zoom-in-right" data-aos-duration="1300">
           <div className="UniqueProductBlogs-card">

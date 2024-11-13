@@ -71,7 +71,12 @@
   text-align: left;
   padding-left: 50px;
 }
-
+.spec-butt{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
 .spec-button {
   margin-top: 30px;
   padding: 10px 20px;
@@ -170,7 +175,12 @@
     padding-left: 0;
     text-align: left;
   }
-
+  .spec-butt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2px;
+  }
   .spec-button {
     padding: 8px 16px;
   }

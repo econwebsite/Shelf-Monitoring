@@ -56,7 +56,7 @@ const ShelfKey = () => {
   return (
     <div className="ShelfKey-container">
        <div className="mainContainer">
-      <h2 className="ShelfKey-title">Key Features of ShelfTrack Camera</h2>
+      <h2 className="ShelfKey-title">Key Features of SHELFTrack Camera</h2>
       
       <div className="ShelfKey-grid" >
         {data.map((item, index) => (
