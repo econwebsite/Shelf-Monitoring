@@ -11,17 +11,16 @@
   z-index: 1;
   font-weight: 300;
   font-size: 1em;
-  color: var(--btn-text-color);           /* Text color variable */
-  background-color: var(--btn-bg-color);  /* Background color variable */
+  color: var(--btn-text-color);           
+  background-color: var(--btn-bg-color);  
   text-decoration: none; 
 }
 
 .btn:hover {
-  color: var(--btn-hover-text-color);     /* Hover text color */
-  background-color: var(--btn-hover-bg-color);  /* Hover background */
+  color: var(--btn-hover-text-color);     
+  background-color: var(--btn-hover-bg-color); 
 }
 
-/* Hover animations */
 .btn::after, .btn::before {
   content: '';
   display: block;
@@ -33,7 +32,7 @@
   left: 25%;
   z-index: -1;
   transition: 0.5s ease-out;
-  background-color: var(--btn-hover-bg-color); /* Animation hover color */
+  background-color: var(--btn-hover-bg-color);
 }
 
 .btn::before {

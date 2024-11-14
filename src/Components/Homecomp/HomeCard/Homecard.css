@@ -1,129 +1,89 @@
-.UniqueProductBlogs-Total {
+.home-card-section {
+    padding: 20px 10px;
     text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 100%;
-    overflow-x: hidden;
     background-color: #1050c1;
-    padding-bottom: 50px;
-    border-bottom: 1px solid white;
-}
-  
-.UniqueProductBlogs-title {
-    text-align: center;
-    font-size: 2.5rem;
-    color: white;
-    padding: 1em;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-  
-.UniqueProductBlogs-cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-  
-.UniqueProductBlogs-card {
-    border-radius: 8px;
-    padding: 20px;
-    text-align: left;
-    width: 27%; 
-    margin: 10px 0;
-    box-sizing: border-box;
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 1px solid #003873;
-    transition: transform 0.3s ease; 
+    border-radius: 10px;
 }
 
-.UniqueProductBlogs-card:hover {
-    transform: scale(1.06);
-}
-  
-.UniqueProductBlogs-card-image {
-    max-width: 100%;
-    height: 200px; 
-    width: 100%;
-    object-fit: cover;
-    border-radius: 4px;
+.blog-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    padding: 0.5em;
     margin-bottom: 20px;
 }
-  
-.UniqueProductBlogs-card-title {
-    font-family: "Poppins", sans-serif;
-    line-height: 1.5em;
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #344ea1;
-    margin: 5px 0; 
-    text-align: left;
-}
-  
-.UniqueProductBlogs-card-text {
-    margin: 15px 0; 
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1em;
-    color: #344ea1;
-    text-align: justify;
-    flex-grow: 1;
-}
-  
-.home-readmore-btn {
-    font-size: 0.9em;
+
+.card-slider {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .UniqueProductBlogs-cards {
-        flex-direction: column;
-        align-items: center;
-    }
-    .UniqueProductBlogs-card {
-        width: 100%;
-        gap: 10px;
-        text-align: center;
-        padding: 15px; 
-    }
-  
-    .UniqueProductBlogs-title {
-        font-size: 2em; 
-        padding: 0.3em;
-    }
-  
-    .UniqueProductBlogs-card-image {
-        height: auto; 
-        margin-bottom: 8px;
-        object-fit: cover;
-        margin: 0 auto;
-    }
-  
-    .UniqueProductBlogs-card-title {
-        line-height: 1.5em;
-        font-size: 1.2em;
-        margin: 7px 0; 
-    }
-  
-    .UniqueProductBlogs-card-text {
-        line-height: 1.5em;
-        font-size: 1em;
-        margin: 7px 0; 
-    }
-  
-    .UniqueProductBlogs-card-button {
-        font-size: medium;
-        padding: 10px 15px;
-        margin-top: 8px; 
-    }
-    .home-readmore-btn {
-        margin-top: 15px; 
-    }
-    .UniqueProductBlogs-card:hover {
-        transform: none;
-    }
+.UniqueProductBlogs-card {
+    max-width: 340px; /* Max-width to control the width of the card */
+    margin: 0 10px;   /* Horizontal space between cards */
+    padding: 15px;
+    background-color: #ffffff;
+    height: 450px; /* Fixed height for all cards */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between image, text, and button */
+    align-items: center; /* Align all content in the center */
+}
+
+.UniqueProductBlogs-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Consistent space after image */
+}
+
+.UniqueProductBlogs-card-title {
+    font-size: 1.2rem;
+    color: #003873;
+    text-align: justify;
+    margin: 15px 0;
+    line-height: 1.3em;
+}
+
+.UniqueProductBlogs-card-text {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    flex-grow: 1; /* Ensures the text section grows and takes available space */
+}
+
+.home-readmore-btn {
+    background-color: #344ea1;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px; /* Adds consistent space before the button */
+    align-self: center; /* Ensures button is horizontally centered */
+}
+
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start; /* Aligns the cards vertically at the top */
+}
+/* Increase the size of the carousel arrows */
+.slick-prev, .slick-next {
+    font-size: 30px; /* Adjust the size as needed */
+    width: 40px;  /* Adjust width */
+    height: 20px;  /* Adjust height */
+}
+
+/* Optional: Customize the arrows if they are using Font Awesome or custom icons */
+.slick-prev:before, .slick-next:before {
+    font-size: 30px; /* Adjust the size of the icons */
+    color: white; /* Adjust color if needed */
 }

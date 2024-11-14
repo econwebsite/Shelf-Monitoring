@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import AnimationButton from './AnimationButton'; // Import AnimationButton
+import AnimationButton from './AnimationButton'; 
 import "./Modelbutton.css";
 import Modelform from './Modelform';
 
 const Modelbutton = ({
   text = 'Contact Us',
-  backgroundColor = '#344ea1',        // Main button color
-  textColor = '#def9fc',               // Button text color
-  hoverBackgroundColor = '#def9fc',    // Hover background color
-  hoverTextColor = '#344ea1',          // Hover text color
+  backgroundColor = '#344ea1',        
+  textColor = '#def9fc',             
+  hoverBackgroundColor = '#def9fc',    
+  hoverTextColor = '#344ea1',        
   className = '',
   productName = null,
   docName = null,
@@ -28,10 +28,10 @@ const Modelbutton = ({
     <div>
       <AnimationButton
         text={text}
-        backgroundColor={backgroundColor}        // Set background color for button
-        textColor={textColor}                    // Set text color for button
-        hoverBackgroundColor={hoverBackgroundColor}  // Set hover background color
-        hoverTextColor={hoverTextColor}          // Set hover text color
+        backgroundColor={backgroundColor}        
+        textColor={textColor}                
+        hoverBackgroundColor={hoverBackgroundColor} 
+        hoverTextColor={hoverTextColor}          
         className={`newanimation ${className}`}
         onClick={showModal}
       />

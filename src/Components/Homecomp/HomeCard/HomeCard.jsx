@@ -1,50 +1,74 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Slider from "react-slick"; // Import Slider for carousel functionality
 import './Homecard.css';
 import { Link } from 'react-router-dom';
 import AnimationButton from '../../ButtonComp/AnimationButton';
-import chip from "../../../assets/homepage/chipimg.jpg"
-import vegitable from "../../../assets/homepage/vegitable.jpg"
-import products from "../../../assets/homepage/product.jpg"
-const HomeCard = () => {
+import chip from "../../../assets/homepage/chipimg.jpg";
+import vegitable from "../../../assets/homepage/vegitable.jpg";
+import products from "../../../assets/homepage/product.jpg";
+
+const HomeCardCarousel = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth < 678);
+    };
+    checkIfMobile();
+    window.addEventListener('resize', checkIfMobile);
+
+    return () => window.removeEventListener('resize', checkIfMobile);
+  }, []);
+
+  const cards = [
+    { image: products, link: "", title: "How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem", text: "Tracking the availability of store products and knowing when products go out-of-stock is critical in retail." },
+    { image: vegitable, link: "/RetailExperience", title: "How vision-based shelf monitoring helps retailers", text: "The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track..." },
+    { image: vegitable, link: "/ShelfDigitalization", title: "What are the Latest Shelf Digitalization Technologies For Retailers?", text: "Explore various shelf digitalization technologies, their unique benefits, implementation challenges..." },
+    { image: vegitable, link: "/PlanogramCompliance", title: "How Smart Shelf Monitoring Ensures Accurate Planogram Compliance", text: "Planograms dictate the optimal placement of products on shelves to maximize visibility and sales..." },
+    { image: chip, link: "/PricingLabeling", title: "What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy?", text: "Shelf monitoring cameras help in maintaining price compliance in retail stores by automated..." },
+  ];
+
+  const sliderSettings = {
+    dots: false,
+    infinite: true, // Set to false to disable looping
+    speed: 500,
+    slidesToShow: 3, // Show 3 cards per slide
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 678,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
+  };
+
   return (
-    <div className="UniqueProductBlogs-Total">
-      <h1 className="UniqueProductBlogs-title">Blog</h1>
-      <div className='mainContainer'>
-        <div className="UniqueProductBlogs-cards" data-aos="zoom-in-right" data-aos-duration="1300">
-          <div className="UniqueProductBlogs-card">
-            <Link className="UniqueCardImgLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
-              <img src={chip} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
+    <div className="home-card-section">
+      <h2 className="blog-title">Blogs</h2>
+      <Slider {...sliderSettings} className="card-slider">
+        {cards.map((card, index) => (
+          <div key={index} className="UniqueProductBlogs-card">
+            <Link to={card.link} style={{ textDecoration: "none" }}>
+              <img src={card.image} alt={card.title} className="UniqueProductBlogs-card-image" />
+              <h2 className="UniqueProductBlogs-card-title">{card.title}</h2>
             </Link>
-            <Link className="UniqueCardTitleLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
-              <h2 className="UniqueProductBlogs-card-title">What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2>
-            </Link>
-            <p className="UniqueProductBlogs-card-text">Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification... </p>
-            <AnimationButton text="Read more" className="home-readmore-btn" to="/PricingLabeling" />
+            <p className="UniqueProductBlogs-card-text">{card.text}</p>
+            <AnimationButton text="Read more" className="home-readmore-btn" to={card.link} />
           </div>
-          <div className="UniqueProductBlogs-card">
-            <Link className="UniqueCardImgLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
-              <img src={vegitable} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
-            </Link>
-            <Link className="UniqueCardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
-              <h2 className="UniqueProductBlogs-card-title">What are the Latest Shelf Digitalization Technologies For Retailers?</h2>
-            </Link>
-            <p className="UniqueProductBlogs-card-text">Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations...</p>
-            <AnimationButton text="Read more" className="home-readmore-btn" to="/ShelfDigitalization" />
-          </div>
-          <div className="UniqueProductBlogs-card">
-            <Link className="UniqueCardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
-              <img src={products} alt="AI-enabled point of care device" className="UniqueProductBlogs-card-image" />
-            </Link>
-            <Link className="UniqueCardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
-              <h2 className="UniqueProductBlogs-card-title">How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
-            </Link>
-            <p className="UniqueProductBlogs-card-text">Planograms dictate the optimal placement of products on shelves to maximize visibility and sales. Learn how shelf monitoring cameras automate planogram compliance verification...</p>
-            <AnimationButton text="Read more" className="home-readmore-btn" to="/PlanogramCompliance"/>
-          </div>
-        </div>
-      </div>
+        ))}
+      </Slider>
     </div>
   );
 };
 
-export default HomeCard;
+export default HomeCardCarousel;
