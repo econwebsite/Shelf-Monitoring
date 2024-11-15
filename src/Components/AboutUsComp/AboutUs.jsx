@@ -24,7 +24,7 @@ export default function AboutUs() {
           So far, we have built 350+ product solutions - shipping over 2 million cameras to the United States, Europe, Japan, South Korea, and many more countries.
           </p>
           <p className="aboutus-paragraph">
-            To know more about e-con Systems <a href="https://www.e-consystems.com/aboutus.asp" target="_blank" rel="noopener noreferrer">click here</a>
+            To know more about e-con Systems <span className='quality-col'><a href="https://www.e-consystems.com/aboutus.asp" target="_blank" rel="noopener noreferrer">click here</a></span>
           </p>
         </div>
 
@@ -34,10 +34,10 @@ export default function AboutUs() {
             e-con Systems&reg; designs, manufactures, and delivers quality products to its customers and strives consistently to excel through continual improvement.
           </p>
           <p className="aboutus-paragraph">
-            Our camera products provide lifetime support to your end applications with state-of-the-art manufacturing, design, and quality processes in place. We also provide a 3-years warranty period on all our camera products, which speaks for our commitment to ensuring product quality and standing by our customers.
+            Our camera products provide lifetime support to your end applications with state-of-the-art manufacturing, design, and quality processes in place. We also provide a <span className='quality-col'><a href='https://www.e-consystems.com/warranty.asp'> 3-years warranty period </a></span> on all our camera products, which speaks for our commitment to ensuring product quality and standing by our customers.
           </p>
           <p className="aboutus-paragraph">
-            As an ISO 9001:2015 certified company, e-con Systems&reg; is aware of the need for regulatory compliance with regards to its products sold globally. Please visit our Product Compliance Declaration for more details.
+            As an <span className='quality-col'><a href='https://www.e-consystems.com/pdf/iso-9001-2015-certificate.pdf'> ISO 9001:2015 certified company </a> </span> , e-con Systems&reg; is aware of the need for regulatory compliance with regards to its products sold globally. Please visit our <span className='quality-col'><a href='https://www.e-consystems.com/product-compliance-declaration.asp'>  Product Compliance Declaration </a> </span> for more details.
           </p>
           <p className="aboutus-paragraph">
           Our products are compliant with key industry standards and certifications, including          </p>

@@ -1,149 +1,92 @@
 .aboutus-container {
     width: 100%;
-    padding: 20px;
-    background-color: #344ea1;
-}
-
-.aboutus-header-image {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.aboutus-img-fluid {
-    height: auto;
-    max-width: 100%;
-}
-
-.aboutus-content {
+    padding: 40px;
+    background-color: #f8f8f8;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    align-items: center;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
 }
 
-.aboutus-left-content {
-    width: 100%;
-    max-width: 600px;
+.aboutus-econ-systems {
+    background-color: #2c4460;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: left;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-.aboutus-right-images {
-    width: 100%;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
+.quality-col{
+    color: #30ff2d;
+}
+.quality-col a{
+    color: #30ff2d;
+    text-decoration: none;
+}
+.aboutus-econ-systems:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 .aboutus-heading {
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: bold;
-    margin-bottom: 25px;
-    text-align: center;
+    margin-bottom: 15px;
     color: white;
-}
-
-.aboutus-heading2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
     text-align: center;
-    color: white;
+    padding-bottom: 10px;
 }
 
 .aboutus-paragraph {
     font-size: 1em;
     color: white;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-.aboutus-image-text-pair {
-    display: flex;
-    align-items: center;
+    line-height: 2em;
     margin-bottom: 20px;
 }
 
-.aboutus-img-thumbnail {
-    width: 50px;
-    height: auto;
-    margin-right: 15px;
-}
-
-.aboutus-image-text-pair p {
-    margin: 0;
-    font-size: 1em;
-    color: white;
-    text-align: left;
-}
-
-.aboutus-econ-systems {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.aboutus-econ-systems .aboutus-paragraph {
-    text-align: justify;
-    margin: 0 auto;
-    width: 90%;
-    line-height: 2em;
+.aboutus-link {
+    color: #00aeef;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .aboutus-image-row {
     display: flex;
-    gap: 15px;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: flex-start;
+    gap: 20px;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .aboutus-image-wrapper {
-    border: 2px solid #ccc;
-    padding: 5px;
-    /* background-color: #00aeef; */
-    width: 100px;
+    background-color: #f9fafb;
+    padding: 10px;
     border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.aboutus-image-wrapper:hover {
+    transform: scale(1.05);
 }
 
 .aboutus-image-wrapper img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
-
-@media (max-width: 769px) {
-    .aboutus-content {
-        flex-direction: column;
-        text-align: justify;
-        gap: 20px;
+@media (max-width: 768px) {
+    .aboutus-container {
+        padding: 10px;
     }
 
-    .aboutus-left-content,
-    .aboutus-right-images {
-        width: 100%;
-        max-width: none;
+    .aboutus-heading {
+        font-size: 1.5em;
     }
 
-    .aboutus-image-text-pair {
-        justify-content: flex-start;
-    }
-
-    .aboutus-econ-systems .aboutus-paragraph {
-        width: 100%;
-        text-align: justify;
-    }
-    .aboutus-image-row {
-        gap: 15px;
-        width: 90%;
-        margin: 0 auto;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 1024px) {
-    .aboutus-left-content,
-    .aboutus-right-images {
-        width: 50%;
+    .aboutus-paragraph {
+        font-size: 1em;
     }
 }

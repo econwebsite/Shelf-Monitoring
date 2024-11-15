@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Slider from "react-slick"; // Import Slider for carousel functionality
+import Slider from "react-slick"; 
 import './Homecard.css';
 import { Link } from 'react-router-dom';
 import AnimationButton from '../../ButtonComp/AnimationButton';
@@ -30,9 +30,9 @@ const HomeCardCarousel = () => {
 
   const sliderSettings = {
     dots: false,
-    infinite: true, // Set to false to disable looping
+    infinite: true, 
     speed: 500,
-    slidesToShow: 3, // Show 3 cards per slide
+    slidesToShow: 3, 
     slidesToScroll: 3,
     responsive: [
       {

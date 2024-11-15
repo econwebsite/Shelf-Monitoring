@@ -12,10 +12,8 @@ const Bannerone = () => {
     <div style={{ backgroundColor: "#1050c1" }}>
   <div className="mainContainer">
     <div className="banner-container">
-      {/* Placeholder Image First */}
       <img src={responsive1} className="placeholder-one" alt="Placeholder" data-aos="fade-left" data-aos-duration="1300"/>
       
-      {/* Text Content Below the Placeholder */}
       <div className="banner-left">
         <h3>SHELFTrack – Eyes on Every Shelf</h3>
         <div className="spacer"></div>
@@ -30,7 +28,6 @@ const Bannerone = () => {
 
       </div>
 
-      {/* Right side content (images) - Hidden on mobile */}
       <div className="banner-right">
         <div className="image-row">
           <img src={mobileimg} className="mobileimg" alt="Mobile" />
