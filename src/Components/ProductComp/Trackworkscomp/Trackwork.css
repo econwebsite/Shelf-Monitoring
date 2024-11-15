@@ -16,6 +16,9 @@
     margin-bottom: 40px; 
     font-size: 1.3em;
     font-weight: 300;
+    padding: 0em;
+
+
 }
 
 .Trackwork-blue-box {
@@ -129,6 +132,8 @@
 
     .Trackwork-subtitle {
         margin-bottom: 15px; 
+        font-size: 1.1em;
+        padding: 0.1em;
     }
 
     .Trackwork-image-container {
