@@ -8,7 +8,7 @@ import proven from "../../../assets/homepage/proventrack.svg"
 const KeyFeatures = () => {
   const cards = [
     { id: 1, title: 'Extensive experience of 20+ years in tuning ISPs from various vendors to deliver top-notch image quality. ', icon: twenty, },
-    { id: 2, title: 'The perfect combination of sensor, optics, and ISP for seamless imaging', icon:perfect,  },
+    { id: 2, title: 'The perfect combination of sensor, optics, and ISP for high quality imaging', icon:perfect,  },
     { id: 3, title: 'Deep expertise in helping build lighting-agnostic camera systems ', icon: deep, },
     { id: 4, title: 'Proven track record in customization for reducing design lifecycles', icon:proven, }
   ];
