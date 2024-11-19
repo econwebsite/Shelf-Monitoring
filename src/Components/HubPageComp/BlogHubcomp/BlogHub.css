@@ -93,6 +93,7 @@
     .casehubpage-hubpageblog {
       flex-direction: column;
     }
+  
     .casehubpage-hubtot-blog h1 {
       text-align: center;
       font-size: 2em;
@@ -102,13 +103,26 @@
     .casehubpage-hubblog-card-row {
       flex-direction: column;
     }
+  
     .casehubpage-read-more,
     .casehubpage-read-more1 {
       margin: 0 auto;
       display: flex;
       justify-content: center;
+      width: 150px; 
+      padding: 8px 10px; 
+      text-align: center;
+    }
+  
+    .casehubpage-hubblog-border-box img,
+    .casehubpage-hubblog-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 10px;
     }
   }
+  
   
   @media (min-width: 1660px) {
     .casehubpage-hubblog-card img {
