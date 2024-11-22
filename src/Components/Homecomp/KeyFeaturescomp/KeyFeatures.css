@@ -1,11 +1,11 @@
-.key-features-container {
+.key-featurestot {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    height: 620px;
+    height: 560px;
     overflow-x: hidden;
   }
   
@@ -84,15 +84,16 @@
       grid-template-columns: repeat(2, 1fr); 
       gap: 20px; 
     }
-    .key-features-container {
-      height: auto; 
-    }
+    
   }
   
   @media (max-width: 600px) {
     .key-features-grid {
       grid-template-columns: 1fr; 
       gap: 20px;
+    }
+    .key-featurestot {
+      height: auto; 
     }
     .key-features-title {
         text-align: center;

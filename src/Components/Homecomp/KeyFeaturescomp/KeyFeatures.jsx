@@ -14,7 +14,7 @@ const KeyFeatures = () => {
   ];
 
   return (
-    <div className="key-features-container">
+    <div className="key-featurestot">
       <h1 className="key-features-title">Why choose e-con Systems Smart Cameras for Shelf Monitoring ?</h1>
       <div className='mainContainer'>
       <div className="key-features-grid">

@@ -30,10 +30,12 @@ const HomeCardCarousel = () => {
 
   const sliderSettings = {
     dots: false,
-    infinite: true, 
+    infinite: true,
     speed: 500,
-    slidesToShow: 3, 
-    slidesToScroll: 3,
+    slidesToShow: 3,  // Show only 3 cards
+    centerMode: true, // Center the current card
+    centerPadding: "20px", // Add padding for cards on the left and right
+    slidesToScroll: 1, // Scroll one card at a time
     responsive: [
       {
         breakpoint: 1100,

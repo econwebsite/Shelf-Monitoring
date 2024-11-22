@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Homevideo.css';
-// import Vediothumbnail from "../../../assets/home images/Tumbnail.jpg"; 
+import Vediothumbnail from "../../../assets/homepage/product.jpg"; 
 
 import FsLightbox from "fslightbox-react";
 
@@ -15,21 +15,12 @@ function Homevideo() {
         <div className="video-title-container">
           <div className="home-thumbnail">
             <img
-              src="https://placehold.jp/150x150.png" 
+              src={Vediothumbnail}
               alt="Left Thumbnail"
               className="homeside-img"
               onClick={() => setToggler(!toggler)}
             />
           </div>
-
-          {/* <div className="home-thumbnail">
-            <img
-              src={Vediothumbnail}
-              alt="Right Thumbnail"
-              className="homeside-img"
-              onClick={() => setToggler(!toggler)}
-            />
-          </div> */}
 
           <FsLightbox
             toggler={toggler}
