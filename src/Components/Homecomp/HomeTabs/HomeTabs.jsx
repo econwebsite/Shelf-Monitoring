@@ -17,12 +17,12 @@ const HomeTabs = () => {
                                 <Bannertwo />
                             </div>
                         </Tabs.TabPane>
-                        <Tabs.TabPane tab="Planogram Compliance" key="2">
+                        <Tabs.TabPane tab="Ensure Planogram Compliance" key="2">
                             <div className="banner-wrapper">
                                 <Bannerthree />
                             </div>
                         </Tabs.TabPane>
-                        <Tabs.TabPane tab="Pricing / Labeling Discrepancies" key="3">
+                        <Tabs.TabPane tab="Detect Pricing and Labeling Discrepancies" key="3">
                             <div className="banner-wrapper">
                                 <Bannerfour />
                             </div>

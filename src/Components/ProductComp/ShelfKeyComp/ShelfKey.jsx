@@ -19,7 +19,7 @@ const ShelfKey = () => {
     {
       icon: wideangle,
       title: 'Wide-Angle Optics <br>(120-degree FOV)',
-      description: 'Covers extensive shelf space, monitoring over 300 products up to 5 meters, reducing blind spots.',
+      description: 'Expansive view covers multiple product racks from 5 meters, eliminating blind spots. ',
     },
     {
       icon: flexible,

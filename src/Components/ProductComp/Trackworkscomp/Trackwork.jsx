@@ -10,7 +10,7 @@ const Trackwork = () => {
       <div className="mainContainer">
       <h1 className="Trackwork-main-title">How ShelfTrack Works</h1>
 
-      <h2 className="Trackwork-subtitle">ShelfTrack operates seamlessly to keep your bussiness running smoothly</h2>
+      <h2 className="Trackwork-subtitle">ShelfTrack operates seamlessly to keep your business running smoothly</h2>
 
       <div className="Trackwork-blue-box">
         <div className="Trackwork-image-container">
@@ -22,15 +22,15 @@ const Trackwork = () => {
           <div className="Trackwork-border-box">
             <div className="Trackwork-box">
               <h3>1. Image capture</h3>
-              <p>The camera captures high-resolution images at set intervals,providing real-time insights into invertary levels and product placement.</p>
+              <p>Automatically captures detailed visuals of entire shelves at predefined intervals, providing a comprehensive view of inventory levels and product placement.</p>
             </div>
             <div className="Trackwork-box">
               <h3>2. Data Transmission </h3>
-              <p>Captures images are sent using Wi-Fi to your chosen backend system or cloud platform for further analysis and storage.</p>
+              <p>Instantly sends captured high-quality images via Wi-Fi to your selected backend system or cloud platform for further analysis and secure storage.</p>
             </div>
             <div className="Trackwork-box">
               <h3>3. User Configuration</h3>
-              <p>Users can easily adjust setting via the mobile app,enabling swift decision-making and effective stock management from anywhere.</p>
+              <p>Easily adjust setting via the mobile app, enabling swift decision-making and effective stock management from anywhere.</p>
             </div>
           </div>
         </div>

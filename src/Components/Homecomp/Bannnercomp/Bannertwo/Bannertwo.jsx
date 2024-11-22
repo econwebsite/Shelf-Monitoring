@@ -58,7 +58,7 @@ const Bannertwo = () => {
           <div className="bannerTwo-right-unique">
             <h2>Reduced <br /> Out-of-Stock Issues</h2>
             <div className="spacer-unique"></div>
-            <h3>Ensure your products are always available when customers need them. By utilizing SHELFTrack, retailers can capture real-time shelf images that help identify out-of-stock situations. This allows retailers to act swiftly, reducing the chances of empty shelves and ensuring that stock levels are maintained to meet customer demand.</h3>
+            <h3>Overstocks and out-of-stocks cost retailers $1.1 trillion globally, with out-of-stocks alone causing 4.1% revenue loss. (Source: RetailWire)</h3>
             <div className="spacer-large-unique"></div>
             <AnimationButton 
               text="Know more" 

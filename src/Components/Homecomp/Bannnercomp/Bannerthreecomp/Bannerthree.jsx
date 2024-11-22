@@ -35,9 +35,9 @@ const Bannerthree = () => {
       <div className='mainContainer'>
         <div ref={bannerRef} className="Bannerthree-container">
           <div className="Bannerthree-left">
-            <h2>Planogram <br /> Compliance</h2>
+            <h2>Ensure Planogram <br /> Compliance</h2>
             <div className="Bannerthree-spacer"></div>
-            <h3>Achieve planogram compliance by ensuring every product is correctly placed according to your merchandising strategy. With SHELFTrack, you can capture high quality shelf images to verify that products are positioned accurately. This optimize shelf space for maximum utilization there be boosting sales and maximizing visiblity.</h3>
+            <h3>Planogram compliance boosts retail profits by 8.1%, but poor adherence leads to sales losses of $1M to $30M annually per retailer. (Sources: Shopper Technology Institute, National Association of Retail Marketing)</h3>
             <div className="Bannerthree-spacer-large"></div>
             <AnimationButton 
               text="Know More" 
