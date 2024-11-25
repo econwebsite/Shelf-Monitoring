@@ -7,7 +7,8 @@ import "./Carouselslider.css";
 
 const Carouselslider = () => {
   return (
-    <div id="customBootstrapCarousel" className="carousel slide" data-bs-ride="carousel">
+    <div id="customBootstrapCarousel" className="carousel slide" style={{backgroundColor:"#1050c1"}} data-bs-ride="carousel">
+      <div className="mainContainer">
       {/* Indicators */}
       <div className="carousel-indicators">
         <button
@@ -41,6 +42,7 @@ const Carouselslider = () => {
             <OldBanner />
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

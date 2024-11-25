@@ -5,7 +5,7 @@
   overflow-x: hidden;
 }
 
-.blog-title {
+.homeblog-title {
   font-size: 2.5rem;
   color: #ffffff;
   padding: 0.5em;
@@ -24,13 +24,16 @@
   background-color: #ffffff;
   height: 450px;
   border-radius: 12px;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   transition: transform 0.3s ease;
 }
+.UniqueProductBlogs-card:hover {
+  transform: translateY(0px) !important;
+}
+
 
 .UniqueProductBlogs-card img {
   width: 100%;
@@ -93,7 +96,7 @@
     padding: 15px 5px;
   }
 
-  .blog-title {
+  .homeblog-title {
     font-size: 2rem;
     margin-bottom: 15px;
   }
@@ -143,5 +146,83 @@
 
   .slick-prev:before, .slick-next:before {
     font-size: 20px;
+  }
+  .UniqueProductBlogs-card:hover {
+    transform:none;
+  }
+}
+
+/*  */
+@media (max-width: 350px) {
+  .home-card-section {
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #1050c1;
+  }
+
+  .homeblog-title {
+    font-size: 1.8rem; 
+    margin-bottom: 10px;
+    padding: 0.3em;
+  }
+
+  .card-slider {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .UniqueProductBlogs-card {
+    max-width: 230px; 
+    height: auto; 
+    padding: 10px; 
+    margin: 0 5px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+
+  .UniqueProductBlogs-card img {
+    height: 120px; 
+    border-radius: 6px; 
+    margin-bottom: 10px;
+  }
+
+  .UniqueProductBlogs-card-title {
+    font-size: 1rem; 
+    margin: 8px 0;
+    line-height: 1.2em;
+  }
+
+  .UniqueProductBlogs-card-text {
+    font-size: 0.8rem; 
+    margin: 6px 0;
+    text-align: justify;
+    line-height: 1.2em;
+  }
+
+  .home-readmore-btn {
+    padding: 6px 10px; 
+    font-size: 0.8rem; 
+  }
+
+  .slick-prev, .slick-next {
+    font-size: 18px; 
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+
+  .slick-prev {
+    left: -6px; 
+  }
+
+  .slick-next {
+    right: -6px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px; 
   }
 }

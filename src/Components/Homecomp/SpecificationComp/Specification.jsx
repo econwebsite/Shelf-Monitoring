@@ -24,39 +24,25 @@ const Specification = () => {
 
         <div className="spec-list">
           <div className="spec-item">
-            <span className="spec-label">Width</span>
+            <span className="spec-label">Connectivity</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">46cm</span>
+            <span className="spec-value">Wi-Fi <br></br> Dual Band 2.4 & 5 Ghz</span>
+
           </div>
           <div className="spec-item">
-            <span className="spec-label">Height</span>
+            <span className="spec-label">Camera</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">183cm</span>
+            <span className="spec-value">Resolution: 13MP (4208(H)x 3120(V))<br></br> Field of view: Covers up to 20 feet horizontally with 1 Shelf Camera</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Readers</span>
+            <span className="spec-label">Power</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">1or2</span>
+            <span className="spec-value">Rechargable Battery <br></br> USB Type C</span>
           </div>
           <div className="spec-item">
-            <span className="spec-label">Antennas</span>
+            <span className="spec-label">Dimensions</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">2 or 4 for each side</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Resolution</span>
-            <span className="spec-colon">:</span>
-            <span className="spec-value">3804x2160</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Max capture height</span>
-            <span className="spec-colon">:</span>
-            <span className="spec-value">2.4m</span>
-          </div>
-          <div className="spec-item">
-            <span className="spec-label">Battery autonomy</span>
-            <span className="spec-colon">:</span>
-            <span className="spec-value">12 hours continous use </span>
+            <span className="spec-value">74mm (L) *50mm (H)*25.70 (D)</span>
           </div>
         </div>
         <div className="spec-butt">

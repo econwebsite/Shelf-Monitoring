@@ -391,3 +391,81 @@
     }
     
   }
+
+
+  /* Tables */
+
+
+  .Blogtables {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .Blogtables-row {
+    display: table-row;
+    border: 1px solid #ccc;
+  }
+  
+  .Blogtables-left,
+  .Blogtables-right {
+    display: table-cell;
+    padding: 8px;
+    vertical-align: top;
+    border: 1px solid #e6e3e3;
+  }
+  
+  .Blogtables-left {
+    width: 30%;
+  }
+  
+  .Blogtables-right {
+    width: 70%;
+  }
+  
+  .Blogtables-left h3 {
+    color: #003873;
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .Blogtables-right ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .Blogtables-right li {
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .Blogtables-right li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #00aeef; 
+    font-size: 1.2rem;
+  }
+  @media (max-width: 768px) {
+    .Blogtables-left,
+    .Blogtables-right {
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    
+    .Blogtables-row {
+      display: block;
+      margin-bottom: 16px;
+      border: none;
+    }
+  
+    .Blogtables-right ul {
+      padding-left: 10px;
+    }
+  }
+  

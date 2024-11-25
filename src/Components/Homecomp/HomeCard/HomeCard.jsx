@@ -56,7 +56,7 @@ const HomeCardCarousel = () => {
 
   return (
     <div className="home-card-section">
-      <h2 className="blog-title">Blogs</h2>
+      <h2 className="homeblog-title">Blogs</h2>
       <Slider {...sliderSettings} className="card-slider">
         {cards.map((card, index) => (
           <div key={index} className="UniqueProductBlogs-card">

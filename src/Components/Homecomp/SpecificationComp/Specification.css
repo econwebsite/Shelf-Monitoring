@@ -54,7 +54,7 @@
 }
 
 .spec-label {
-  width: 30%;
+  width: 20%;
   text-align: left;
   color: white;
 }
@@ -66,10 +66,11 @@
 }
 
 .spec-value {
-  width: 50%;
+  width: 80%;
   color: white;
   text-align: left;
-  padding-left: 50px;
+  line-height: 1.8em;
+  padding-left: 20px;
 }
 .spec-butt{
   display: flex;
@@ -144,46 +145,76 @@
     align-self: center;
   }
 }
-
 @media (max-width: 768px) {
+  .spec-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .spec-left {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .spec-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+
   .spec-title {
-    font-size: 1.3em;
-    margin-bottom: 15px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .spec-image {
-    width: 200px;
+    width: 180px;
+    margin: 0 auto;
+    animation: none;
   }
 
   .spec-list {
-    gap: 8px;
+    gap: 10px;
   }
 
   .spec-item {
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
+    text-align: left;
+    padding-bottom: 10px;
   }
 
   .spec-label {
     width: 100%;
-    text-align: left;
-    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .spec-colon {
+    display: none;
   }
 
   .spec-value {
     width: 100%;
-    padding-left: 0;
-    text-align: left;
+    padding: 0;
+    line-height: 1.5em;
   }
-  .spec-butt{
-    display: flex;
+
+  .spec-butt {
     flex-direction: column;
-    justify-content: flex-start;
-    gap: 2px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
   }
+
   .spec-button {
-    padding: 8px 16px;
+    padding: 12px 20px;
+    font-size: 0.9em;
+    width: 100%; 
   }
 }
+
 
 

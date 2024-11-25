@@ -1,48 +1,44 @@
-/* General Carousel Styling */
 #customBootstrapCarousel .carousel-inner {
     width: 100%;
     height: auto;
   }
-  
+
   .carousel-slide-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Adjust height as needed */
+    height: 100%; 
   }
   
-  /* Center the Indicators Below the Carousel */
   .carousel-indicators {
     position: absolute;
-    bottom: -30px; /* Move the indicators below the carousel */
+    bottom: -30px; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     gap: 10px;
-    z-index: 10; /* Ensure indicators stay above other elements */
-    margin: 0; /* Remove default margin */
+    z-index: 10;
+    margin: 0; 
   }
   
   .carousel-indicators button {
     width: 12px;
     height: 12px;
-    background-color:black !important; /* Default color */
+    background-color:black !important; 
     border: none;
     transition: background-color 0.3s ease;
   }
   
   .carousel-indicators .active {
-    background-color: #1050c1; /* Active indicator color */
+    background-color: #1050c1;
   }
   
-  /* Remove Arrows */
   .carousel-control-prev,
   .carousel-control-next {
     display: none !important;
   }
   
-  /* Responsive Adjustments */
   @media (max-width: 768px) {
     .carousel-slide-content {
       padding: 10px;
