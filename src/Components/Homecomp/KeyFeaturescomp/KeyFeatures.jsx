@@ -19,7 +19,7 @@ const KeyFeatures = () => {
       <div className='mainContainer'>
       <div className="key-features-grid">
         {cards.map(card => (
-          <div className="key-features-card" key={card.id}>
+          <div className="key-feat-ures-card" key={card.id}>
             <div className="key-features-icon-container">
         <img src={card.icon} alt="icon" className="key-features-icon" />
       </div>

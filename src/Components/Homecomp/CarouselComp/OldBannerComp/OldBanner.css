@@ -1,0 +1,84 @@
+/* Container Styling */
+.OldBanner-container {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    display: flex;
+    background-color: #f1f2f2;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-image: url("https://placehold.co/2380x1000"); 
+    background-size: cover;
+    background-position: center; 
+  }
+    .OldBanner-placeholder {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Button Styling */
+  .OldBanner-contactButton {
+    position: absolute;
+    bottom: 50px !important;
+    right: 30px !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffc107;
+    color: #131b2d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .OldBanner-contactButton:hover {
+    background-color: #344ea1;
+    color: white;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 977px) {
+    .OldBanner-container {
+      background-image: none; /* Hide background image for smaller screens */
+    }
+  
+    .OldBanner-placeholder {
+      display: block; /* Show placeholder on mobile */
+    }
+  
+    /* Center button on mobile */
+    .OldBanner-contactButton {
+      position: absolute;
+      bottom: 20px;
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%); /* Adjust to perfectly center the button */
+    }
+  }
+  
+  @media (min-width: 978px) {
+    .OldBanner-placeholder {
+      display: none; /* Hide placeholder for desktop */
+    }
+  
+    /* Desktop button position */
+    .OldBanner-contactButton {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ffc107;
+      color: #131b2d;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  }
+  

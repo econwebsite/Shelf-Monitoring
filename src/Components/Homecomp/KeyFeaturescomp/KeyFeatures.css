@@ -5,7 +5,7 @@
     justify-content: flex-start;
     align-items: center;
     background-color: white;
-    height: 560px;
+    height: 470px;
     overflow-x: hidden;
   }
   
@@ -27,7 +27,7 @@
     padding: 0 20px;
   }
   
-  .key-features-card {
+  .key-feat-ures-card {
     background-color: #f1f2f2;
     border-radius: 8px;
     padding: 40px 20px;
@@ -36,12 +36,12 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    height: 350px;
+    height: 250px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .key-features-card:hover {
+  .key-feat-ures-card:hover {
     background-color: #4190fc;
     transform: translateY(-5px);
   }
@@ -70,12 +70,12 @@
     height: 80px; 
   }
   
-  .key-features-card:hover .key-features-icon {
+  .key-feat-ures-card:hover .key-features-icon {
     background-color: white;
     transform: scale(1.1);
   }
   
-  .key-features-card:hover .key-features-text {
+  .key-feat-ures-card:hover .key-features-text {
     color: white;
   }
   
@@ -104,8 +104,8 @@
         font-weight: 300;
         font-size: 1.5em;
       }
-    .key-features-card {
-      height: 300px; 
+    .key-feat-ures-card {
+      height: 270px; 
       padding: 30px 15px; 
     }
   }
