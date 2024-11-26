@@ -3,22 +3,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1b66da;
+    background-color: #f7fafa;
     padding: 20px; 
     font-family: Arial, sans-serif;
 }
 
 .Contact-us {
     font-size: 2.5em;
-    color: white;
+    color: #003873;
     font-weight: 400;
+    padding: 0.1em;
     font-style: normal;
     text-align: center;
 }
 
 .Spam-questions {
     font-size: 1rem; /* Adjusted font size */
-    color: white;
+    color: #344ea1;
     margin-bottom: 20px; /* Reduced bottom margin */
     text-align: center; /* Center aligned */
     display: block;
@@ -55,31 +56,31 @@
 }
 
 .ant-btn-primary:hover {
-    background-color: #002751;
-    border-color: #002751;
+    background-color: #003873;
+    border-color: #003873;
 }
 input::placeholder,
 textarea::placeholder {
-    color: #344ea1;
+    color: #003873;
     opacity: 1; 
 }
 
 .ant-input::placeholder,
 .ant-input-textarea::placeholder {
-    color: #1b66da !important;
+    color: #003873 !important;
     font-weight: 400;
     opacity: 1; 
 }
 .ant-select .ant-select-selector .ant-select-selection-placeholder {
-    color: #1b66da; 
+    color: #003873; 
 }
 
 .ant-select-item-option-content {
-    color: #1b66da; 
+    color: #003873; 
 }
 
 .ant-select-selector .ant-select-selection-item {
-    color: #1b66da; 
+    color: #003873; 
 }
 
 @media (max-width: 768px) {

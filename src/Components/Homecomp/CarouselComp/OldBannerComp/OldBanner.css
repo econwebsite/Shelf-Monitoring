@@ -10,7 +10,7 @@
     overflow: hidden;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    background-image: url("https://placehold.co/2380x1000"); 
+    background-image: url("../../../../assets/homepage/shelfspecbanner.jpg"); 
     background-size: cover;
     background-position: center; 
   }
@@ -21,63 +21,45 @@
     object-fit: cover;
   }
   
-  /* Button Styling */
   .OldBanner-contactButton {
     position: absolute;
     bottom: 50px !important;
     right: 30px !important;
     padding: 10px 20px;
-    font-size: 16px;
-    background-color: #ffc107;
-    color: #131b2d;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .OldBanner-contactButton:hover {
-    background-color: #344ea1;
-    color: white;
-  }
   
-  /* Responsive Adjustments */
   @media (max-width: 977px) {
     .OldBanner-container {
-      background-image: none; /* Hide background image for smaller screens */
+      background-image: none; 
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-color: #1050c1;
     }
   
     .OldBanner-placeholder {
-      display: block; /* Show placeholder on mobile */
+      display: block; 
     }
   
-    /* Center button on mobile */
     .OldBanner-contactButton {
       position: absolute;
       bottom: 20px;
-      left: 50%; /* Center horizontally */
-      transform: translateX(-50%); /* Adjust to perfectly center the button */
     }
   }
   
   @media (min-width: 978px) {
     .OldBanner-placeholder {
-      display: none; /* Hide placeholder for desktop */
+      display: none; 
     }
   
-    /* Desktop button position */
     .OldBanner-contactButton {
       position: absolute;
       bottom: 0px;
       right: 0px;
       margin: 0 auto;
       padding: 10px 20px;
-      font-size: 16px;
-      background-color: #ffc107;
-      color: #131b2d;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
       transition: background-color 0.3s ease;
     }
   }

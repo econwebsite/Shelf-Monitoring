@@ -1,5 +1,6 @@
 import React from 'react';
 import './OldBanner.css';
+import Modelbutton from "../../../ButtonComp/Modelbutton"
 
 const OldBanner = () => {
   return (
@@ -7,13 +8,17 @@ const OldBanner = () => {
       <div className='mainContainer'>
       {/* Placeholder for mobile */}
       <img
-        src="https://placehold.co/600x400"
+        src="https://placehold.co/600x600"
         alt="Placeholder"
         className="OldBanner-placeholder"
       />
-            <button className="OldBanner-contactButton">
-        Contact Us
-      </button>
+      <Modelbutton
+              text="Contact Us"
+              backgroundColor="#ffc107"
+              textColor="#131b2d"
+              hoverTextColor="#344ea1"
+              className="OldBanner-contactButton"
+            />
       </div>
     </div>
   );

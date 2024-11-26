@@ -1,10 +1,10 @@
 /* Overall Container */
 .AIProvider-container {
-    width: 100%;
+    width: 99%;
     margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
+    padding: 30px;
+    background-color: #1b66da;
+    border-radius: 20px;
     font-family: "Arial", sans-serif;
     text-align: center;
   }
@@ -17,13 +17,13 @@
     font-size: 2em;
     font-weight: 400;
     padding: 1em;
-    color: #344ea1;
+    color: white;
     margin-bottom: 10px;
   }
   
   .AIProvider-description {
     font-size: 1.2rem;
-    color: #344ea1;
+    color: aliceblue;
     line-height: 1.8;
     margin-bottom: 30px;
     text-align: center; 
@@ -50,21 +50,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e6f4ff;
+    background-color: white;
     color: #003873;
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center; 
   }
   
-  .AIProvider-category-item:hover {
+  /* .AIProvider-category-item:hover {
     background-color: #d0e9ff;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
-  }
+  } */
   
   .AIProvider-tick {
     color: #1a9f60;
@@ -75,6 +74,10 @@
   @media (max-width: 768px) {
     .AIProvider-title {
       font-size: 1.8rem;
+    }
+    .AIProvider-container {
+      width: 100%;
+      border-radius: 0px;
     }
   
     .AIProvider-description {
