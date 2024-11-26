@@ -2,7 +2,7 @@ import React from 'react';
 import './NewBanner.css';
 import newmobile from "../../../../assets/homepage/newhandimg.png";
 import mobilerack from "../../../../assets/homepage/mobilerack.png";
-import Modelbutton from "../../../ButtonComp/Modelbutton";
+// import Modelbutton from "../../../ButtonComp/Modelbutton";
 
 const NewBanner = () => {
   return (
@@ -29,13 +29,13 @@ const NewBanner = () => {
               Captures real-time shelf images, turning visibility into actionable insights for smarter retail management
             </h2>
             <div className="NewBanner-spacerLarge"></div>
-            <Modelbutton
+            {/* <Modelbutton
               text="Contact Us"
               backgroundColor="#ffc107"
               textColor="#131b2d"
               hoverTextColor="#344ea1"
               className="NewBanner-bannerButton"
-            />
+            /> */}
           </div>
         </div>
       </div>

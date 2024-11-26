@@ -3,7 +3,9 @@ import "./CommonBlog.css"
 import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
-
+import vision from "../../assets/futureblog/visionbased.jpg"
+import digital from "../../assets/futureblog/shelfdigitalization.jpg"
+import outofstock from "../../assets/futureblog/outofstocks.jpg"
 const PlanogramCompliance = () => {
     return (
         <div>
@@ -72,7 +74,7 @@ const PlanogramCompliance = () => {
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
                                     <Link className="cardImgLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 1" className="Cardrelated-image" /></Link>
+                                        <img src={vision} alt="Camera Model 1" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
                                         <h2>How vision-based shelf monitoring helps retailers</h2></Link>
                                         <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
@@ -80,7 +82,7 @@ const PlanogramCompliance = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 2" className="Cardrelated-image" /></Link>
+                                        <img src={digital} alt="Camera Model 2" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
                                         <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
@@ -88,7 +90,7 @@ const PlanogramCompliance = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 3" className="Cardrelated-image" /></Link>
+                                        <img src={outofstock} alt="Camera Model 3" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2>
                                     </Link>

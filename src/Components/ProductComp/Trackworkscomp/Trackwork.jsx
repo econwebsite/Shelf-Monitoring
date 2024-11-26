@@ -21,16 +21,16 @@ const Trackwork = () => {
         <div className="Trackwork-aqua-box">
           <div className="Trackwork-border-box">
             <div className="Trackwork-box">
-              <h3>1. Image capture</h3>
-              <p>Automatically captures detailed visuals of entire shelves at predefined intervals, providing a comprehensive view of inventory levels and product placement.</p>
+              <h3>1. Easy Configuration</h3>
+              <p>Quickly set up your camera with e-con's app for Android and iOS, Configure server details, set image capture intervals, and use RTSP live preview for installation</p>
             </div>
             <div className="Trackwork-box">
-              <h3>2. Data Transmission </h3>
-              <p>Instantly sends captured high-quality images via Wi-Fi to your selected backend system or cloud platform for further analysis and secure storage.</p>
+              <h3>2. Image Capture </h3>
+              <p>Once configure, the camera automatically captures high resolution images at your present intervals, ensuring seamless and reliable operation.</p>
             </div>
             <div className="Trackwork-box">
-              <h3>3. User Configuration</h3>
-              <p>Easily adjust setting via the mobile app, enabling swift decision-making and effective stock management from anywhere.</p>
+              <h3>3. Image Transfer</h3>
+              <p>Captured images are wirelessly sent via Wi-Fi to backend system or cloud platform for storage, analysis, and retrieval</p>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@
   .AIProvider-title {
     font-size: 2em;
     font-weight: 400;
-    padding: 1em;
+    padding: 0.5em;
     color: white;
     margin-bottom: 10px;
   }
@@ -25,7 +25,7 @@
     font-size: 1.2rem;
     color: aliceblue;
     line-height: 1.8;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center; 
   }
   

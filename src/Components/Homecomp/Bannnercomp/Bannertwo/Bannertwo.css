@@ -25,8 +25,11 @@
 .stylish-font{
   font-weight: 500;
   font-style: italic;
-  color: #6978ba;
+  color: white;
+  background-color: #344ea1;
   line-height: 1.5em;
+  border-radius: 10px;
+  padding: 10px;
   font-size: 1.1em;
   text-align: justify;
 }

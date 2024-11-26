@@ -3,7 +3,9 @@ import "./CommonBlog.css"
 import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
-
+import pricing from "../../assets/futureblog/pricingandlabeling.jpg"
+import vision from "../../assets/futureblog/visionbased.jpg"
+import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
 const ShelfDigitalization = () => {
     return (
         <div>
@@ -119,7 +121,7 @@ But shopping cart cameras face challenges in retail environments when it comes t
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
                                     <Link className="cardImgLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 1" className="Cardrelated-image" /></Link>
+                                        <img src={pricing} alt="Camera Model 1" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
                                         <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2></Link>
                                         <p>Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required. </p>
@@ -127,7 +129,7 @@ But shopping cart cameras face challenges in retail environments when it comes t
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 2" className="Cardrelated-image" /></Link>
+                                        <img src={vision} alt="Camera Model 2" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
                                         <h2>How vision-based shelf monitoring helps retailers</h2></Link>
                                         <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
@@ -135,7 +137,7 @@ But shopping cart cameras face challenges in retail environments when it comes t
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 3" className="Cardrelated-image" /></Link>
+                                        <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
                                         <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                                     </Link>

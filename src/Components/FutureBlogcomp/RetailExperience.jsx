@@ -3,6 +3,9 @@ import "./CommonBlog.css"
 import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
+import digtal from "../../assets/futureblog/shelfdigitalization.jpg"
+import pricing from "../../assets/futureblog/pricingandlabeling.jpg"
+import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
 
 const RetailExperience = () => {
     return (
@@ -68,7 +71,7 @@ const RetailExperience = () => {
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
                                     <Link className="cardImgLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 1" className="Cardrelated-image" /></Link>
+                                        <img src={digtal} alt="Camera Model 1" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers</h2></Link>
                                         <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
@@ -76,7 +79,7 @@ const RetailExperience = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 2" className="Cardrelated-image" /></Link>
+                                        <img src={pricing} alt="Camera Model 2" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
                                         <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2></Link>
                                         <p>Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required. </p>
@@ -84,7 +87,7 @@ const RetailExperience = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 3" className="Cardrelated-image" /></Link>
+                                        <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
                                         <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                                     </Link>

@@ -95,7 +95,7 @@ const Footerpage = () => {
           </div>
           <div className="footer-divider" />
           <div className="footer-column footer-column-subscribe">
-            <h4 className="footer-subscribe-title">Subscribe for latest updates</h4>
+            <h4 className="footer-subscribe-title">Contact for latest updates</h4>
             <div className="footer-subscribe-input">
               <input type="email" autoComplete='off' onPaste={(e) => {
                 e.preventDefault()

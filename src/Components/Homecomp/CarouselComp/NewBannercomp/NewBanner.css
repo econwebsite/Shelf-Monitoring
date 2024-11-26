@@ -27,9 +27,8 @@
   position: relative;
 }
 
-/* Desktop Images */
 .NewBanner-mobileImg {
-  width: 100%; /* Ensures the image spans the full container width */
+  width: 100%; 
   height: auto;
   object-fit: contain;
   z-index: 1;

@@ -3,6 +3,9 @@ import "./CommonBlog.css"
 import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
+import digital from "../../assets/futureblog/shelfdigitalization.jpg"
+import outofstocks from "../../assets/futureblog/outofstocks.jpg"
+import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
 
 const PricingLabeling = () => {
     return (
@@ -86,7 +89,7 @@ const PricingLabeling = () => {
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
                                     <Link className="cardImgLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 1" className="Cardrelated-image" /></Link>
+                                        <img src={digital} alt="Camera Model 1" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
                                     <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
@@ -94,7 +97,7 @@ const PricingLabeling = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 2" className="Cardrelated-image" /></Link>
+                                        <img src={outofstocks} alt="Camera Model 2" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2></Link>
                                         <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
@@ -102,7 +105,7 @@ const PricingLabeling = () => {
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
-                                        <img src="https://placehold.jp/251x151.png" alt="Camera Model 3" className="Cardrelated-image" /></Link>
+                                        <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
                                     <Link className="cardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
                                         <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                                     </Link>

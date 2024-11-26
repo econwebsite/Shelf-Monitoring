@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Homevideo.css';
-import Vediothumbnail from "../../../assets/homepage/product.jpg"; 
+import Vediothumbnail from "../../../assets/homepage/pricingandlaeling.jpg"; 
 
 import FsLightbox from "fslightbox-react";
 

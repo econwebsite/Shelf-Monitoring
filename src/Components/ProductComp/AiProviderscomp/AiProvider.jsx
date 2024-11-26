@@ -11,11 +11,11 @@ const AiProvider = () => {
 
   return (
     <div className="AIProvider-container">
+      
       <div className="AIProvider-header">
+
         <h2 className="AIProvider-title">{content.title}</h2>
-        <p className="AIProvider-description">{content.description}</p>
-      </div>
-      <div className="AIProvider-categories-container">
+        <div className="AIProvider-categories-container">
         <ul className="AIProvider-categories">
           {content.categories.map((category, index) => (
             <li key={index} className="AIProvider-category-item">
@@ -24,6 +24,10 @@ const AiProvider = () => {
           ))}
         </ul>
       </div>
+      <br></br>
+        <p className="AIProvider-description">{content.description}</p>
+      </div>
+     
     </div>
   );
 };

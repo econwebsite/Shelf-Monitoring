@@ -9,7 +9,6 @@ const Carouselslider = () => {
   return (
     <div id="customBootstrapCarousel" className="carousel slide" style={{backgroundColor:"#1050c1"}} data-bs-ride="carousel">
       <div className="mainContainer">
-      {/* Indicators */}
       <div className="carousel-indicators">
         <button
           type="button"
@@ -27,16 +26,13 @@ const Carouselslider = () => {
         ></button>
       </div>
 
-      {/* Carousel Content */}
       <div className="carousel-inner">
-        {/* Slide 1 */}
         <div className="carousel-item active">
           <div className="carousel-slide-content">
             <NewBanner />
           </div>
         </div>
 
-        {/* Slide 2 */}
         <div className="carousel-item">
           <div className="carousel-slide-content">
             <OldBanner />
