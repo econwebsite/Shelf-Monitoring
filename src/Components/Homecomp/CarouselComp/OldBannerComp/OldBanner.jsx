@@ -1,6 +1,6 @@
 import React from 'react';
 import './OldBanner.css';
-// import Modelbutton from "../../../ButtonComp/Modelbutton";
+import Modelbutton from "../../../ButtonComp/Modelbutton";
 
 const OldBanner = () => {
   return (
@@ -17,13 +17,13 @@ const OldBanner = () => {
         Captures real-time shelf images,turning visibility into actionable insights for smarter retail management
         </p>
        
-        {/* <Modelbutton
-          text="Contact Us"
+        <Modelbutton
+          text="Know more"
           backgroundColor="#ffc107"
           textColor="#131b2d"
           hoverTextColor="#344ea1"
           className="OldBanner-contactButton"
-        /> */}
+        />
         </div>
       </div>
     </div>
