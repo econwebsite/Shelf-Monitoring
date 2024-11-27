@@ -15,7 +15,7 @@ const ShelfVisible = () => {
           <img src={productrespon} alt="Placeholder"className="mobile-placeholder"/>
         </div>
         <h1 className="shelfVisible-title">Achieve Complete Shelf Visibility in Real Time</h1>
-        <p className="shelfVisible-paragraph">e-con System's ShelfTrack is compact, battery-powered Wi-Fi camera that offers a smart and efficient solution for monitoring shelves and retail displays in retail stores, warehouses, and distribution centers.</p>
+        <p className="shelfVisible-paragraph">e-con System's SHELFVista is compact, battery-powered Wi-Fi camera that offers a smart and efficient solution for monitoring shelves and retail displays in retail stores, warehouses, and distribution centers.</p>
       </div>
     </div>
   );

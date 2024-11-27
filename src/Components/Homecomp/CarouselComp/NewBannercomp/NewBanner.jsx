@@ -2,7 +2,7 @@ import React from 'react';
 import './NewBanner.css';
 import newmobile from "../../../../assets/homepage/newhandimg.png";
 import mobilerack from "../../../../assets/homepage/mobilerack.png";
-import Modelbutton from "../../../ButtonComp/Modelbutton";
+import Animation from "../../../ButtonComp/AnimationButton";
 
 const NewBanner = () => {
   return (
@@ -23,16 +23,17 @@ const NewBanner = () => {
             </div>
           </div>
           <div className="NewBanner-bannerRight">
-            <h3>SHELFTrack – Eyes on Every Shelf</h3>
+            <h3>SHELFVista – Eyes on Every Shelf</h3>
             <div className="NewBanner-spacer"></div>
             <h2>
               Captures real-time shelf images, turning visibility into actionable insights for smarter retail management
             </h2>
             <div className="NewBanner-spacerLarge"></div>
-            <Modelbutton
+            <Animation
               text="Know more"
-              backgroundColor="#ffc107"
+              backgroundColor="#f9cd47"
               textColor="#131b2d"
+              to="/SHELFVista"
               hoverTextColor="#344ea1"
               className="NewBanner-bannerButton"
             />

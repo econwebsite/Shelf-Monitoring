@@ -42,11 +42,11 @@ const Specification = () => {
           <div className="spec-item">
             <span className="spec-label">Dimensions</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">74mm (L) *50mm (H)*25.70 (D)</span>
+            <span className="spec-value">74mm (L) *50mm (H) *25.70 (D)</span>
           </div>
         </div>
         <div className="spec-butt">
-        <AnimationButton text="Learn more" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button" to="" />
+        <AnimationButton text="Learn more" to="/SHELFVista" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button"  />
         <Modelbutton text="Download Tech document" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button" to="" />
 
     </div>

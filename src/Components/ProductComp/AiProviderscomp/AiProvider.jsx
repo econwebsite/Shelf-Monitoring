@@ -3,7 +3,7 @@ import "./AiProvider.css";
 
 const AiProvider = () => {
   const content = {
-    title: "Who can use ShelfTrack?",
+    title: "Who can use SHELFVista?",
     description:
       "Adapts to businesses of all sizes. While primarily optimized for retail environments, its capabilities extend to various sectors where inventory management and space utilization are crucial.",
     categories: ["Retailers", "CPGs Companies", "AI Solution Provider"],

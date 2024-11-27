@@ -9,9 +9,9 @@ const Trackwork = () => {
   return (
     <div className="Trackwork-main-container">
       <div className="mainContainer">
-      <h1 className="Trackwork-main-title">How ShelfTrack Works</h1>
+      <h1 className="Trackwork-main-title">How SHELFVista Works</h1>
 
-      <h2 className="Trackwork-subtitle">ShelfTrack operates seamlessly to keep your business running smoothly</h2>
+      <h2 className="Trackwork-subtitle">SHELFVista operates seamlessly to keep your business running smoothly</h2>
 
       <div className="Trackwork-blue-box">
         <div className="Trackwork-image-container">

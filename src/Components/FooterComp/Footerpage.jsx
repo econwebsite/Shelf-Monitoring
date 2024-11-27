@@ -76,7 +76,7 @@ const Footerpage = () => {
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>
-              <Link to="/shelfTrack">SHELFTrack</Link>
+              <Link to="/SHELFVista">SHELFVista</Link>
               <Link to="/BlogHubPage">Blog</Link>
               <Link to="/">AboutUs</Link>
               <Link to="/ContactUs">ContactUs</Link>
@@ -95,13 +95,13 @@ const Footerpage = () => {
           </div>
           <div className="footer-divider" />
           <div className="footer-column footer-column-subscribe">
-            <h4 className="footer-subscribe-title">Contact for latest updates</h4>
+            {/* <h4 className="footer-subscribe-title">Contact for latest updates</h4> */}
             <div className="footer-subscribe-input">
               <input type="email" autoComplete='off' onPaste={(e) => {
                 e.preventDefault()
                 return false;
               }} placeholder="Email id" value={email} onChange={handleChange} />
-              <button className="footerproceed-btn" onClick={handelSubscribtion}>Proceed</button>
+              <button className="footerproceed-btn" onClick={handelSubscribtion}> Submit</button>
               {!isValid && <p style={{ color: 'red', margin: '0px',textAlign:"center",width:"100%" }}>Invalid email address</p>}
             </div>
             <div className="footer-social-icons">
@@ -109,7 +109,7 @@ const Footerpage = () => {
                 <img src={econlog} alt="e-con Logo" style={{ width: "300px",backgroundColor:"white" }} /></a>
             </div>
             <div className="footer-bottom-text">
-              <p><span style={{ color: "#344ea1" }}>e-con Systems</span> 2024, all rights reserved.</p>
+              <p><span style={{ color: "#344ea1" }}><a href='https://www.e-consystems.com/' style={{textDecoration:"none",cursor:"pointer",color:"#344ea1" }}>e-con Systems</a></span><a href='https://www.e-consystems.com/' style={{textDecoration:"none",cursor:"pointer",color:"#344ea1"}}> 2024, all rights reserved.</a></p>
             </div>
           </div>
         </div>

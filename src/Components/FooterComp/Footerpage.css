@@ -107,13 +107,13 @@
   
   .footer-subscribe-input input {
     padding: 12px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-top: 10px;
     width: 180px;
   }
   
   .footerproceed-btn {
-    padding: 13px;
+    padding: 13px 16px;
     border: none;
     color:white;
     background-color: #003873;

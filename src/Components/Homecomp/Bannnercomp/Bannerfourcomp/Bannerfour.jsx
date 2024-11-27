@@ -58,7 +58,7 @@ const Bannerfour = () => {
             <h2>Detect Pricing and <br />Labeling Discrepancies</h2>
             <div className="Bannerfour-spacer-unique"></div>
             <h5 className='stylish-font'>Inaccurate pricing and labeling can result in abandoned purchases, affecting up to 20% of customers in a single shopping trip.</h5>
-            <h3>Accurate pricing is crucial for customer satisfaction and sales performance. ShelfTrack provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating ShelfTrack into broader pricing compliance systems, retailers can quickly detect and correct any discrepancies, ensuring promotions and prices are always up to date.</h3>
+            <h3>Accurate pricing is crucial for customer satisfaction and sales performance. SHELFVista provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating SHELFVista into broader pricing compliance systems, retailers can quickly detect and correct any discrepancies, ensuring promotions and prices are always up to date.</h3>
             <div className="Bannerfour-spacer-large-unique"></div>
             {/* <AnimationButton
               text="Know more"

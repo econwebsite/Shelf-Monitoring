@@ -29,7 +29,7 @@ const App = () => {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Totalhome />} />
-        <Route path="/shelfTrack" element={<Totalproducts />} />
+        <Route path="/SHELFVista" element={<Totalproducts />} />
         <Route path="/BlogHubPage" element={<BlogHub />} />
         <Route path="/PricingLabeling" element={<PricingLabeling />} />
         <Route path="/ShelfDigitalization" element={<ShelfDigitalization />} />

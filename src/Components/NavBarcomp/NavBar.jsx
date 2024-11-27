@@ -81,8 +81,9 @@ const NavBar = () => {
             <Link to="/" className="navbarpage-navLink">Home</Link>
             <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
-                <Link className="navbarpage-navLink">ShelfTrack</Link>
-              </Dropdown> */}            <Link to="/shelfTrack" className="navbarpage-navLink">SHELFTrack</Link>
+                <Link className="navbarpage-navLink">SHELFVista</Link>
+              </Dropdown> */}     
+              <Link to="/SHELFVista"style={{color:"#ffc107",fontWeight:"600"}} className="navbarpage-navLink">SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
@@ -103,7 +104,7 @@ const NavBar = () => {
                     <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
                   </a>
                 </div>
-                <Modelbutton text="Contact Us" backgroundColor="#ffc107" textColor="#131b2d" hoverTextColor="#344ea1" className='Navbargetquote' />
+                <Modelbutton text="Contact Us" backgroundColor="#f9cd47" textColor="#131b2d" hoverTextColor="#344ea1" className='Navbargetquote' />
               </div>
             </div>
           </div>
@@ -136,7 +137,7 @@ const NavBar = () => {
                 {/* <Dropdown overlay={productMenu} placement="bottomLeft" className="nav-link">
                   <a className="nav-link">Products</a>
                 </Dropdown> */}
-               <Link className="nav-link" to="/shelfTrack" onClick={handleNavLinkClick}>SHELFTrack</Link>
+               <Link className="nav-link" to="/SHELFVista" style={{color:"#ffc107"}} onClick={handleNavLinkClick}>SHELFVista</Link>
 
                <Link className="nav-link" to="/BlogHubPage" onClick={handleNavLinkClick}>Blog</Link>
 
