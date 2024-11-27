@@ -3,7 +3,7 @@ import './Bannerfour.css';
 import energyrack from "../../../../assets/homepage/energyrack.png";
 import energydrink from "../../../../assets/homepage/energydrink.png";
 import pricinglight from "../../../../assets/homepage/pricinglight.png";
-import AnimationButton from "../../../ButtonComp/AnimationButton";
+// import AnimationButton from "../../../ButtonComp/AnimationButton";
 import responsive4 from "../../../../assets/homepage/Responsive4.png"
 const Bannerfour = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -60,7 +60,7 @@ const Bannerfour = () => {
             <h5 className='stylish-font'>Inaccurate pricing and labeling can result in abandoned purchases, affecting up to 20% of customers in a single shopping trip.</h5>
             <h3>Accurate pricing is crucial for customer satisfaction and sales performance. ShelfTrack provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating ShelfTrack into broader pricing compliance systems, retailers can quickly detect and correct any discrepancies, ensuring promotions and prices are always up to date.</h3>
             <div className="Bannerfour-spacer-large-unique"></div>
-            <AnimationButton
+            {/* <AnimationButton
               text="Know more"
               backgroundColor="#ffc107"
               textColor="#131b2d"
@@ -68,7 +68,7 @@ const Bannerfour = () => {
               hoverTextColor="#344ea1"
               className="Bannerfour-button"
               to=""
-            />
+            /> */}
           </div>
         </div>
       </div>

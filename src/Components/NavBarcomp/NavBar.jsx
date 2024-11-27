@@ -4,7 +4,7 @@ import { Dropdown, Menu } from 'antd';
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
 import './Navbar.css';
 import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
-// import Modelbutton from '../ButtonComp/Modelbutton';
+import Modelbutton from '../ButtonComp/Modelbutton';
 
 const NavBar = () => {
   const offcanvasRef = useRef(null);
@@ -91,8 +91,6 @@ const NavBar = () => {
             <Link to="/BlogHubPage" className="navbarpage-navLink">Blog</Link>
               <div className="navbarpage-divider"></div>
               <Link to="/Aboutus" className="navbarpage-navLink">About Us</Link>
-              <div className="navbarpage-divider"></div>
-              <Link to="/ContactUs" className="navbarpage-navLink">Contact Us</Link>
             </div>
             <div className="navbarpage-rightColumn">
               {/* <input type="text" placeholder="Search.." className="navbarpage-searchInput" /> */}
@@ -105,8 +103,7 @@ const NavBar = () => {
                     <p className="navbarpage-phoneNumber">+1 408 766 7503</p>
                   </a>
                 </div>
-                <div style={{paddingRight:"10px"}}></div>
-                {/* <Modelbutton text="Contact Us" backgroundColor="#ffc107" textColor="#131b2d" hoverTextColor="#344ea1" className='Navbargetquote' /> */}
+                <Modelbutton text="Contact Us" backgroundColor="#ffc107" textColor="#131b2d" hoverTextColor="#344ea1" className='Navbargetquote' />
               </div>
             </div>
           </div>
