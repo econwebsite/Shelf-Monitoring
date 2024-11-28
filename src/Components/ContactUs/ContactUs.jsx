@@ -172,7 +172,7 @@ const ContactUs = () => {
       </Helmet>}
       <h1 className='Contact-us'>CONTACT US</h1>
 
-      <span className='Spam-questions'>Do You Have Any Questions?</span>
+      <span className='Spam-questions'>Describe your queries?</span>
 
       <div className="Contact-ted">
         <div className="mainContainer">

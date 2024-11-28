@@ -145,6 +145,9 @@
   .footer-bottom-text p {
     color: #344ea1 !important;
   }
+  .footer-bottom-text p:hover{
+    text-decoration: underline;
+  }
   /* Media Queries for Mobile Devices */
   @media (max-width: 768px) {
     .footer-container {

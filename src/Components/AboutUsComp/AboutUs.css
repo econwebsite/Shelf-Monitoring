@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #f1f2f2;
   padding: 20px;
+  border-bottom: 1px solid #90a6ef;
 }
 
 .AboutUs-title {
@@ -36,46 +37,29 @@
   margin-bottom: 10px;
 }
 
-.AboutUs-image-grid-container {
-  width: 98%;
-  background-color: #344ea1;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 20px;
-  color: #fff;
+.AboutUs-banner {
+  width: 100%;
+  padding: 2.2em;
 }
 
-.AboutUs-image-grid {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-}
-
-.AboutUs-grid-item img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
-}
-
-.AboutUs-grid-item h3 {
-  margin: 10px 0;
-  color: white;
-}
-.AboutUs-grid-item p{
-  color: white;
+.AboutUs-banner-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .AboutUs-quality-policy {
   width: 100%;
   background-color: #f1f2f2;
   text-align: center;
-  padding: 3em;
+  padding: 1em;
 }
 
 .AboutUs-quality-title {
   margin-bottom: 20px;
 }
-.AboutUs-quality-policy p{
+
+.AboutUs-quality-policy p {
   text-align: left;
   line-height: 2em;
 }

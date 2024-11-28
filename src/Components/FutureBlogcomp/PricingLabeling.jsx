@@ -21,7 +21,7 @@ const PricingLabeling = () => {
 
                             </div>
                             <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy?</h2>
-                            <p>By Ranjith Kumar, July 16, 2024</p>
+                            <p>By Ranjith Kumar, Dec 02, 2024</p>
 
                             <div className="blogborder-box">
                                 <p>Accurate price tag compliance is an integral part of modern retail operations. However, ensuring consistent and correct pricing across thousands of products remains a challenge for Consumer Packaged Goods (CPG) and Fast-Moving Consumer Goods (FMCG) brands. The complexity grows with the sheer volume of items, frequent price changes, and time-sensitive promotional offers. </p>

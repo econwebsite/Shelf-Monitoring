@@ -1,142 +1,130 @@
-/* Container Styling */
-.OldBanner-container {
+.OldBanner-bannerContainer {
+  display: flex;
+  background-color: #1050c1;
   width: 100%;
   height: 430px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f1f2f2;
-  background-repeat: no-repeat;
-  background-image: url("../../../../assets/homepage/shelfspecbanner.jpg");
-  background-size: cover;
-  background-position: center;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.OldBanner-Rightside {
+.OldBanner-bannerLeft {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.OldBanner-singleImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* Visible by default */
+}
+
+.OldBanner-placeholderImg {
+  display: none; /* Hidden by default */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Right Side Styling */
+.OldBanner-bannerRight {
+  width: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
-  padding: 20px 2em;
+  padding: 0 3em;
   color: #ffffff;
-  text-align: right;
 }
 
-.OldBanner-title {
+.OldBanner-bannerRight h2 {
+  color: white;
+  font-weight: 200;
+  text-align: right;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.OldBanner-bannerRight h3 {
   color: white;
   font-weight: 400;
   line-height: 1.3em;
-  font-size: 1.5em;
+  text-align: right;
+  font-size: 1.7em;
   margin: 0;
-  margin-bottom: 15px;
 }
 
-.OldBanner-paragraph {
-  color: white;
-  font-weight: 300;
-  width: 33%;
-  font-size: 1.1em;
-  line-height: 1.5em;
-  margin-bottom: 20px;
+.OldBanner-spacer {
+  margin-top: 10px;
 }
 
-.OldBanner-placeholder {
-  display: none;
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  margin-bottom: 20px;
-  object-fit: cover;
+.OldBanner-spacerLarge {
+  margin-top: 20px;
 }
 
-.OldBanner-contactButton {
+.OldBanner-bannerButton {
+  align-self: flex-end;
+  margin-top: 20px;
+  background-color: #f9cd47;
+  color: #131b2d;
+  border: none;
   padding: 10px 20px;
-  transition: background-color 0.3s ease;
+  font-size: 1em;
+  cursor: pointer;
 }
 
-/* Mobile View */
-@media (max-width: 977px) {
-  .OldBanner-container {
-    background-image: none;
-    background-color: #1050c1;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 10px;
+/* Responsive Adjustments */
+@media (max-width: 1015px) {
+  .OldBanner-bannerContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
     height: auto;
   }
 
-  .OldBanner-Rightside {
-    align-items: center; /* Center aligns the content */
-    text-align: center;  /* Ensures text is centered */
-    padding: 10px;
-  }
-
-  .OldBanner-placeholder {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .OldBanner-title {
-    margin-bottom: 15px;
-    text-align: center;
-    
-  }
-
-  .OldBanner-paragraph {
-    margin-bottom: 15px !important;
-    text-align: center;
-  }
-
-  .OldBanner-contactButton {
-    position: static;
-    margin: 0 auto; /* Centers the button horizontally */
-    margin-top: 10px;
-    display: block; /* Ensures the button takes up its own line */
-  }
-}
-
-/* Desktop View */
-@media (min-width: 978px) {
-  .OldBanner-placeholder {
-    display: none;
-  }
-}
-/* Mobile View: Screens under 450px */
-@media (max-width: 450px) {
-  .OldBanner-container {
-    background-image: none;
-    background-color: #1050c1;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .OldBanner-Rightside {
-    align-items: center; /* Center all content */
-    text-align: center;  /* Center text alignment */
-    padding: 20px 0em;
-
-  }
-
-  .OldBanner-title {
-    margin-bottom: 10px;
-  }
-
-  .OldBanner-paragraph {
-    margin-bottom: 5px;
+  .OldBanner-bannerLeft {
     width: 100%;
   }
 
-  .OldBanner-placeholder {
-    display: block;
-    height: auto;
-    margin-bottom: 10px;
+  .OldBanner-singleImg {
+    display: none; /* Hide desktop image on mobile */
   }
 
-  .OldBanner-contactButton {
-    width: 100%; /* Make the button full-width */
-    max-width: 250px; /* Limit maximum width */
-    padding: 10px;
-    margin: 0 auto; /* Center the button */
-    display: block;
+  .OldBanner-placeholderImg {
+    display: block; /* Show placeholder on mobile */
+    margin-top: 20px;
+  }
+
+  .OldBanner-bannerRight {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    align-items: center;
+  }
+
+  .OldBanner-bannerRight h2,
+  .OldBanner-bannerRight h3 {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .OldBanner-bannerButton {
+    align-self: center;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1016px) {
+  .OldBanner-placeholderImg {
+    display: none; /* Hide placeholder on desktop */
+  }
+
+  .OldBanner-singleImg {
+    display: block; /* Show desktop image */
   }
 }

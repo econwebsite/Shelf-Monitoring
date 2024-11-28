@@ -15,7 +15,7 @@ const KeyFeatures = () => {
 
   return (
     <div className="why-choose-container">
-      <h1 className="why-choose-title">Why choose e-con Systems Smart Cameras for Shelf Monitoring?</h1>
+      <h1 className="why-choose-title">Why choose e-con Systems’ Shelf Monitoring Camera?</h1>
       <div className="mainContainer">
         <div className="why-choose-grid">
           {cards.map(card => (
