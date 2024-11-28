@@ -11,7 +11,7 @@ const AiProvider = () => {
 
   return (
     <div className="AIProvider-container">
-      
+      <div className="mainContainer">
       <div className="AIProvider-header">
 
         <h2 className="AIProvider-title">{content.title}</h2>
@@ -27,7 +27,7 @@ const AiProvider = () => {
       <br></br>
         <p className="AIProvider-description">{content.description}</p>
       </div>
-     
+      </div>
     </div>
   );
 };

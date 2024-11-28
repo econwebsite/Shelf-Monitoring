@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
+import aboutus from "../../assets/homepage/about-us.png"
 import ce from '../../assets/homepage/certificates-01.png';
 import fc from '../../assets/homepage/certificates-02.png';
 import rohs from '../../assets/homepage/certificates-03.png';
@@ -16,7 +17,7 @@ const AboutUs = () => {
       <div className="AboutUs-section">
         {/* Left Column */}
         <div className="AboutUs-left">
-          <img src="https://placehold.co/450x300.png" alt="About Us" className="AboutUs-img" />
+          <img src={aboutus} alt="About Us" className="AboutUs-img" />
         </div>
 
         {/* Right Column */}

@@ -12,7 +12,7 @@ const SolutionComp = () => {
           <div className="solution-left-section">
             <div className="solution-video">
               <video 
-                className="video-player" 
+                className="video-div" 
                 autoPlay 
                 loop 
                 muted 

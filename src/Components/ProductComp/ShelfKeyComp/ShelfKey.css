@@ -1,121 +1,130 @@
 .key-features-container {
+  position: relative;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: white;
-  height: auto;
   padding: 2em;
-  overflow-x: hidden;
+  background: 
+    linear-gradient(rgba(27, 27, 27, 0.3), rgba(0, 0, 0, 0.3)), /* Semi-transparent black overlay */
+    url('../../../assets/homepage/shelfdigitialization.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto;
 }
+
+
 
 .key-features-title {
-  text-align: center;
-  font-size: 2em;
-  color: #344ea1;
-  width: 80%;
-  font-weight: 400;
-  padding: 1.5em;
+  text-align: center; 
+  font-size: 2.5em;
+  color: aqua;
+  margin: 0 auto;
+  font-weight: 600;
+  margin-bottom: 2em;
+  text-shadow: 0 2px 4px rgba(9, 3, 3, 0.6);
 }
 
-.key-features-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  width: 100%;
-  padding: 0 20px;
+.key-features-staircase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 40px; 
+  position: relative;
 }
 
 .key-features-card {
-  background-color: #f1f2f2;
-  border-radius: 8px;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 2em;
+  height: 250px;
+  width: 250px;
+  position: relative;
   text-align: center;
-  height: 350px;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: rotate(-2deg);
+}
+
+.key-features-card:nth-child(odd) {
+  transform: rotate(2deg);
 }
 
 .key-features-card:hover {
-  background-color: #4190fc;
-  transform: translateY(-5px);
-}
-
-.key-features-icon {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transform: scale(1.05) rotate(0deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .key-features-icon-container {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #b8f2ff;
+  width: 70px;
+  height: 70px;
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
-  height: 100px; 
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.key-features-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .key-features-title-text {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #003873;
-  font-weight: 400;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .key-features-text {
-  color: #343434;
-  font-size: 1em;
-  font-weight: 300;
-  padding: 0 10px;
-  transition: color 0.3s ease;
-  height: 80px; 
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 10px;
+}
+@media (min-width: 1300px) {
+  .key-features-staircase {
+    gap: 45px; 
+  }
+  
+  .key-features-card {
+    height: 250px;
+    width: 300px;
+  }
+  
 }
 
-.key-features-card:hover {
-  background-color: #4190fc;
-  transform: translateY(-5px);
-}
-
-.key-features-card:hover .key-features-title-text {
-  color: white; 
-}
-
-.key-features-card:hover .key-features-icon  {
-  background-color: white;
-  transform: scale(1.1);
-}
-
-.key-features-card:hover .key-features-text {
-  color: white;
-}
-
-@media (max-width: 1024px) {
-  .key-features-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+@media (max-width: 768px) {
+  .key-features-staircase {
+    flex-direction: column;
+    align-items: center;
   }
   .key-features-container {
-    height: auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .key-features-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    padding: 1.3em;
   }
   .key-features-title {
-    font-size: 1.5em;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .key-features-card {
     width: 100%;
+    margin-bottom: 20px;
+  }
+  .key-features-card:nth-child(odd) {
+    transform: none;
   }
   .key-features-card {
-    height: 300px;
-    padding: 30px 15px;
+    transform:none;
+    
+  }
+  
+  .key-features-card:hover {
+    transform:none;
+    box-shadow:none;
   }
 }

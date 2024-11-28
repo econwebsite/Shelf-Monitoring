@@ -12,9 +12,9 @@ const OldBanner = () => {
           alt="Placeholder"
           className="OldBanner-placeholder"
         />
-        <h1 className="OldBanner-title">SHELFVista – Eyes on Every Shelf</h1>
+        <h1 className="OldBanner-title">Precision Shelf Management <br></br> Meets Advanced Imaging</h1>
         <p className="OldBanner-paragraph">
-        Captures real-time shelf images,turning visibility into actionable insights for smarter retail management
+        Provides pixel-perfect visibility of shelf conditions with 13 MP resolutions and wide shelf coverage
         </p>
        
         <Animation

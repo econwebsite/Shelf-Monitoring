@@ -3,7 +3,6 @@ import axios from 'axios';
 import './Footerpage.css';
 import { message } from 'antd';
 import econlog from "../../assets/homepage/footerlogo-1.svg"
-// import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg"
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 

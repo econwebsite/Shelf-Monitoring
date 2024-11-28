@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, Menu } from 'antd';
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
@@ -8,11 +8,19 @@ import Modelbutton from '../ButtonComp/Modelbutton';
 
 const NavBar = () => {
   const offcanvasRef = useRef(null);
-
+  const [isHovered, setIsHovered] = useState(false);
   const handleNavLinkClick = () => {
     if (offcanvasRef.current) {
       offcanvasRef.current.hide(); // Hide Offcanvas when a nav link is clicked
     }
+  };
+
+
+  const linkStyle = {
+    color: isHovered ? "white" : "#ffc107",
+    fontWeight: "600",
+    textDecoration: "none",
+    transition: "color 0.3s ease",
   };
   const resourceMenu = (
     <Menu  style={{border:"1px solid #00aeef"}}>
@@ -83,7 +91,8 @@ const NavBar = () => {
               {/* <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
                 <Link className="navbarpage-navLink">SHELFVista</Link>
               </Dropdown> */}     
-              <Link to="/SHELFVista"style={{color:"#ffc107",fontWeight:"600"}} className="navbarpage-navLink">SHELFVista</Link>
+              <Link to="/SHELFVista" style={linkStyle}  onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)} className="navbarpage-navLink">SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
