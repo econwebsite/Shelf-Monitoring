@@ -145,9 +145,15 @@
   .footer-bottom-text p {
     color: #344ea1 !important;
   }
-  .footer-bottom-text p:hover{
-    text-decoration: underline;
+  .footeralink{
+    color: #003873;
+    text-decoration: none;
   }
+  .footeralink:hover{
+    text-decoration: underline;
+    color: #344ea1;
+  }
+
   /* Media Queries for Mobile Devices */
   @media (max-width: 768px) {
     .footer-container {

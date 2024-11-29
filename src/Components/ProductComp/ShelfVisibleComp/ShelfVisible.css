@@ -13,7 +13,12 @@
   margin: 0 auto; 
   height: 300px; 
 }
-
+.shelf-visbuton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9cd47;
+}
 .shelfVisible-image-wrapper img {
   position: absolute;
   left: 50%;

@@ -14,7 +14,7 @@ const Bannertwo = () => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !hasAnimated) {
           setHasAnimated(true);
-          observer.unobserve(entry.target); // Stop observing after animation has been triggered
+          observer.unobserve(entry.target); 
         }
       });
     }, { threshold: 0.1 });

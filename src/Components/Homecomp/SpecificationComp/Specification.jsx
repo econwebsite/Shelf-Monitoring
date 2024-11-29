@@ -46,8 +46,8 @@ const Specification = () => {
           </div>
         </div>
         <div className="spec-butt">
-        <AnimationButton text="Learn more" to="/SHELFVista" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button"  />
-        <Modelbutton text="Download Tech document" backgroundColor="#ffc107" textColor="#344ea1"  hoverTextColor="#344ea1" className="spec-button" to="" />
+        <AnimationButton text="Learn more" to="/SHELFVista" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button"  />
+        <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button" to="" />
 
     </div>
       </div>

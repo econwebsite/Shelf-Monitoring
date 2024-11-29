@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './BlogArtical.css'; // Import the CSS file
-import AnimatedButton from "../../ButtonComp/AnimationButton"
+import AnimatedButton from "../../ButtonComp/AnimationButton";
+import ranjith from "../../../assets/futureblog/Ranjith Kumar.png"
 import { message } from 'antd';
 import axios from 'axios';
 const BlogArtical = () => {
@@ -74,7 +75,7 @@ const BlogArtical = () => {
         </p>      </div>
       <div className="Artical-person">
         <div className="Articalleft-side">
-          <img src="https://placehold.jp/228x222.png" alt="Person" className="Articalperson-photo" />
+          <img src={ranjith} alt="Person" className="Articalperson-photo" />
           <p>Ranjith Kumar</p>
           <p>Product Manager</p>
         </div>

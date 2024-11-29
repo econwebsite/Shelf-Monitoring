@@ -5,8 +5,8 @@ import Modelform from './Modelform';
 
 const Modelbutton = ({
   text = 'Contact Us',
-  backgroundColor = '#344ea1',        
-  textColor = '#def9fc',             
+  backgroundColor = '#f9cd47',        
+  textColor = '#131b2d',             
   hoverBackgroundColor = '#def9fc',    
   hoverTextColor = '#344ea1',        
   className = '',

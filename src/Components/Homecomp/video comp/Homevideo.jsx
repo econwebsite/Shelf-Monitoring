@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Homevideo.css';
-import Vediothumbnail from "../../../assets/homepage/pricingandlaeling.jpg"; 
+import Vediothumbnail from "../../../assets/homepage/homevideothump.jpg"; 
 
 import FsLightbox from "fslightbox-react";
 
@@ -11,7 +11,7 @@ function Homevideo() {
     <>
       <div className="tot-denvedio">
       <div className='mainContainer'>
-        <h2>Videos</h2>
+        <h2>Video</h2>
         <div className="video-title-container">
           <div className="home-thumbnail">
             <img

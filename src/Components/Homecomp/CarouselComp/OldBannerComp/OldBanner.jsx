@@ -1,6 +1,7 @@
 import React from 'react';
 import './OldBanner.css';
-// import singleImage from "../../../../assets/homepage/singleImage.png";
+import productsize from "../../../../assets/homepage/productsize.png";
+import Animation from ".././../../ButtonComp/AnimationButton"
 
 const OldBanner = () => {
   return (
@@ -8,9 +9,7 @@ const OldBanner = () => {
       <div className="mainContainer" >
         <div className="OldBanner-bannerContainer">
           <div className="OldBanner-bannerLeft">
-            {/* Single Image for Desktop */}
-            <img src="https://placehold.co/600x400" className="OldBanner-singleImg" alt="Banner" />
-            {/* Placeholder Image for Mobile */}
+            <img src={productsize} className="OldBanner-singleImg" alt="Banner" />
             <img
               src="https://placehold.co/600x400"
               className="OldBanner-placeholderImg"
@@ -18,13 +17,21 @@ const OldBanner = () => {
             />
           </div>
           <div className="OldBanner-bannerRight">
-            <h3>SHELFVista – Eyes on Every Shelf</h3>
+            <h3>Precision Shelf Management Meets Advanced Imaging</h3>
             <div className="OldBanner-spacer"></div>
             <h2>
-              Captures real-time shelf images, turning visibility into actionable insights for smarter retail management
+            Provides pixel-perfect visibility of shelf conditions with 13 MP resolutions and wide shelf coverage
             </h2>
             <div className="OldBanner-spacerLarge"></div>
-            <button className="OldBanner-bannerButton">Know More</button>
+            {/* <button className="OldBanner-bannerButton">Know More</button> */}
+            <Animation
+              text="Know more"
+              backgroundColor="#f9cd47"
+              textColor="#131b2d"
+              to="/SHELFVista"
+              hoverTextColor="#344ea1"
+              className="NewBanner-bannerButton"
+            />
           </div>
         </div>
       </div>

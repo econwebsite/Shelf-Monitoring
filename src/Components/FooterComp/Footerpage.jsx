@@ -105,10 +105,10 @@ const Footerpage = () => {
             </div>
             <div className="footer-social-icons">
               <a href='https://www.e-consystems.com/'>
-                <img src={econlog} alt="e-con Logo" style={{ width: "300px",backgroundColor:"white" }} /></a>
+                <img src={econlog} alt="e-con Logo" style={{ width: "300px" }} /></a>
             </div>
             <div className="footer-bottom-text">
-              <p><a href='https://www.e-consystems.com/' style={{textDecoration:"none",cursor:"pointer",color:"#344ea1" }}> e-con Systems 2024, all rights reserved.</a></p>
+              <p><a href='https://www.e-consystems.com/' className="footeralink"> e-con Systems </a> <span> 2024, all rights reserved.</span></p>
             </div>
           </div>
         </div>

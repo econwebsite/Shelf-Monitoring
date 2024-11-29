@@ -1,6 +1,7 @@
 import React, { useRef,useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, Menu } from 'antd';
+import { FaCamera } from "react-icons/fa";
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
 import './Navbar.css';
 import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
@@ -11,7 +12,7 @@ const NavBar = () => {
   const [isHovered, setIsHovered] = useState(false);
   const handleNavLinkClick = () => {
     if (offcanvasRef.current) {
-      offcanvasRef.current.hide(); // Hide Offcanvas when a nav link is clicked
+      offcanvasRef.current.hide(); 
     }
   };
 
@@ -90,9 +91,10 @@ const NavBar = () => {
             <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={SolutionMenu} placement="bottomLeft" trigger={['hover']}>
                 <Link className="navbarpage-navLink">SHELFVista</Link>
-              </Dropdown> */}     
+              </Dropdown> */} 
+                
               <Link to="/SHELFVista" style={linkStyle}  onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)} className="navbarpage-navLink">SHELFVista</Link>
+      onMouseLeave={() => setIsHovered(false)} className="navbarpage-navLink"> <FaCamera  style={{color:"#f1f2f2",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
