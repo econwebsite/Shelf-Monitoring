@@ -75,9 +75,12 @@ const BlogArtical = () => {
         </p>      </div>
       <div className="Artical-person">
         <div className="Articalleft-side">
+          <a href='https://www.linkedin.com/in/ranjithkumar-muthurajan-89a29817/' style={{textDecoration:"none",width:"100%"}}>
           <img src={ranjith} alt="Person" className="Articalperson-photo" />
+          </a>
           <p>Ranjith Kumar</p>
           <p>Product Manager</p>
+         
         </div>
         <div className="Articalright-side">
           <p>
@@ -94,7 +97,7 @@ const BlogArtical = () => {
             e.preventDefault()
             return false;
           }} placeholder="Your email address" className="Artical-inputemail" value={email} onChange={handleChange} />
-          <AnimatedButton className="Articalknow-button" text="Know more" backgroundColor="#344ea1" animationColor="#69ba2f" hoverColor="#69ba2f" onClick={handelSubscribtion}/>
+          <AnimatedButton className="Articalknow-button" text="Submit" backgroundColor="#344ea1" animationColor="#69ba2f" hoverColor="#69ba2f" onClick={handelSubscribtion}/>
           {!isValid && <p style={{ color: 'red', margin: '0px',textAlign:"center",width:"100%" }}>Invalid email address</p>}
         </div>
       </div>

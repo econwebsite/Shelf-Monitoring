@@ -134,14 +134,14 @@
 @media (min-width: 1450px) {
 
   .Bannerthree-left {
-    width: 60%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     padding-left: 4em;
     color: #344ea1;
   }
   .Bannerthree-right {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,6 +165,11 @@
     text-align: center;
   }
 
+  .Bannerthree-left h2 {
+    color: #6978ba;
+    font-weight: 200;
+    font-size: 2em;
+  }
   .Bannerthree-image-row {
     display: flex;
     flex-direction: column; /* Stack images vertically */
@@ -181,7 +186,6 @@
     order: -1; 
   }
 
-  /* Hide the animated images in mobile view */
   .Bannerthree-planlight-animation,
   .Bannerthree-missplacesmall-animation,
   .Bannerthree-misplacelarge-animation {

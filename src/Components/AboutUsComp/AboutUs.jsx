@@ -5,6 +5,11 @@ import ce from "../../assets/homepage/certificates-01.png";
 import fc from "../../assets/homepage/certificates-02.png";
 import rohs from "../../assets/homepage/certificates-03.png";
 import tic from "../../assets/homepage/certificates-04.png";
+import { MdLocationOn } from "react-icons/md";
+import { BsCalendarDate } from "react-icons/bs";
+import cesbanner from "../../assets/homepage/cesbanner.jpg"
+
+
 
 const AboutUs = () => {
   return (
@@ -13,6 +18,7 @@ const AboutUs = () => {
       <div className="AboutUs-section">
         <div className="AboutUs-left">
           <img src={aboutus} alt="About Us" className="AboutUs-img" />
+
         </div>
         <div className="AboutUs-right">
           <p>
@@ -28,22 +34,24 @@ const AboutUs = () => {
 <div className="AboutUs-new-container">
   <div className="AboutUs-new-left">
     <h2 className="AboutUs-new-title">BEYOND IMAGING</h2>
-    <p>
+    <h6>
       AI Powered Vision Solutions
-    </p>
-    <p>Watch Exciting Demos. Meet Our Camera </p>
+    </h6>
+    <h6>Watch Exciting Demos. Meet Our Camera </h6>
     <div className="AboutUs-icon-row">
       <div className="AboutUs-icon-item">
-        <img src={ce} alt="CE Certification" className="AboutUs-icon" />
+      <MdLocationOn className="AboutUs-icon"/>
+
         <div className="AboutUs-icon-content">
           <p className="AboutUs-icon-text">Booth Number:9517</p>
           <span>LVCC, Las Vegas</span>
         </div>
       </div>
       <div className="AboutUs-icon-item">
-        <img src={ce} alt="CE Certification" className="AboutUs-icon" />
+      <BsCalendarDate className="AboutUs-icon" />
         <div className="AboutUs-icon-content">
           <p className="AboutUs-icon-text">Januvary 7-10,2025</p>
+          <span style={{color:"#f1f2f2"}}>....</span>
         </div>
       </div>
     </div>
@@ -51,7 +59,9 @@ const AboutUs = () => {
 
   <div className="AboutUs-new-right">
     <div className="AboutUs-placeholder">
-      <img src="https://placehold.co/450x300" alt="Placeholder" />
+      <a href="https://www.e-consystems.com/events/ces-2025.asp">
+      <img src={cesbanner} alt="Placeholder" />
+      </a>
     </div>
   </div>
 </div>

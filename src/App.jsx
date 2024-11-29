@@ -17,6 +17,7 @@ import PlanogramCompliance from "./Components/FutureBlogcomp/PlanogramCompliance
 import RetailExperience from "./Components/FutureBlogcomp/RetailExperience"
 import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUsComp/AboutUs';
+import OutofStocks from './Components/FutureBlogcomp/OutofStocks';
 
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/ShelfDigitalization" element={<ShelfDigitalization />} />
         <Route path="/PlanogramCompliance" element={<PlanogramCompliance />} />
         <Route path="/RetailExperience" element={<RetailExperience />} />
+        <Route path="/Outofstocks" element={<OutofStocks/>} />
         <Route path="/Contactus" element={< ContactUs/>} />
         <Route path="/Aboutus" element={< AboutUs/>} />
 

@@ -53,10 +53,9 @@
   
   .casehubpage-hubblog-card {
     flex: 1 1 calc(50% - 20px);
-    min-height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .casehubpage-hubblog-border-box img,
@@ -92,6 +91,9 @@
   @media (max-width: 768px) {
     .casehubpage-hubpageblog {
       flex-direction: column;
+    }
+    .casehubpage-hubtot-blog {
+      padding: 15px;
     }
   
     .casehubpage-hubtot-blog h1 {

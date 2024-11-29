@@ -165,7 +165,8 @@
 
   .spec-title {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
     text-align: center;
   }
 

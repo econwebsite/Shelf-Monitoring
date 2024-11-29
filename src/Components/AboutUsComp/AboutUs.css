@@ -6,6 +6,7 @@
 .AboutUs-title {
   text-align: center;
   padding: 0.5em;
+  color: #003873;
 }
 .AboutUs-section {
   display: flex;
@@ -34,6 +35,7 @@
   margin-bottom: 10px;
   text-align: justify;
   line-height: 2em;
+  color: #344ea1;
 }
 
 .AboutUs-new-container {
@@ -53,12 +55,15 @@
   font-size: 1.8em;
   margin-bottom: 10px;
   text-align: left;
+  color: #003873;
 }
 
-.AboutUs-new-left p {
+.AboutUs-new-left h6 {
   margin-bottom: 0px;
   line-height: 2em;
   text-align: left;
+  color: #344ea1;
+  
 }
 .AboutUs-icon-row {
   display: flex;
@@ -78,8 +83,7 @@
 }
 
 .AboutUs-icon {
-  width: 50px;
-  height: 50px;
+ font-size: 30px;
 }
 
 .AboutUs-icon-content {
@@ -91,12 +95,12 @@
 
 .AboutUs-icon-text {
   font-size: 1rem;
-  color: #333;
+  color: #00aeef;
 }
 
 .AboutUs-icon-content span {
   font-size: 0.9rem;
-  color: #777;
+  color: #003873;
 }
 
 .AboutUs-new-right .AboutUs-placeholder {
@@ -108,6 +112,9 @@
   padding: 10px;
 }
 
+.AboutUs-placeholder img{
+  border-radius: 20px;
+}
 .AboutUs-quality-policy {
   width: 100%;
   margin: 0 auto;

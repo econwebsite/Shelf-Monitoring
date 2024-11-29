@@ -147,12 +147,9 @@
   }
   .footeralink{
     color: #003873;
-    text-decoration: none;
-  }
-  .footeralink:hover{
     text-decoration: underline;
-    color: #344ea1;
   }
+ 
 
   /* Media Queries for Mobile Devices */
   @media (max-width: 768px) {

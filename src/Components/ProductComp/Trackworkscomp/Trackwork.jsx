@@ -3,7 +3,7 @@ import './Trackwork.css';
 // import shelftrack1 from ".././../../assets/productpage/shelftrack1.png"
 // import shelftrack2 from ".././../../assets/productpage/shelftrack2.png"
 // import shelftrack3 from ".././../../assets/productpage/shelftrack3.png"
-import howshelf from "../../../assets/productpage/howshelfworks.jpg"
+import howshelf from "../../../assets/productpage/howshelfworks.png"
 
 const Trackwork = () => {
   return (
@@ -28,7 +28,7 @@ const Trackwork = () => {
             </div>
             <div className="Trackwork-box">
               <h3>2. Image Capture </h3>
-              <p>Once configure, the camera automatically captures high resolution images at your present intervals, ensuring seamless and reliable operation.</p>
+              <p>Once Configured, the camera automatically captures high resolution images at your present intervals, ensuring seamless and reliable operation.</p>
             </div>
             <div className="Trackwork-box">
               <h3>3. Image Transfer</h3>

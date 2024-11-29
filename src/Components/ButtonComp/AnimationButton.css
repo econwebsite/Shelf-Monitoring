@@ -14,7 +14,7 @@
   overflow: hidden;
   cursor: pointer;
   z-index: 1;
-  font-weight: 300;
+  font-weight: 400 !important;
   font-size: 1em;
   color: var(--btn-text-color);
   text-decoration: none; 

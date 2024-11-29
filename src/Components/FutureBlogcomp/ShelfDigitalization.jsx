@@ -109,7 +109,7 @@ But shopping cart cameras face challenges in retail environments when it comes t
 <h3>e-con Systems’ Cameras for Shelf Monitoring Systems</h3>
 <p>Since 2003, e-con Systems has been designing, developing, and manufacturing OEM cameras for many industries, such as smart retail.  We bring years of expertise in collaborating with retailers to develop customized camera solutions that come with world-class imaging features for shelf digitalization.</p>
 <p>e-con Systems also provides ready-made development kits to help quickly initiate the retail product development process.</p>
-<p>Check out our <a href="https://www.e-consystems.com/camera-selector.asp">Camera Selector</a> to view our complete portfolio</p>
+<p>Check out our <a href="https://www.e-consystems.com/camera-selector.asp"> Camera Selector</a> to view our complete portfolio.</p>
 
 
 
