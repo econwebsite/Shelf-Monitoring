@@ -6,10 +6,10 @@
 }
 
 .Trackwork-main-title {
-    margin-bottom: 10px;
     padding: 1em;
     font-size: 2.3em;
     font-weight: 400;
+    color: #003873;
 }
 
 .Trackwork-subtitle {
@@ -17,8 +17,7 @@
     font-size: 1.3em;
     font-weight: 300;
     padding: 0em;
-
-
+    color: #344ea1
 }
 
 .Trackwork-blue-box {
@@ -34,12 +33,6 @@
     margin-bottom: 20px;
 }
 
-.Trackwork-image-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px; 
-}
 
 .Trackwork-blue-box img {
     width: 100%;
@@ -96,30 +89,50 @@
     font-size: 1.3em;
     margin-bottom: 0.7em; 
     text-align: left;
+    color: #003873;
 }
 
 .Trackwork-box p {
     margin: 0;
     font-size: 1em;
+    color: #344ea1;
     text-align: left;
 }
-@media (max-width: 1195px) {
-    .Trackwork-img1 {
-        width: 350px !important;
-        height: auto;
-    }
-    
-    .Trackwork-img2 {
-        width: 200px !important;
-        height: auto;
-    }
-    
-    .Trackwork-img3 {
-        width: 250px !important;
-        height: auto;
-    }
+
+
+.Trackwork-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1px; 
+    margin-bottom: 20px;
 }
-@media (max-width: 768px) {
+
+.Trackwork-img {
+    width: 20%; 
+    max-width: 230px; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.Trackwork-img:hover {
+    transform: scale(1.1);
+}
+
+[data-aos="fade-right"] {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  [data-aos="fade-right"].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+@media (max-width: 1000px) {
     .Trackwork-blue-box {
         height: auto; 
         padding: 10px; 
@@ -163,10 +176,22 @@
     }
 
     .Trackwork-box {
-        width: 90%; 
+        width: 100%; 
         margin-bottom: 20px; 
         padding: 1.1em;
     }
-   
+    .Trackwork-image-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .Trackwork-img {
+        width: 45%; 
+        display: none;
+    }
     
 }
+
+
+
+

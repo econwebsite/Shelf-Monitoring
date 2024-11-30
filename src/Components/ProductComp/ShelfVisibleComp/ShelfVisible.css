@@ -14,9 +14,7 @@
   height: 300px; 
 }
 .shelf-visbuton{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block; 
   background-color: #f9cd47;
 }
 .shelfVisible-image-wrapper img {

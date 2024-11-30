@@ -5,7 +5,7 @@
     padding: 2em;
     text-align: center;
     border: none;
-        overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 .tabs-container {
@@ -60,7 +60,7 @@
         display: none; 
     }
     .resource-container {
-        padding: 1em;
+        padding: 0.5em;
     }
 
     .banmobile-view .banner-wrapper {

@@ -14,6 +14,8 @@ import cesbanner from "../../assets/homepage/cesbanner.jpg"
 const AboutUs = () => {
   return (
     <div className="AboutUs-container">
+              <div className="mainContainer">
+
       <h1 className="AboutUs-title">About e-con Systems</h1>
       <div className="AboutUs-section">
         <div className="AboutUs-left">
@@ -80,6 +82,7 @@ const AboutUs = () => {
           <img src={tic} alt="TIC Certification" />
         </div>
       </div>
+    </div>
     </div>
   );
 };

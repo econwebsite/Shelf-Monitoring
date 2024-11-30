@@ -20,7 +20,8 @@
 
 .solution-container h1 {
   font-size: 2em;
-  color: #344ea1;
+  color: #003873;
+  padding: 10px;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -66,7 +67,7 @@
 
 .solution-right-section h3 {
   font-size: 1.2em;
-  color: black;
+  color: #344ea1;
 }
 
 .solution-list {

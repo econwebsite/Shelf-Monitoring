@@ -2,10 +2,14 @@
   display: inline-block;
 }
 
+.btn-link {
+  text-decoration: none;
+}
+
 .btn {
   --color: #def9fc;
-  --color2: #344ea1; 
-  padding: 0.8em 1.5em;
+  --color2: #344ea1;
+  padding: 10px 25px;
   background-color: var(--btn-bg-color);
   border-radius: 6px;
   border: 0.3px solid white;
@@ -17,7 +21,7 @@
   font-weight: 400 !important;
   font-size: 1em;
   color: var(--btn-text-color);
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .btn::after,
@@ -56,4 +60,11 @@
 .btn:active {
   filter: brightness(0.7);
   transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 8px 20px;
+        font-size: 0.9em; 
+  }
 }

@@ -27,9 +27,9 @@ const BlogHub = () => {
             <AnimatedButton 
               className="casehubpage-read-more1" 
               text="Read more" 
+                 textColor="white"
               backgroundColor="#344ea1" 
-              animationColor="#69ba2f" 
-              hoverColor="#69ba2f" 
+              hoverTextColor="#003873"
               to="/PricingLabeling"
             />
           </div>
@@ -45,13 +45,13 @@ const BlogHub = () => {
               <Link to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
               <h6>What are the Latest Shelf Digitalization Technologies For Retailers?</h6>
               </Link>
-              <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations.</p>
+              <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges...</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
                 backgroundColor="#344ea1" 
-                animationColor="#69ba2f" 
-                hoverColor="#69ba2f" 
+                hoverTextColor="#003873"
+                   textColor="white"
                 to="/ShelfDigitalization"
               />
             </div>
@@ -67,9 +67,9 @@ const BlogHub = () => {
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
-                backgroundColor="#344ea1" 
-                animationColor="#69ba2f" 
-                hoverColor="#69ba2f" 
+                backgroundColor="#344ea1"
+                textColor="white" 
+                hoverTextColor="#003873"
                 to="/Outofstocks"
               />
             </div>
@@ -79,15 +79,15 @@ const BlogHub = () => {
                 <img src={visionbased} alt="Card Image 3" />
               </Link>
               <Link to="/RetailExperience" style={{ textDecoration: "none" }}>
-              <h6>How vision-based shelf monitoring helps retailers</h6>
+              <h6>The Role of Smart Cameras in Inventory and Compliance</h6>
               </Link>
               <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG).</p>
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
                 backgroundColor="#344ea1" 
-                animationColor="#69ba2f" 
-                hoverColor="#69ba2f" 
+                   textColor="white"
+                hoverTextColor="#003873"
                 to="/RetailExperience"
               />
             </div>
@@ -103,9 +103,9 @@ const BlogHub = () => {
               <AnimatedButton 
                 className="casehubpage-read-more" 
                 text="Read more" 
+                   textColor="white"
                 backgroundColor="#344ea1" 
-                animationColor="#69ba2f" 
-                hoverColor="#69ba2f" 
+                hoverTextColor="#003873"
                 to="/PlanogramCompliance"
               />
             </div>
