@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -18,9 +18,17 @@ import RetailExperience from "./Components/FutureBlogcomp/RetailExperience"
 import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUsComp/AboutUs';
 import OutofStocks from './Components/FutureBlogcomp/OutofStocks';
+import Popup from "./Components/PopUP"
 
 
 const App = () => {
+  const [isPopupVisible, setPopupVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setPopupVisible(true), 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
 
           <BrowserRouter>
@@ -38,17 +46,12 @@ const App = () => {
         <Route path="/RetailExperience" element={<RetailExperience />} />
         <Route path="/Outofstocks" element={<OutofStocks/>} />
         <Route path="/Contactus" element={< ContactUs/>} />
-        <Route path="/Aboutus" element={< AboutUs/>} />
-
-
-        
-          
-        
+        <Route path="/Aboutus" element={< AboutUs/>} />        
         <Route path="*" element={<NotFoundPage />} />
         
         </Routes>
         <Footerpage/>
-
+        <Popup isVisible={isPopupVisible} onClose={() => setPopupVisible(false)} />
         </div>
         </BrowserRouter>
 

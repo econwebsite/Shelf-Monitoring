@@ -11,10 +11,8 @@ const NewBanner = () => {
         <div className="NewBanner-bannerContainer">
           <div className="NewBanner-bannerLeft">
             <div className="NewBanner-imageRow">
-              {/* Desktop Images */}
               <img src={newmobile} className="NewBanner-mobileImg" alt="Mobile" />
               <img src={mobilerack} className="NewBanner-mobileRack" alt="Rack" />
-              {/* Placeholder Image for Mobile */}
               <img
                 src="https://placehold.co/600x400"
                 className="NewBanner-placeholderImg"

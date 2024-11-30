@@ -160,6 +160,6 @@
 
   .NewBanner-mobileImg,
   .NewBanner-mobileRack {
-    display: block; /* Show desktop images */
+    display: block; 
   }
 }
