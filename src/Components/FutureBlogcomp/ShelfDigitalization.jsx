@@ -133,7 +133,6 @@ const ShelfDigitalization = () => {
                 <p>Check out our <a href="https://www.e-consystems.com/camera-selector.asp"> Camera Selector</a> to view our complete portfolio.</p>
 
 
-
               </div>
             </div>
             <div className="Blog-right-column">

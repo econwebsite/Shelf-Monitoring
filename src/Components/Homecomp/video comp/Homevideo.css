@@ -44,7 +44,7 @@
 @media (max-width: 768px) {
   .tot-denvedio h2 {
     font-size: 1.8em; 
-    padding: 0.7em;
+    padding: 0.5em;
     margin-bottom: 10px; 
   }
 
@@ -59,12 +59,12 @@
   }
 
   .homeside-img {
-    width: 300px; 
+    width: 310px; 
     height: auto;
   }
 
   .tot-denvedio {
-    padding: 5px; 
+    padding: 25px; 
   }
 }
 

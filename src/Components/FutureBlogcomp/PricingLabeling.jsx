@@ -94,12 +94,12 @@ const PricingLabeling = () => {
                                     <AnimatedButton className="Blogreadmore-1" text="Read more"  to='/ShelfDigitalization' />
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/Outofstocks" style={{ textDecoration: "none" }}>
                                         <img src={outofstocks} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/Outofstocks" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2></Link>
                                         <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
-                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/"></AnimatedButton>
+                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/Outofstocks"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
                                     <Link className="cardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>

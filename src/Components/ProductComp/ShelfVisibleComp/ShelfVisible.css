@@ -41,8 +41,8 @@
 }
 
 .mobile-placeholder {
-  display: none; /* Hide by default */
-  width: 100%;
+  display: none; 
+  width: 310px;
   height: auto;
 }
 
@@ -114,12 +114,12 @@
   }
 
   .mobile-placeholder {
-    display: block; /* Show on mobile */
+    display: block; 
   }
 
   .visiblebottle,
   .visiblecamera {
-    display: none; /* Hide real images on mobile */
+    display: none; 
   }
 }
 
