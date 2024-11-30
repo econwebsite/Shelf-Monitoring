@@ -18,7 +18,7 @@ import RetailExperience from "./Components/FutureBlogcomp/RetailExperience"
 import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUsComp/AboutUs';
 import OutofStocks from './Components/FutureBlogcomp/OutofStocks';
-import Popup from "./Components/PopUP"
+import Popupcomp from "./Components/Popupcomp"
 
 
 const App = () => {
@@ -50,7 +50,7 @@ const App = () => {
         
         </Routes>
         <Footerpage/>
-        <Popup isVisible={isPopupVisible} onClose={() => setPopupVisible(false)} />
+        <Popupcomp isVisible={isPopupVisible} onClose={() => setPopupVisible(false)} />
         </div>
         </BrowserRouter>
 

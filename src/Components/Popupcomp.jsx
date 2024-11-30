@@ -1,10 +1,10 @@
 import React from 'react';
-import './Popup.css';
+import './Popupcomp.css';
 import { MdClose } from 'react-icons/md';
 import { MdLocationOn, MdEvent } from 'react-icons/md'; 
 import cesbanner from '../assets/homepage/cesbanner.jpg';
 
-const Popup = ({ isVisible, onClose }) => {
+const Popupcomp = ({ isVisible, onClose }) => {
   if (!isVisible) return null; 
 
   return (
@@ -47,4 +47,4 @@ const Popup = ({ isVisible, onClose }) => {
   );
 };
 
-export default Popup;
+export default Popupcomp;
