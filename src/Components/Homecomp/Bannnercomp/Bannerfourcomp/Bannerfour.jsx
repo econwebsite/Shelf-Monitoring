@@ -3,8 +3,7 @@ import './Bannerfour.css';
 import energyrack from "../../../../assets/homepage/energyrack.png";
 import energydrink from "../../../../assets/homepage/energydrink.png";
 import pricinglight from "../../../../assets/homepage/pricinglight.png";
-// import AnimationButton from "../../../ButtonComp/AnimationButton";
-import responsive4 from "../../../../assets/homepage/Responsive4.png"
+import mobile4 from "../../../../assets/homepage/mobilebanner5.png"
 const Bannerfour = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const bannerRef = useRef(null);
@@ -48,8 +47,8 @@ const Bannerfour = () => {
                 alt="Pricing Light"
               />
               <img
-                src={responsive4} // Placeholder image
-                className="Bannerfour-placeholder-unique" // Class for placeholder
+                src={mobile4} 
+                className="Bannerfour-placeholder-unique" 
                 alt="Placeholder"
               />
             </div>
@@ -58,7 +57,7 @@ const Bannerfour = () => {
             <h2>Detect Pricing and <br />Labeling Discrepancies</h2>
             <div className="Bannerfour-spacer-unique"></div>
             <h5 className='stylish-font'>Inaccurate pricing and labeling can result in abandoned purchases, affecting up to 20% of customers in a single shopping trip.</h5>
-            <h3>Accurate pricing is crucial for customer satisfaction and sales performance. SHELFVista provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating SHELFVista into broader pricing compliance systems, retailers can quickly detect and correct any discrepancies, ensuring promotions and prices are always up to date.</h3>
+            <h3>Drive accurate pricing to improve customer satisfaction and sales performance. SHELFVista provides clear images of shelf labels and price tags, helping retailers verify that pricing information is correctly displayed. By incorporating SHELFVista into broader pricing compliance systems, you can quickly detect and correct any discrepancies so that promotions and prices are always up to date.</h3>
             <div className="Bannerfour-spacer-large-unique"></div>
             {/* <AnimationButton
               text="Know more"

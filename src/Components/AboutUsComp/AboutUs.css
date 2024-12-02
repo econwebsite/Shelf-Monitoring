@@ -66,20 +66,17 @@
   
 }
 .AboutUs-icon-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 20px;
-  flex-wrap: nowrap;
-  gap: 30px; 
-  align-items: flex-start;
+  gap: 20px 30px;
 }
 
 .AboutUs-icon-item {
   display: flex;
+  justify-content: none;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .AboutUs-icon {
@@ -89,8 +86,6 @@
 .AboutUs-icon-content {
   display: flex;
   flex-direction: column;
-  gap: -10px;
-  justify-content: space-evenly;
 }
 
 .AboutUs-icon-text {
@@ -177,6 +172,12 @@
     max-width: auto;
     height: auto;
   }
+  .AboutUs-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
   .AboutUs-section {
     flex-direction: column;
   }
@@ -198,11 +199,14 @@
   }
   .AboutUs-new-container {
     flex-direction: column;
-  }
+    align-items: center;
+    gap: 20px;
+    }
 
   .AboutUs-new-left,
   .AboutUs-new-right {
     width: 100%;
+    text-align: center;
   }
   .AboutUs-quality-policy {
     padding: 10px;
@@ -218,6 +222,28 @@
   .AboutUs-quality-icons {
     justify-content: center;
     gap: 10px; 
+  }
+
+  .AboutUs-new-left h6 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .AboutUs-icon-row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .AboutUs-icon {
+    font-size: 25px;
+  }
+
+  .AboutUs-icon-text {
+    font-size: 0.9rem;
+  }
+
+  .AboutUs-icon-content span {
+    font-size: 0.8rem;
   }
 
   .AboutUs-quality-icons img {

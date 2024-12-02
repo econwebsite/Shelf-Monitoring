@@ -47,7 +47,6 @@ const App = () => {
         <Route path="/Contactus" element={< ContactUs/>} />
         <Route path="/Aboutus" element={< AboutUs/>} />        
         <Route path="*" element={<NotFoundPage />} />
-        
         </Routes>
         <Footerpage/>
         <Popupcomp isVisible={isPopupVisible} onClose={() => setPopupVisible(false)} />

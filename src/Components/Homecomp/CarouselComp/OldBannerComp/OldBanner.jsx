@@ -2,7 +2,7 @@ import React from 'react';
 import './OldBanner.css';
 import productsize from "../../../../assets/homepage/productsize.png";
 import Animation from ".././../../ButtonComp/AnimationButton"
-
+import banner2 from "../../../../assets/homepage/mobilebanner2.png"
 const OldBanner = () => {
   return (
     <div style={{ backgroundColor: "#1050c1" }}>
@@ -11,7 +11,7 @@ const OldBanner = () => {
           <div className="OldBanner-bannerLeft">
             <img src={productsize} className="OldBanner-singleImg" alt="Banner" />
             <img
-              src="https://placehold.co/600x400"
+              src={banner2}
               className="OldBanner-placeholderImg"
               alt="Placeholder"
             />

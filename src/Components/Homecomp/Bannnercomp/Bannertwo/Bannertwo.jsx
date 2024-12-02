@@ -4,7 +4,7 @@ import empty from "../../../../assets/homepage/empty.png";
 import lowstocks from "../../../../assets/homepage/lowstocks.png";
 import lightimg from "../../../../assets/homepage/lightimg.png";
 // import AnimationButton from "../../../ButtonComp/AnimationButton";
-import responsive2 from "../../../../assets/homepage/Responsive2.png"
+import mobileimg from "../../../../assets/homepage/mobilebanner3.png"
 const Bannertwo = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const bannerRef = useRef(null);
@@ -48,7 +48,7 @@ const Bannertwo = () => {
                 alt="Rack"
               />
               <img
-                src={responsive2}
+                src={mobileimg}
                 className="placeholder-unique2"
                 alt="Placeholder"
                 data-aos="fade-left" data-aos-duration="1200"
@@ -56,10 +56,10 @@ const Bannertwo = () => {
             </div>
           </div>
           <div className="bannerTwo-right-unique">
-            <h2>Reduced <br /> Out-of-Stock Issues</h2>
+            <h2>Reduce <br /> Out-of-Stock Issues</h2>
             <div className="spacer-unique"></div>
             <h5 className='stylish-font'>Overstocks and out-of-stocks across consumer product categories result in a global revenue loss of $1.1 trillion for retailers.</h5>
-            <h3>Ensure your products are always available when customers need them. By utilizing SHELFVista, retailers can capture real-time shelf images that help identify out-of-stock situations. This allows retailers to act swiftly, reducing the chances of empty shelves and ensuring that stock levels are maintained to meet customer demand.</h3>
+            <h3>Ensure your products are always available when customers need them. By utilizing SHELFVista, retailers can capture real-time shelf images that help identify out-of-stock situations. So, you can act swiftly, reducing the chances of empty shelves and ensuring that stock levels are maintained to meet customer demand.</h3>
             <div className="spacer-large-unique"></div>
             {/* <AnimationButton 
               text="Know more" 

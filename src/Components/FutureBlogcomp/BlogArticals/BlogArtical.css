@@ -1,4 +1,3 @@
-/* General Styles */
 .blogArtical-Total {
   text-align: center;
   background-color: white;
@@ -23,7 +22,7 @@
 
 .Artical-person {
   display: flex;
-  align-items: center; /* Align items vertically */
+  align-items: center; 
   background-color: #f1f2f2;
   margin: 20px auto;
   max-width: 80%;
@@ -34,8 +33,8 @@
   width: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
-  text-align: center; /* Center text horizontally */
+  align-items: center; 
+  text-align: center; 
 }
 
 .Articalleft-side p {
@@ -58,7 +57,7 @@
   width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center text vertically */
+  justify-content: center; 
 }
 
 .Articalright-side p {
@@ -74,7 +73,7 @@
 }
 
 .Articalnotification-box {
-  background-color: #f1f2f2;
+  background-color: white;
   padding: 20px;
   height: 250px;
   margin: 0%;
@@ -114,33 +113,31 @@
   border-radius: 7px;
   text-align: left;
 }
-/* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .Artical-person {
     flex-direction: column;
     max-width: 100%;
     padding: 10px;
-    gap: 20px; /* Add space between left and right sections */
+    gap: 20px; 
   }
 
   .Articalleft-side, .Articalright-side {
     width: 90%;
-    text-align: center; /* Center text in both sides */
+    text-align: center; 
   }
 
   .Articalleft-side {
-    margin-bottom: 20px; /* Add spacing between sections */
+    margin-bottom: 20px; 
   }
 
   .Articalnotification-box {
-    /* padding: 15px; */
-    height: auto; /* Adjust height based on content */
+    height: auto; 
   }
 
   .Articalsubscribe-row {
-    flex-direction: column; /* Stack input and button vertically */
+    flex-direction: column; 
     align-items: center;
-    gap: 15px; /* Increase gap between input and button */
+    gap: 15px; 
   }
 
   .Artical-inputemail {

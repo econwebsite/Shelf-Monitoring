@@ -11,19 +11,19 @@ import rechargebattery from "../../../assets/productpage/rechargebattery.png";
 
 const ShelfKey = () => {
   const data = [
-    { icon: fourk, title: 'High-Resolution (13 MP Sensor)', description: 'Captures high-quality image for accurate analysis.' },
-    { icon: wideangle, title: 'Wide-Angle Optics (120-degree FOV)', description: 'Expansive view covers multiple racks, eliminating blind spots.' },
+    { icon: fourk, title: 'High-Resolution (13 MP Sensor)', description: 'Captures high-quality images for accurate analysis.' },
+    { icon: wideangle, title: 'Wide-Angle Optics (120-degree FOV)', description: 'Covers multiple racks with a wide view, eliminating blind spots.' },
     { icon: flexible, title: 'Flexible Capture Modes', description: 'Supports continuous and scheduled modes.' },
-    { icon: lowpower, title: 'Low-Power Wi-Fi', description: 'Ensures smooth data transmission without power drain.' },
-    { icon: configurable, title: 'Configurable Status LED', description: 'Allows easy monitoring of camera functionality.' },
+    { icon: lowpower, title: 'Low-Power Wi-Fi', description: 'Drives smooth data transmission without power drain.' },
+    { icon: configurable, title: 'Configurable Status LED', description: 'Enables seamless monitoring of camera functionality.' },
     { icon: gdpr, title: 'GDPR Compliance', description: 'Prevents image capture of people for legal safety.' },
-    { icon: customenclosure, title: 'Custom Enclosures', description: 'Durable and adaptable to retail environments.' },
-    { icon: rechargebattery, title: 'Rechargeable Battery', description: 'Easy installation in dynamic retail aisles.' },
+    { icon: customenclosure, title: 'Custom Enclosures', description: 'Adapts to various retail environments for more durability.' },
+    { icon: rechargebattery, title: 'Rechargeable Battery', description: 'Ensures easy installation in dynamic retail aisles.' },
   ];
 
   return (
     <div className="key-features-container">
-      <h1 className="key-features-title">Key Features of SHELFVista Camera</h1>
+      <h1 className="key-features-title">Key Features of Our SHELFVista Camera</h1>
       <div className='mainContainer'>
       <div className="key-features-staircase">
         {data.map((item, index) => (

@@ -1,7 +1,7 @@
 import React, { useRef,useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Dropdown, Menu } from 'antd';
-import { FaCamera } from "react-icons/fa";
+import { SlCamera } from "react-icons/sl";
 import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap';
 import './Navbar.css';
 import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
@@ -17,63 +17,13 @@ const NavBar = () => {
   };
 
 
-  const linkStyle = {
-    color: isHovered ? "white" : "#ffc107",
-    fontWeight: "600",
-    textDecoration: "none",
-    transition: "color 0.3s ease",
-  };
-  const resourceMenu = (
-    <Menu  style={{border:"1px solid #00aeef"}}>
-      <Menu.Item key="1">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="/BlogHubPage" onClick={handleNavLinkClick}>Blog</Link>
-      </Menu.Item>
-      <Menu.Item key="2">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="/CasestudyHubPage" onClick={handleNavLinkClick}>Case Studies</Link>
-      </Menu.Item>
-    </Menu>
-  );
+  // const linkStyle = {
+  //   color: isHovered ? "white" : "white",
+  //   fontWeight: "600",
+  //   textDecoration: "none",
+  //   transition: "color 0.3s ease",
+  // };
   
-  const SolutionMenu = (
-    <Menu  style={{width:"300px",border:"1px solid #00aeef"}}>
-      <Menu.Item key="1">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="" onClick={handleNavLinkClick}>Product 1</Link>
-      </Menu.Item>
-      <Menu.Item key="2">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="" onClick={handleNavLinkClick}>Product 2</Link>
-      </Menu.Item>
-      <Menu.Item key="3">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="" onClick={handleNavLinkClick}>Product 3</Link>
-      </Menu.Item>
-    </Menu>
-  );
-  const MobileMenu = (
-    <Menu  style={{width:"auto",border:"1px solid #00aeef"}}>
-      <Menu.Item key="1">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="/surroundview" onClick={handleNavLinkClick}>Surround View Cameras</Link>
-      </Menu.Item>
-      <Menu.Item key="2">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="/forwardfacing" onClick={handleNavLinkClick}>Forward Facing Cameras</Link>
-      </Menu.Item>
-      <Menu.Item key="3">
-        <Link style={{ textDecoration: "none", color: "#344ea1", fontSize: "medium" }} to="/drivermonitoring" onClick={handleNavLinkClick}>Driver Monitoring Cameras</Link>
-      </Menu.Item>
-    </Menu>
-  );
-
-  // const productMenu = (
-  //   <Menu>
-  //     <Menu.Item key="1">
-  //       <Link style={{textDecoration:"none",color:"#344ea1",fontSize:"medium"}} to="/Intraoralcamera" onClick={handleNavLinkClick}>IntraOral camera</Link>
-  //     </Menu.Item>
-  //     <Menu.Item key="2">
-  //       <Link style={{textDecoration:"none",color:"#344ea1",fontSize:"medium"}} to="/Extraoral" onClick={handleNavLinkClick}>ExtraOral camera</Link>
-  //     </Menu.Item>
-  //     <Menu.Item key="3">
-  //       <Link style={{textDecoration:"none",color:"#344ea1",fontSize:"medium"}} to="/product" onClick={handleNavLinkClick}>Loupe camera</Link>
-  //     </Menu.Item>
-  //   </Menu>
-  // );
 
   return (
     <>
@@ -93,8 +43,7 @@ const NavBar = () => {
                 <Link className="navbarpage-navLink">SHELFVista</Link>
               </Dropdown> */} 
                 
-              <Link to="/SHELFVista" style={linkStyle}  onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)} className="navbarpage-navLink"> <FaCamera  style={{color:"#f1f2f2",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
+              <Link to="/SHELFVista"  className="navbarpage-navLink"> <SlCamera  style={{color:"#ffc107",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>

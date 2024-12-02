@@ -1,0 +1,118 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-container {
+    background: #f1f2f2;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .popup-close-icon {
+    font-size: 30px;
+    color: #344ea1;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .popup-title {
+    font-size: 2em;
+    font-weight: 300;
+    color: #003873;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .popup-content {
+    font-size: 1.3em;
+    padding: 5px;
+    color: #003873;
+    text-align: center;
+  }
+  
+  .popup-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .popup-column {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .popup-icon-text {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .popup-icon-row {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+  
+  .popup-icon {
+    font-size: 20px;
+    color: #344ea1;
+    flex-shrink: 0;
+  }
+  
+  .popup-text {
+    font-size: 14px;
+    color: #69ba2f;
+    margin: 0; 
+  }
+  
+  .popup-image-small {
+    width: 400px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .popup-button {
+    display: inline-block;
+    background: #00aeef;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .popup-button:hover {
+    background: #007bb5;
+  }
+  
+  @media (max-width: 1023px) {
+    .popup-container {
+      display: none;
+    }
+    .popup-overlay {
+        display: none; 
+      }
+  
+  }
+  

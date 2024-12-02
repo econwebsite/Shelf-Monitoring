@@ -29,7 +29,7 @@ const HomeTabs = () => {
                 ) : (
                     <div className="tabs-container">
                         <Tabs defaultActiveKey="1" className="custom-tabs homePage">
-                            <Tabs.TabPane tab="Reduced Out-of-Stock Issues" key="1">
+                            <Tabs.TabPane tab="Reduce Out-of-Stock Issues" key="1">
                                 <div className="banner-wrapper"><Bannertwo /></div>
                             </Tabs.TabPane>
                             <Tabs.TabPane tab="Ensure Planogram Compliance" key="2">

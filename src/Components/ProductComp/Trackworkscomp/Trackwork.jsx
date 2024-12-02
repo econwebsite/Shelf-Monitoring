@@ -24,15 +24,15 @@ const Trackwork = () => {
             <div className="Trackwork-border-box">
               <div className="Trackwork-box">
                 <h3>1. Easy Configuration</h3>
-                <p>Quickly set up your camera with e-con's app for Android and iOS, Configure server details, set image capture intervals, and use RTSP live preview for installation</p>
+                <p>Quickly set up the camera with e-con System's Android/iOS app, configure server details, set image capture intervals, and use RTSP live preview for installation.</p>
               </div>
               <div className="Trackwork-box">
                 <h3>2. Image Capture </h3>
-                <p>Once configured, the camera automatically captures high resolution images at your present intervals, ensuring seamless and reliable operation.</p>
+                <p>Once configured, camera automatically captures high-resolution images at your present intervals, ensuring reliable operations.</p>
               </div>
               <div className="Trackwork-box">
                 <h3>3. Image Transfer</h3>
-                <p>Captured images are wirelessly sent via Wi-Fi to backend system or cloud platform for storage, analysis, and retrieval</p>
+                <p>The captured images are wirelessly sent via Wi-Fi to the backend system or cloud platform for storage, analysis, and retrieval.</p>
               </div>
             </div>
           </div>

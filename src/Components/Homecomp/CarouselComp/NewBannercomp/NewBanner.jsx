@@ -3,6 +3,7 @@ import './NewBanner.css';
 import newmobile from "../../../../assets/homepage/newhandimg.png";
 import mobilerack from "../../../../assets/homepage/mobilerack.png";
 import Animation from "../../../ButtonComp/AnimationButton";
+import mobilebanner1 from "../../../../assets/homepage/mobilebanner1.png"
 
 const NewBanner = () => {
   return (
@@ -14,7 +15,7 @@ const NewBanner = () => {
               <img src={newmobile} className="NewBanner-mobileImg" alt="Mobile" />
               <img src={mobilerack} className="NewBanner-mobileRack" alt="Rack" />
               <img
-                src="https://placehold.co/600x400"
+                src={mobilebanner1}
                 className="NewBanner-placeholderImg"
                 alt="Placeholder"
               />

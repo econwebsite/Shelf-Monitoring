@@ -6,7 +6,7 @@ const SolutionComp = () => {
   return (
     <div className="mainContainer">
       <div className="solution-container">
-        <h1>How SHELFVista helps Retailers or Inventory <br /> Solution Providers?</h1>
+        <h1>How SHELFVista Helps Retailers and Inventory<br /> Solution Providers?</h1>
 
         <div className="solution-content">
           <div className="solution-left-section">

@@ -277,11 +277,42 @@
   
   .futureblog-imgcenter img {
     height: 300px;
-    width: 600px;
+    width: 500px;
     max-width: 100%;
     object-fit: cover;
   }
   
+  .Blog-coverimg {
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f2; 
+  }
+  
+  .Blog-coverimg img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; 
+  }
+  
+  @media (max-width: 768px) { 
+    .Blog-coverimg img {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Blog-coverimg img {
+      height: 150px; 
+    }
+  }
+  
+  
+
+
   /* Mobile Responsive */
   @media (max-width: 768px) {
     .futureblog-imgcenter img {
