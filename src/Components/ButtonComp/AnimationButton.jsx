@@ -11,10 +11,9 @@ const AnimationButton = ({
   hoverTextColor = '#344ea1',
   onClick,
   to,
-  type = 'button',  // default type is button
+  type = 'button', 
   ...props
 }) => {
-  // Handle submit if it's a form
   const handleClick = (event) => {
     if (onClick) {
       onClick(event);

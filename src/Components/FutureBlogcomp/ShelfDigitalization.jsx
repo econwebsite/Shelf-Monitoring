@@ -10,6 +10,7 @@ import digitalization from "../../assets/futureblog/digitalization.jpg"
 import drones from "../../assets/futureblog/drones.jpg"
 import shopingcart from "../../assets/futureblog/shopping-cards.jpg"
 import robots from "../../assets/futureblog/roborts.jpg"
+import digitalcover from "../../assets/futureblog/digitalization-cover.jpg"
 
 const ShelfDigitalization = () => {
   return (
@@ -28,12 +29,13 @@ const ShelfDigitalization = () => {
               <p>By Ranjith Kumar, Dec 02, 2024</p>
 
               <div className="blogborder-box">
-                <p>The need for accurate and updated shelf data across modern retail environments is at an all-time high. It's a surefire way for retailers to improve daily operations, intelligently manage stock levels, and drive customer satisfaction. At the center of this is shelf digitalization, as it leverages emerging technologies like robots, drones, and shelf monitoring cameras to track all their shelf inventory in real time. </p>
-                <p>Each technology offers different ways of helping digitalize the overall shelf management process while facing challenges in the process. </p>
-                <div class="futureblog-imgcenter">
-             <img src={digitalization} alt="Image" />
+              <div class="Blog-coverimg">
+                                    <img src={digitalcover} alt="Blog Cover Image" />
                                 </div>
                                 <br></br>
+                <p>The need for accurate and updated shelf data across modern retail environments is at an all-time high. It's a surefire way for retailers to improve daily operations, intelligently manage stock levels, and drive customer satisfaction. At the center of this is shelf digitalization, as it leverages emerging technologies like robots, drones, and shelf monitoring cameras to track all their shelf inventory in real time. </p>
+                <p>Each technology offers different ways of helping digitalize the overall shelf management process while facing challenges in the process. </p>
+                
                 <p>In this blog, you'll get expert insights about the importance of shelf digitalization and the latest technologies required.</p>
                 <h3>What Is Shelf Digitalization?</h3>
                 <p>Shelf digitalization refers to establishing a data-driven, automated system that leverages the latest technologies to monitor, track, and optimize stock levels and product placement in real time. These systems involve cameras mounted in key locations throughout the store to capture data on stock levels, shelf conditions, and product placement. The raw data is processed using image analysis – comparing real-time conditions against predefined standards like planogram compliance. The generated insights enable retailers to detect anomalies such as out-of-stock products, misplaced items, etc.</p>

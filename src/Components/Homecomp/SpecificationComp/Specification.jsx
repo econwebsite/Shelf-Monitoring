@@ -20,7 +20,7 @@ const Specification = () => {
       </div>
 
       <div className="spec-right">
-        <h1 className="spec-title">Specifications</h1>
+        <h1 className="spec-title">Key Features</h1>
 
         <div className="spec-list">
           <div className="spec-item">
@@ -47,7 +47,7 @@ const Specification = () => {
         </div>
         <div className="spec-butt">
         <AnimationButton text="Learn more" to="/SHELFVista" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button"  />
-        <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button" to="" />
+        <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button" to="" productName="ProductDocument" docName="product-specification"/>
 
     </div>
       </div>

@@ -150,8 +150,6 @@
     text-decoration: underline;
   }
  
-
-  /* Media Queries for Mobile Devices */
   @media (max-width: 768px) {
     .footer-container {
       margin-top: 10px;

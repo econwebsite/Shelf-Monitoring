@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import digital from "../../assets/futureblog/shelfdigitalization.jpg"
 import outofstocks from "../../assets/futureblog/outofstocks.jpg"
 import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
+import pricingcover from "../../assets/futureblog/pricing&label-cover.jpg"
 
 const PricingLabeling = () => {
     return (
@@ -24,6 +25,10 @@ const PricingLabeling = () => {
                             <p>By Ranjith Kumar, Dec 02, 2024</p>
 
                             <div className="blogborder-box">
+                            <div class="Blog-coverimg">
+                                    <img src={pricingcover} alt="Blog Cover Image" />
+                                </div>
+                                <br></br>
                                 <p>Accurate price tag compliance is an integral part of modern retail operations. However, ensuring consistent and correct pricing across thousands of products remains a challenge for Consumer Packaged Goods (CPG) and Fast-Moving Consumer Goods (FMCG) brands. The complexity grows with the sheer volume of items, frequent price changes, and time-sensitive promotional offers. </p>
                                 <p>Even minor discrepancies can lead to customer frustration, compliance issues, and a dent in brand reputation. Retailers must, therefore, adopt the right technology to streamline pricing updates, minimize errors, and make sure every product on the shelf reflects the correct price at all times. That’s why high-resolution shelf monitoring cameras have gained a lot of prominence in smart retail operations for their role in driving pricing and labeling accuracy.</p>
                                 <p>In this blog, you’ll learn about the challenges of manual approaches, the role of shelf monitoring cameras, the types of compliance to be met, and the key camera features required.

@@ -8,6 +8,7 @@ import digital from "../../assets/futureblog/shelfdigitalization.jpg"
 import outofstock from "../../assets/futureblog/outofstocks.jpg"
 import blueprint from "../../assets/futureblog/blueprient.jpg"
 import shelfsnap from "../../assets/futureblog/shelfsnap.jpg"
+import planagromcover from "../../assets/futureblog/planogram-cover.jpg"
 const PlanogramCompliance = () => {
     return (
         <div>
@@ -25,6 +26,10 @@ const PlanogramCompliance = () => {
                             <p>By Ranjith Kumar, Dec 02, 2024</p>
 
                             <div className="blogborder-box">
+                            <div class="Blog-coverimg">
+                                    <img src={planagromcover} alt="Blog Cover Image" />
+                                </div>
+                                <br></br>
                               <p>According to the statistical reports, POG compliance in the retail industry is less than 70%. The primary reason for breaking POGs or not following them in the first place accounts for the lack of a proper monitoring system in place. </p>
                               <p>Lack of planogram compliance can lead to a decrease in sales as customers will find it harder to find the products they are looking for. This can also interfere with the flow of e-commerce picking, leading to overall inefficiency. Not complying with POGs also prompts CPG companies to cut down on their trade spent for shares on the shelf, which can lead to lower margins in sales for retailers. </p>
                               <p>To ensure proper POG execution in stores, a feasible monitoring technology such as a smart shelf monitoring camera can be used. In this blog, we will look into how smart shelf monitoring cameras make planogram compliance easy to implement and maintain while also helping decrease labor and time spent.</p>
@@ -32,7 +37,7 @@ const PlanogramCompliance = () => {
                               <p>A planogram, often referred to as a POG, is a visual representation or blueprint that defines the arrangement and placement of products on retail shelves. Typically designed by merchandisers or retail planners, planograms serve as a guide to ensure that each product is placed strategically, with the aim of maximizing visibility, guiding customer’s shopping flow, and boosting sales. </p>
                               <br></br>
                                     <div class="futureblog-imgcenter">
-                                        <img src={blueprint} alt="Image" />
+                                        <img src={shelfsnap} alt="Image" />
                                     </div>
                                     <br></br>
                               <p>POG layouts specify details such as product positioning, facing directions, shelf heights, and spacing between items. Planograms are critical in retail as they help create a consistent shopping experience across multiple stores and ensure that best-selling products are easy to locate.</p>
@@ -61,7 +66,7 @@ const PlanogramCompliance = () => {
                               <p>e-con Systems has 20+ years of experience in designing, developing, and manufacturing OEM cameras. We have now ventured into providing camera solutions for shelf-monitoring – for retail displays in environments such as retail stores, warehouses, and distribution centers. </p>
                               <br></br>
                                     <div class="futureblog-imgcenter">
-                                        <img src={shelfsnap} alt="Image" />
+                                        <img src={blueprint} alt="Image" />
                                     </div>
                                     <br></br>
                               <p>Our 13 MP Shelf-Snap camera is integrated with a high-resolution sensor. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions.</p>

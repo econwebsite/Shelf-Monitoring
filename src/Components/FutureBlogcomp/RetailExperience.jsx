@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import digtal from "../../assets/futureblog/shelfdigitalization.jpg"
 import pricing from "../../assets/futureblog/pricingandlabeling.jpg"
 import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
-
+import allcoverimg from "../../assets/futureblog/allthreecover.jpg"
 const RetailExperience = () => {
     return (
         <div>
@@ -33,6 +33,10 @@ const RetailExperience = () => {
                              <p>Shelf monitoring cameras can provide real-time data on shelf arrangements in retail stores based on SKUs. This can help us determine the On Shelf Availability (OSA) of goods, track misplaced products, get timely alerts for goods that are Out of Stock (OOS), maintain pricing compliance, and also determine if the arrangement of the shelves is adhering to Plan-O-Gram (POG) compliance.</p>
                              <p>In this blog, we will go into detail about customer/buyer pain points that shelf-monitoring cameras can address by using real-time data of product arrangement on retail store shelves.</p>
                              <h3>Key Customer Experience Pain Points Addressed Using Realtime Shelf Monitoring Cameras</h3>
+                            <br></br>
+                             <div class="Blog-coverimg">
+                                    <img src={allcoverimg} alt="Blog Cover Image" />
+                                </div>
                             <h3>1. Out of Stock / On-Shelf Availability (OOS & OSA)</h3>
                             <p>For retail operators, tracking out-of-stock (OOS) items and monitoring on-shelf availability (OSA) is important to ensure that products are always available, minimizing missed sales opportunities. Shelf cameras can be used to track product out-of-stock and on-shelf availability by continuously monitoring the shelves or taking images hourly and analyzing the acquired image data. The cameras need to be AI enabled with algorithms that can detect when products go low in stock or out of stock and alert stockers to restock shelves.</p>
                             <p>One method a camera can use to detect stock availability is depth-sensing. Through depth-sensing, cameras can detect if there are holes or empty spaces on the shelf; if there are, the cameras can scan barcodes on the shelves to see what SKU is out of stock. These tracking methods can help the store owners be prompt and do Just in Time (JIT) replenishments of the SKUs.</p>

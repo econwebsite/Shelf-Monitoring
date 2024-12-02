@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 const DownloadButton = (value) => {
 const handleDownload = async () => {
+    //const response = await fetch(`http://localhost:3001/download`, {
     const response = await fetch(`https://api.dental.e-consystems.com/download`, {
         method: 'POST',
         headers: {

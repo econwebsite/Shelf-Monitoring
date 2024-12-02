@@ -45,8 +45,8 @@ const AboutUs = () => {
       <MdLocationOn className="AboutUs-icon"/>
 
         <div className="AboutUs-icon-content">
-          <p className="AboutUs-icon-text">Booth Number:9517</p>
-          <span>LVCC, Las Vegas</span>
+          <p className="AboutUs-icon-text">Booth Number:9517<br></br><span>LVCC, Las Vegas</span>
+          </p>
         </div>
       </div>
       <div className="AboutUs-icon-item">

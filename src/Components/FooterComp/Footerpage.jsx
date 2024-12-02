@@ -108,7 +108,7 @@ const Footerpage = () => {
                 <img src={econlog} alt="e-con Logo" style={{ width: "300px" }} /></a>
             </div>
             <div className="footer-bottom-text">
-              <p><a href='https://www.e-consystems.com/' className="footeralink"> e-con Systems </a> <span> 2024, all rights reserved.</span></p>
+              <p><a href='https://www.e-consystems.com/' className="footeralink"> e-con Systems&reg;</a><span> 2024, all rights reserved.</span></p>
             </div>
           </div>
         </div>

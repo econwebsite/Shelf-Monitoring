@@ -79,7 +79,7 @@ const BlogArtical = () => {
           <img src={ranjith} alt="Person" className="Articalperson-photo" />
           </a>
           <p>Ranjith Kumar</p>
-          <p>Product Manager</p>
+          <p>Retail BU Head</p>
          
         </div>
         <div className="Articalright-side">
