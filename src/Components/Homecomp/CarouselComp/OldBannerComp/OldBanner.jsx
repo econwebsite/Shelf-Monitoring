@@ -17,10 +17,10 @@ const OldBanner = () => {
             />
           </div>
           <div className="OldBanner-bannerRight">
-            <h3>Precision Shelf Management Meets Advanced Imaging</h3>
+            <h3>Smarter Shelves, Stronger Sales</h3>
             <div className="OldBanner-spacer"></div>
             <h2>
-            Provides pixel-perfect visibility of shelf conditions with 13 MP resolutions and wide shelf coverage
+Delivers clear visibility of shelf status with 13MP resolution and wide shelf coverage.
             </h2>
             <div className="OldBanner-spacerLarge"></div>
             {/* <button className="OldBanner-bannerButton">Know More</button> */}
