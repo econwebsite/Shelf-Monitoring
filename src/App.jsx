@@ -23,10 +23,14 @@ import Popupcomp from "./Components/Popupcomp"
 
 const App = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
-
   useEffect(() => {
-    const timer = setTimeout(() => setPopupVisible(true), 5000);
-    return () => clearTimeout(timer);
+    const referrer = document.referrer;
+    console.log(referrer, "page link");
+
+    if (referrer !== "https://www.e-consystems.com/events/ces-2025.asp") {
+      const timer = setTimeout(() => setPopupVisible(true), 5000);
+      return () => clearTimeout(timer); 
+    }
   }, []);
 
   return (
@@ -37,15 +41,16 @@ const App = () => {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Totalhome />} />
-        <Route path="/SHELFVista" element={<Totalproducts />} />
-        <Route path="/BlogHubPage" element={<BlogHub />} />
-        <Route path="/PricingLabeling" element={<PricingLabeling />} />
-        <Route path="/ShelfDigitalization" element={<ShelfDigitalization />} />
-        <Route path="/PlanogramCompliance" element={<PlanogramCompliance />} />
-        <Route path="/RetailExperience" element={<RetailExperience />} />
-        <Route path="/Outofstocks" element={<OutofStocks/>} />
-        <Route path="/Contactus" element={< ContactUs/>} />
-        <Route path="/Aboutus" element={< AboutUs/>} />        
+        <Route path="/home" element={<Totalhome />} />
+        <Route path="/shelfvista" element={<Totalproducts />} />
+        <Route path="/blogs" element={<BlogHub />} />
+        <Route path="/blogs/pricinglabeling" element={<PricingLabeling />} />
+        <Route path="/blogs/shelfdigitalization" element={<ShelfDigitalization />} />
+        <Route path="/blogs/planogramcompliance" element={<PlanogramCompliance />} />
+        <Route path="/blogs/retailexperience" element={<RetailExperience />} />
+        <Route path="/blogs/outofstocks" element={<OutofStocks/>} />
+        <Route path="/contactus" element={< ContactUs/>} />
+        <Route path="/aboutus" element={< AboutUs/>} />        
         <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footerpage/>

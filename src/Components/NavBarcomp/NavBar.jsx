@@ -43,15 +43,15 @@ const NavBar = () => {
                 <Link className="navbarpage-navLink">SHELFVista</Link>
               </Dropdown> */} 
                 
-              <Link to="/SHELFVista"  className="navbarpage-navLink"> <SlCamera  style={{color:"#ffc107",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
+              <Link to="/shelfvista"  className="navbarpage-navLink"> <SlCamera  style={{color:"#ffc107",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>
                 <Link className="navbarpage-navLink">Products</Link>
               </Dropdown> */}
-            <Link to="/BlogHubPage" className="navbarpage-navLink">Blog</Link>
+            <Link to="/blogs" className="navbarpage-navLink">Blog</Link>
               <div className="navbarpage-divider"></div>
-              <Link to="/Aboutus" className="navbarpage-navLink">About Us</Link>
+              <Link to="/aboutus" className="navbarpage-navLink">About Us</Link>
             </div>
             <div className="navbarpage-rightColumn">
               {/* <input type="text" placeholder="Search.." className="navbarpage-searchInput" /> */}
@@ -97,13 +97,13 @@ const NavBar = () => {
                 {/* <Dropdown overlay={productMenu} placement="bottomLeft" className="nav-link">
                   <a className="nav-link">Products</a>
                 </Dropdown> */}
-               <Link className="nav-link" to="/SHELFVista" style={{color:"#ffc107"}} onClick={handleNavLinkClick}>SHELFVista</Link>
+               <Link className="nav-link" to="/shelfvista" style={{color:"#ffc107"}} onClick={handleNavLinkClick}>SHELFVista</Link>
 
-               <Link className="nav-link" to="/BlogHubPage" onClick={handleNavLinkClick}>Blog</Link>
+               <Link className="nav-link" to="/blogs" onClick={handleNavLinkClick}>Blog</Link>
 
-                <Link className="nav-link" to="/Aboutus" onClick={handleNavLinkClick}>About Us</Link>
+                <Link className="nav-link" to="/aboutus" onClick={handleNavLinkClick}>About Us</Link>
                 
-                <Link className="nav-link" to="/Contactus" onClick={handleNavLinkClick}>Contact Us</Link>
+                <Link className="nav-link" to="/contactus" onClick={handleNavLinkClick}>Contact Us</Link>
               </Nav>
               {/* <Form className="d-flex mt-3">
                 <Form.Control

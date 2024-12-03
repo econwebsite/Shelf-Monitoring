@@ -11,8 +11,8 @@ import rechargebattery from "../../../assets/productpage/rechargebattery.png";
 
 const ShelfKey = () => {
   const data = [
-    { icon: fourk, title: 'High-Resolution (13 MP Sensor)', description: 'Captures high-quality images for accurate analysis.' },
-    { icon: wideangle, title: 'Wide-Angle Optics (120-degree FOV)', description: 'Covers multiple racks with a wide view, eliminating blind spots.' },
+    { icon: fourk, title: '13MP Resolution', description: 'Captures high-quality images for accurate analysis.' },
+    { icon: wideangle, title: 'Wide-Angle Optics', description: 'Covers multiple racks with a wide view, eliminating blind spots.' },
     { icon: flexible, title: 'Flexible Capture Modes', description: 'Supports continuous and scheduled modes.' },
     { icon: lowpower, title: 'Low-Power Wi-Fi', description: 'Drives smooth data transmission without power drain.' },
     { icon: configurable, title: 'Configurable Status LED', description: 'Enables seamless monitoring of camera functionality.' },

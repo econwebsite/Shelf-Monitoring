@@ -3,7 +3,7 @@ import "./CommonBlog.css"
 import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
-import vision from "../../assets/futureblog/visionbased.jpg"
+import vision from "../../assets/futureblog/Inventorycompliance.jpg"
 import digital from "../../assets/futureblog/shelfdigitalization.jpg"
 import outofstock from "../../assets/futureblog/outofstocks.jpg"
 import blueprint from "../../assets/futureblog/blueprient.jpg"
@@ -18,7 +18,7 @@ const PlanogramCompliance = () => {
                         <div className="Blog-left-column">
                             <div className="blog-breadcrumb">
                                 <Link to="/">Home</Link> {' > '}
-                                <Link to="/BlogHubPage">Blogs</Link>  {' > '}
+                                <Link to="/blogs">Blogs</Link>  {' > '}
                                 <Link style={{ color: "grey", cursor: "default" }}>Accurate Planogram Compliance</Link>
 
                             </div>
@@ -81,29 +81,29 @@ const PlanogramCompliance = () => {
                                 <p style={{ "font-weight": "bold" }}>Related Blogs</p>
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
-                                    <Link className="cardImgLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
                                         <img src={vision} alt="Camera Model 1" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
                                         <h2>How vision-based shelf monitoring helps retailers</h2></Link>
                                         <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
-                                        <AnimatedButton className="Blogreadmore-1" text="Read more" to='/RetailExperience' />
+                                        <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/retailexperience' />
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
                                         <img src={digital} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/ShelfDigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
                                         <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
-                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/ShelfDigitalization"></AnimatedButton>
+                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/shelfdigitalization"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/Outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
                                         <img src={outofstock} alt="Camera Model 3" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/Outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2>
                                     </Link>
                                     <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/Outofstocks"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/outofstocks"></AnimatedButton>
                                 </div>
                             </div>
                         </div>

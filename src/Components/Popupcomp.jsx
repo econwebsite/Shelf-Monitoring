@@ -3,6 +3,8 @@ import './Popupcomp.css';
 import { MdClose } from 'react-icons/md';
 import { MdLocationOn, MdEvent } from 'react-icons/md'; 
 import cesbanner from '../assets/homepage/cesbanner.jpg';
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 const Popupcomp = ({ isVisible, onClose }) => {
   if (!isVisible) return null; 
@@ -12,11 +14,11 @@ const Popupcomp = ({ isVisible, onClose }) => {
         
       <div className="popup-container">
         <MdClose className="popup-close-icon" onClick={onClose} />
-        <h2 className="popup-title">CES Events -2025</h2>
+        <h2 className="popup-title">Meet us at CES 2025</h2>
         <a href='https://www.e-consystems.com/events/ces-2025.asp' style={{textDecoration:"none"}}>
         <img src={cesbanner} alt="CES Banner" className="popup-image-small" />
         </a>
-        <p className='popup-content'>AI Powered Vision Solutions</p>
+        {/* <p className='popup-content'>AI Powered Vision Solutions</p> */}
 
         <div className="popup-row">
   <div className="popup-column">
@@ -40,7 +42,7 @@ const Popupcomp = ({ isVisible, onClose }) => {
 
 
         <a href="https://www.e-consystems.com/events/ces-2025.asp" className="popup-button">
-          Know More
+          Book Your Slot <FaArrowRightLong/>
         </a>
       </div>
     </div>

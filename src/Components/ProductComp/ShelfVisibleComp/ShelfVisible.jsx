@@ -16,7 +16,9 @@ const ShelfVisible = () => {
         </div>
         <h1 className="shelfVisible-title">Achieve Complete Shelf Visibility in Real Time</h1>
         <p className="shelfVisible-paragraph">e-con System's SHELFVista is a compact, battery-powered Wi-Fi camera that offers a smart solution for monitoring shelves and retail displays in retail stores, warehouses, and distribution centers.</p>
-        <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="shelf-visbuton" to="" productName="ProductDocument" docName="product-specification"/>
+        {/* <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="shelf-visbuton" to="" productName="ProductDocument" docName="product-specification"/> */}
+        <Modelbutton text="Contact Us" backgroundColor="#f9cd47" textColor="black" hoverTextColor="#344ea1" className='shelf-visbuton' />
+
         </div>
     </div>
   );

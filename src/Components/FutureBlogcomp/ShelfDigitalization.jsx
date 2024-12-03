@@ -4,7 +4,7 @@ import AnimatedButton from "../ButtonComp/AnimationButton"
 import BlogArtical from "./BlogArticals/BlogArtical"
 import { Link } from 'react-router-dom';
 import pricing from "../../assets/futureblog/pricingandlabeling.jpg"
-import vision from "../../assets/futureblog/visionbased.jpg"
+import vision from "../../assets/futureblog/Inventorycompliance.jpg"
 import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
 import digitalization from "../../assets/futureblog/digitalization.jpg"
 import drones from "../../assets/futureblog/drones.jpg"
@@ -21,7 +21,7 @@ const ShelfDigitalization = () => {
             <div className="Blog-left-column">
               <div className="blog-breadcrumb">
                 <Link to="/">Home</Link> {' > '}
-                <Link to="/BlogHubPage">Blogs</Link>  {' > '}
+                <Link to="/blogs">Blogs</Link>  {' > '}
                 <Link style={{ color: "grey", cursor: "default" }}>Shelf Digitalization Technologies For Retailers</Link>
 
               </div>
@@ -142,29 +142,29 @@ const ShelfDigitalization = () => {
                 <p style={{ "font-weight": "bold" }}>Related Blogs</p>
                 <hr />
                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
-                  <Link className="cardImgLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
+                  <Link className="cardImgLink" to="/blogs/pricinglabeling" style={{ textDecoration: "none" }}>
                     <img src={pricing} alt="Camera Model 1" className="Cardrelated-image" /></Link>
-                  <Link className="cardTitleLink" to="/PricingLabeling" style={{ textDecoration: "none" }}>
+                  <Link className="cardTitleLink" to="/blogs/pricinglabeling" style={{ textDecoration: "none" }}>
                     <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2></Link>
                   <p>Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required. </p>
-                  <AnimatedButton className="Blogreadmore-1" text="Read more" to='/PricingLabeling' />
+                  <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/pricinglabeling' />
                 </div>
                 <div className="CardBlogs">
-                  <Link className="cardImgLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
+                  <Link className="cardImgLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
                     <img src={vision} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                  <Link className="cardTitleLink" to="/RetailExperience" style={{ textDecoration: "none" }}>
+                  <Link className="cardTitleLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
                     <h2>How vision-based shelf monitoring helps retailers</h2></Link>
                   <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
-                  <AnimatedButton className="Blogreadmore-1" text="Read more" to="/RetailExperience"></AnimatedButton>
+                  <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/retailexperience"></AnimatedButton>
                 </div>
                 <div className="CardBlogs">
-                  <Link className="cardImgLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
+                  <Link className="cardImgLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
                     <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
-                  <Link className="cardTitleLink" to="/PlanogramCompliance" style={{ textDecoration: "none" }}>
+                  <Link className="cardTitleLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
                     <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                   </Link>
                   <p>Planograms dictate the optimal placement of products on shelves to maximize visibility and sales. Learn how shelf monitoring cameras automate planogram compliance verification, enabling real-time tracking of product placement and improving overall retail strategy. </p>
-                  <AnimatedButton className="Blogreadmore-1" text="Read more" to="/PlanogramCompliance"></AnimatedButton>
+                  <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/planogramcompliance"></AnimatedButton>
                 </div>
               </div>
             </div>

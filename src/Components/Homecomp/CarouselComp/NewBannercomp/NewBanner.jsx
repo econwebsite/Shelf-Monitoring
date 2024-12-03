@@ -32,7 +32,7 @@ const NewBanner = () => {
               text="Know more"
               backgroundColor="#f9cd47"
               textColor="#131b2d"
-              to="/SHELFVista"
+              to="/shelfvista"
               hoverTextColor="#344ea1"
               className="NewBanner-bannerButton"
             />

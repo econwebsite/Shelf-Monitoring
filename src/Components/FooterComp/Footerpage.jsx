@@ -75,10 +75,10 @@ const Footerpage = () => {
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>
-              <Link to="/SHELFVista">SHELFVista</Link>
-              <Link to="/BlogHubPage">Blog</Link>
+              <Link to="/shelfvista">SHELFVista</Link>
+              <Link to="/blogs">Blog</Link>
               <Link to="/">About Us</Link>
-              <Link to="/ContactUs">Contact Us</Link>
+              <Link to="/contactus">Contact Us</Link>
             </div>
           </div>
           <div className="footer-divider" />
