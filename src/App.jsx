@@ -24,15 +24,18 @@ import Popupcomp from "./Components/Popupcomp"
 const App = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
   useEffect(() => {
-    const referrer = document.referrer;
-    console.log(referrer, "page link");
+    const referrer = document.referrer; 
+    let timer;
 
     if (referrer !== "https://www.e-consystems.com/events/ces-2025.asp") {
-      const timer = setTimeout(() => setPopupVisible(true), 5000);
-      return () => clearTimeout(timer); 
+      timer = setTimeout(() => setPopupVisible(true), 5000);
+    } else {
+      console.log("Popup not shown because user came from CES 2025 page.");
     }
-  }, []);
+    return () => clearTimeout(timer);
+  }, []); 
 
+  
   return (
 
           <BrowserRouter>
