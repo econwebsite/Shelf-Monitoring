@@ -42,7 +42,7 @@ const Specification = () => {
           <div className="spec-item">
             <span className="spec-label">Dimensions</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">74mm (L) *50mm (H) *25.70mm (D)</span>
+            <span className="spec-value">74mm (L) *50mm (H) *25.70mm (W)</span>
           </div>
         </div>
         <div className="spec-butt">
