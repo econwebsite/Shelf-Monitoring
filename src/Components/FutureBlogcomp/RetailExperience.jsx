@@ -67,11 +67,11 @@ const RetailExperience = () => {
                                 <li><p><b>Eased Shopping Experience for Consumers</b><br></br>The customers won’t notice the shelf cameras as they are small and compact. Therefore, it doesn’t interfere with the customer’s shopping experience or obstruct any views. </p></li>
                                 <li><p><b>Uptime</b><br></br>As all the cameras in a store work independently of each other, if one camera goes down, there won’t be a single point of failure. All the other cameras will work just fine. It is proved that shelf cameras' uptime measurements are higher than 99%.</p></li>
                             </ul>
-                            <h3>Why Choose e-con Systems SHELFTrack for Your Retail Store Shelf Monitoring Needs? </h3>
+                            <h3>Why Choose e-con Systems ShelfVista for Your Retail Store Shelf Monitoring Needs? </h3>
                               <p>e-con Systems has 20+ years of experience in designing, developing, and manufacturing OEM cameras. We have now ventured into providing camera solutions for shelf-monitoring for retail displays in environments such as retail stores, warehouses, and distribution centers. </p>
-                              <p>Our 13 MP Shelf-Snap camera is integrated with a high-resolution sensor. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions. </p>
-                              <p>Shelf-snap cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS. </p>
-                               <p>Explore <a href="">Shelf-Snap</a>.</p>
+                              <p>Our 13 MP ShelfVista camera is integrated with a high-resolution sensor. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions. </p>
+                              <p>ShelfVista cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS. </p>
+                               <p>Explore <a href="/shelfvista">ShelfVista</a>.</p>
 
 
                             </div>

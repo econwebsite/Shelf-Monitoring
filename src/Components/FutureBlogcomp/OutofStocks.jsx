@@ -73,11 +73,11 @@ const OutofStocks = () => {
                                     <li><p><b>Boost to Sales and Profits</b><br></br>Ensuring products are constantly available translates to fewer missed sales opportunities. Additionally, maintaining consistent OSA allows retailers to better manage promotions and seasonal demand, ensuring that the right products are available at the right time.</p></li>
                                     <li><p><b>Seamless Inventory Management</b><br></br>Smart monitoring provides retailers with data on stock levels in real time, streamlining inventory management processes. This integration allows store managers to better coordinate with warehouses and suppliers, ensuring shelves are replenished before stockouts occur.</p></li>
                                 </ul>
-                                <h3>Why Choose e-con Systems SHELFTrack for Your Retail Store Shelf Monitoring Needs? </h3>
+                                <h3>Why Choose e-con Systems ShelfVista for Your Retail Store Shelf Monitoring Needs? </h3>
                                 <p>e-con Systems has 20+ years of experience in designing, developing, and manufacturing OEM cameras. We have now ventured into providing camera solutions for shelf-monitoring for retail displays in environments such as retail stores, warehouses, and distribution centers. </p>
-                                <p>Our 13 MP SHELFTrack camera is integrated with a high-resolution sensor from [insert sensor name & company]. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions. </p>
-                                <p>SHELFTrack cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS. </p>
-                                <p>Explore <a href=""> SHELFTrack.</a> </p>
+                                <p>Our 13 MP ShelfVista camera is integrated with a high-resolution sensor from [insert sensor name & company]. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions. </p>
+                                <p>ShelfVista cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS. </p>
+                                <p>Explore <a href="/shelfvista"> ShelfVista.</a> </p>
 
                             </div>
                         </div>
