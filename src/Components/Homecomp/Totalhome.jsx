@@ -12,7 +12,7 @@ const Totalhome = () => {
         <div>
             <CarouselSlider/>
             <ShelfPara/>
-             <Homevideo/>
+             {/* <Homevideo/> */}
             <HomeTabs/>
             <Specification/>
             <Whychoose/>

@@ -100,7 +100,7 @@ const Footerpage = () => {
                 e.preventDefault()
                 return false;
               }} placeholder="Email id" value={email} onChange={handleChange} />
-              <button className="footerproceed-btn" onClick={handelSubscribtion}>Contact Us</button>
+              <button className="footerproceed-btn" onClick={handelSubscribtion}>Get Updates</button>
               {!isValid && <p style={{ color: 'red', margin: '0px',textAlign:"center",width:"100%" }}>Invalid email address</p>}
             </div>
             <div className="footer-social-icons">

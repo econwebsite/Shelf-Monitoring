@@ -62,16 +62,16 @@ const PlanogramCompliance = () => {
                               <p>Ensuring customer privacy is important, and GDPR-compliant cameras are designed to focus exclusively on shelf monitoring, avoiding the capture of personal data. These cameras help retailers maintain trust and adhere to legal requirements by restricting data collection to inventory-related information. Transparent data usage policies further enhance ethical monitoring practices, making these cameras essential for responsible retail operations.</p>
                               <h3>Compact Form Factor for Seamless Integration</h3>
                               <p>Compact cameras are unobtrusive, blending seamlessly into the retail environment without compromising aesthetics. Their small size allows them to be discreetly mounted on shelves, ensuring optimal placement for accurate planogram compliance checks. Lightweight and easy to install, these cameras provide an efficient and customer-friendly solution for maintaining organized and visually appealing shelves.</p>
-                              <h3>Why Choose e-con Systems ShelfVista for Your Retail Store Shelf Monitoring Needs? </h3>
+                              <h3>Why Choose e-con Systems SHELFVista for Your Retail Store Shelf Monitoring Needs? </h3>
                               <p>e-con Systems has 20+ years of experience in designing, developing, and manufacturing OEM cameras. We have now ventured into providing camera solutions for shelf-monitoring – for retail displays in environments such as retail stores, warehouses, and distribution centers. </p>
                               <br></br>
                                     <div class="futureblog-imgcenter">
                                         <img src={blueprint} alt="Image" />
                                     </div>
                                     <br></br>
-                              <p>Our 13 MP ShelfVista camera is integrated with a high-resolution sensor. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions.</p>
-                              <p>ShelfVista cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR- compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS.</p>
-                              <p>Explore <a href="/shelfvista">ShelfVista.</a> </p>
+                              <p>Our 13 MP SHELFVista camera is integrated with a high-resolution sensor. It is curated to monitor shelf stock and product organization, providing critical data for restocking and inventory management decisions.</p>
+                              <p>SHELFVista cameras can be connected to external backend systems via Wi-Fi (2.5 GHz to 5 GHz), allowing businesses to manage storage and analysis independently. This GPDR- compliant camera comes with a rechargeable battery, custom enclosures, and mounting options and can be configured for both Android and iOS.</p>
+                              <p>Explore <a href="/shelfvista">SHELFVista.</a> </p>
 
 
                             </div>

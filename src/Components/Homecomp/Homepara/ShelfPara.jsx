@@ -8,7 +8,7 @@ const ShelfPara = () => {
       <div className="shelfPara-innerBox">
         <div className="shelfPara-contentBox">
           <p className="shelfPara-paragraph">
-          SHELFVista is a shelf AI-powered Wi-Fi camera designed for continuous shelf visibility, providing real-time data that empowers retailers to make informed decisions and optimize inventory management.      
+          SHELFVista is an AI-powered Wi-Fi Camera designed for continuous shelf visibility, providing real-time data that empowers retailers to make informed decisions and optimize inventory management.      
           </p>
         </div>
       </div>

@@ -135,7 +135,7 @@ width: 95% !important;
   .navbarpage-phoneNumber {
     font-size: 14px;
     margin: 0;
-    font-weight: 400;
+    font-weight: bolder;
     color: #131b2d;
     white-space: nowrap;
   }

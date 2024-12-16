@@ -51,12 +51,10 @@ const Bannerthree = () => {
           </div>
           <div className="Bannerthree-right">
             <div className="Bannerthree-image-row">
-              {/* Images that will be hidden on smaller screens */}
               <img src={planlight} className={`Bannerthree-planlight-animation ${hasAnimated ? 'animate' : ''}`} alt="Plan Light" />
               <img src={missplacesmall} className={`Bannerthree-missplacesmall-animation ${hasAnimated ? 'animate' : ''}`} alt="Missplace Small" />
               <img src={misplacelarge} className={`Bannerthree-misplacelarge-animation ${hasAnimated ? 'animate' : ''}`} alt="Misplace Large" />
 
-              {/* Placeholder image for smaller screens */}
               <img src={mobile3} className="placeholder3" alt="Placeholder" />
             </div>
           </div>

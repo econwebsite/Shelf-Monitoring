@@ -28,11 +28,11 @@ const Trackwork = () => {
               </div>
               <div className="Trackwork-box">
                 <h3>2. AI-Powered Image Capture </h3>
-                <p>Once configured, camera automatically captures high-resolution images at your present intervals, ensuring reliable operations.</p>
+                <p>Once configured, camera automatically captures high-resolution images at your preset intervals, ensuring reliable operations.</p>
               </div>
               <div className="Trackwork-box">
                 <h3>3. Image Transfer</h3>
-                <p>The captured images are wirelessly sent via Wi-Fi to the backend system or cloud platform for storage, analysis, and retrieval.</p>
+                <p>The captured images are transferred to the cloud via Wi-Fi to the backend system or cloud platform for storage, analysis, and retrieval.</p>
               </div>
             </div>
           </div>

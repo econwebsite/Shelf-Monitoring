@@ -43,7 +43,9 @@ const NavBar = () => {
                 <Link className="navbarpage-navLink">SHELFVista</Link>
               </Dropdown> */} 
                 
-              <Link to="/shelfvista"  className="navbarpage-navLink"> <SlCamera  style={{color:"#ffc107",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  SHELFVista</Link>
+              <Link to="/shelfvista"  className="navbarpage-navLink"> 
+              {/* <SlCamera  style={{color:"#ffc107",margin:"1px",alignItems:"center",fontSize:"24px"}}/>  */}
+               SHELFVista</Link>
 
               <div className="navbarpage-divider"></div>
               {/* <Dropdown overlay={productMenu} placement="bottomLeft" trigger={['hover']}>

@@ -170,9 +170,9 @@ const ContactUs = () => {
         <title>Contact Us</title>
         <meta name='description' content='Have questions or need support? Reach out to e-con Systems for inquiries, assistance, or more information about our products and services.' />
       </Helmet>}
-      <h1 className='Contact-us'>CONTACT US</h1>
+      <h1 className='Contact-us'>Contact Us</h1>
 
-      <span className='Spam-questions'>Describe your queries?</span>
+      {/* <span className='Spam-questions'>Describe your queries</span> */}
 
       <div className="Contact-ted">
         <div className="mainContainer">

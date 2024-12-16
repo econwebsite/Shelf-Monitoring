@@ -23,7 +23,7 @@ const ShelfKey = () => {
 
   return (
     <div className="key-features-container">
-      <h1 className="key-features-title">Key Features of Our SHELFVista Camera</h1>
+      <h1 className="key-features-title">SHELFVista Camera Highlights</h1>
       <div className='mainContainer'>
       <div className="key-features-staircase">
         {data.map((item, index) => (

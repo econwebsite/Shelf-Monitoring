@@ -39,20 +39,20 @@ const AboutUs = () => {
     <h6>
       AI Powered Vision Solutions
     </h6>
-    <h6>Watch Exciting Demos. Meet Our Camera </h6>
+    <h6>Watch Exciting Demos. Meet Our Camera Experts</h6>
     <div className="AboutUs-icon-row">
       <div className="AboutUs-icon-item">
       <MdLocationOn className="AboutUs-icon"/>
 
         <div className="AboutUs-icon-content">
-          <p className="AboutUs-icon-text">Booth Number:9517<br></br><span>LVCC, Las Vegas</span>
+          <p className="AboutUs-icon-text">Booth Number: 9517<br></br><span>LVCC, Las Vegas</span>
           </p>
         </div>
       </div>
       <div className="AboutUs-icon-item">
       <BsCalendarDate className="AboutUs-icon" />
         <div className="AboutUs-icon-content">
-          <p className="AboutUs-icon-text">Januvary 7-10,2025</p>
+          <p className="AboutUs-icon-text">January 7-10,2025</p>
         </div>
       </div>
     </div>
