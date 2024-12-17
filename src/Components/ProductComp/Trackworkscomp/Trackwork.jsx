@@ -32,7 +32,7 @@ const Trackwork = () => {
               </div>
               <div className="Trackwork-box">
                 <h3>3. Image Transfer</h3>
-                <p>The captured images are transferred to the cloud via Wi-Fi to the backend system or cloud platform for storage, analysis, and retrieval.</p>
+                <p>Captured images are transmitted via Wi-Fi to cloud platforms for seamless storage, analysis, and retrieval.</p>
               </div>
             </div>
           </div>

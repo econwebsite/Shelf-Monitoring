@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-import aboutus from "../../assets/homepage/about-us.png";
+import aboutus from "../../assets/homepage/about-us.jpg";
 import ce from "../../assets/homepage/certificates-01.png";
 import fc from "../../assets/homepage/certificates-02.png";
 import rohs from "../../assets/homepage/certificates-03.png";
@@ -39,7 +39,7 @@ const AboutUs = () => {
     <h6>
       AI-Powered Vision Solutions
     </h6>
-    <h6>Watch Exciting Demos. Meet Our Camera Experts</h6>
+    <h6>Explore Live Demos. Meet Our Camera Experts!</h6>
     <div className="AboutUs-icon-row">
       <div className="AboutUs-icon-item">
       <MdLocationOn className="AboutUs-icon"/>
