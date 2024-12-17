@@ -98,7 +98,11 @@
     color: #344ea1;
     text-align: left;
 }
-
+.Trackwork-box span{
+    font-weight: 700;
+    font-size: 1em;
+    color: #003873;
+}
 
 .Trackwork-image-container {
     display: flex;

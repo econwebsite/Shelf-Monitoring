@@ -20,6 +20,12 @@
     color: white;
     margin-bottom: 10px;
   }
+  .AI-para-tag{
+    width: 950px;
+    display: flex;
+    align-items:center ;
+    margin: 0 auto
+  }
   
   .AIProvider-description {
     font-size: 1.2rem;
@@ -79,9 +85,16 @@
       width: 100%;
       border-radius: 0px;
     }
+    .AI-para-tag{
+      width: 100%;
+      display: flex;
+      align-items:center ;
+      margin: none
+    }
   
     .AIProvider-description {
       font-size: 1rem;
+      text-align: justify;
     }
   
     .AIProvider-category-item {

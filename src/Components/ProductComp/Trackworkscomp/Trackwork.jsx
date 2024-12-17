@@ -24,7 +24,7 @@ const Trackwork = () => {
             <div className="Trackwork-border-box">
               <div className="Trackwork-box">
                 <h3>1. Easy Configuration</h3>
-                <p>Quickly set up the camera with e-con's Android/iOS app. Configure server details, capture intervals, and use RTSP live preview. This cable-free solution simplifies deployment by eliminating complex wiring.</p>
+                <p>Quickly set up the camera with e-con's Android/iOS app. Configure server details, capture intervals, and use RTSP live preview. This cable-free solution simplifies deployment<br></br><span> Get operational in under 5 minutes. </span></p>
               </div>
               <div className="Trackwork-box">
                 <h3>2. AI-Powered Image Capture </h3>

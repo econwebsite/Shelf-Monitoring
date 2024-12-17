@@ -37,7 +37,7 @@ const AboutUs = () => {
   <div className="AboutUs-new-left">
     <h2 className="AboutUs-new-title">BEYOND IMAGING</h2>
     <h6>
-      AI Powered Vision Solutions
+      AI-Powered Vision Solutions
     </h6>
     <h6>Watch Exciting Demos. Meet Our Camera Experts</h6>
     <div className="AboutUs-icon-row">

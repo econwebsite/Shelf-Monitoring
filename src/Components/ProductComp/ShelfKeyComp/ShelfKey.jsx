@@ -18,7 +18,9 @@ const ShelfKey = () => {
     { icon: configurable, title: 'Configurable Status LED', description: 'Enables seamless monitoring of camera functionality.' },
     { icon: gdpr, title: 'GDPR Compliance', description: 'Prevents image capture of people for legal safety.' },
     { icon: customenclosure, title: 'Custom Enclosures', description: 'Adapts to various retail environments for more durability.' },
-    { icon: rechargebattery, title: 'Rechargeable Battery', description: 'Ensures easy installation in dynamic retail aisles.' },
+    { icon: rechargebattery, title: 'Rechargeable Battery', description: <>Durable and long-lasting, runs up to one year on a single charge.* <br></br>(*Based on 2 images/day usage)</> },
+    { icon: rechargebattery, title: 'On-Camera AI Intelligence', description: 'Focuses solely on shelf images, smartly filtering out interference from people or carts.' },
+
   ];
 
   return (

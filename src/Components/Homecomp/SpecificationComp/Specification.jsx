@@ -32,7 +32,7 @@ const Specification = () => {
           <div className="spec-item">
             <span className="spec-label">Camera</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">Resolution: 13MP (4208(H)x 3120(V))<br></br> Field of view: Covers up to 20 feet horizontally with 1 Shelf Camera</span>
+            <span className="spec-value">Resolution: 13MP (4208(H)x 3120(V)), Upgradeable to 20MP<br></br> Field of view: Covers up to 20 feet horizontally with 1 Shelf Camera</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Power</span>

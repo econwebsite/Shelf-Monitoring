@@ -5,7 +5,8 @@ const AiProvider = () => {
   const content = {
     title: "Who can use SHELFVista?",
     description:
-      "Adapts to businesses of all sizes. While primarily optimized for retail environments, its capabilities extend to various sectors where inventory management and space utilization are crucial.",
+    <>
+      Adapts to businesses of all sizes<br></br> While primarily optimized for retail environments, its capabilities extend to various sectors where inventory management and space utilization are crucial."</>,
     categories: ["Retailers", "CPGs Companies", "AI Solution Providers"],
   };
 
@@ -25,7 +26,9 @@ const AiProvider = () => {
         </ul>
       </div>
       <br></br>
+      <div className="AI-para-tag">
         <p className="AIProvider-description">{content.description}</p>
+        </div>
       </div>
       </div>
     </div>
