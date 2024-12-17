@@ -72,7 +72,9 @@
       flex-direction: column;
       gap: 15px;
     }
-  
+  .Blogpage-cointainer{
+    background-color: whitesmoke;
+  }
     .threeparameter-image {
       width: auto;
       height: 280px;
