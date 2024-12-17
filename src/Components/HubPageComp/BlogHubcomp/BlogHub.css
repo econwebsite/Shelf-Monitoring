@@ -36,7 +36,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     box-sizing: border-box;
   }
   
@@ -88,7 +88,7 @@
     border-radius: 7px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 950px) {
     .casehubpage-hubpageblog {
       flex-direction: column;
     }
