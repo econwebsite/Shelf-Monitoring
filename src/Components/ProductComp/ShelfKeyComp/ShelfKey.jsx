@@ -12,15 +12,16 @@ import aipower from "../../../assets/productpage/aipowericon.png"
 
 const ShelfKey = () => {
   const data = [
-    { icon: fourk, title: '13MP Resolution', description: 'Captures high-quality images for accurate analysis.' },
-    { icon: wideangle, title: 'Wide-Angle Optics', description: 'Covers multiple racks with a wide view, eliminating blind spots.' },
-    { icon: flexible, title: 'Flexible Capture Modes', description: 'Supports continuous and scheduled modes.' },
-    { icon: lowpower, title: 'Low-Power Wi-Fi', description: 'Drives smooth data transmission without power drain.' },
-    { icon: configurable, title: 'Configurable Status LED', description: 'Enables seamless monitoring of camera functionality.' },
-    { icon: gdpr, title: 'GDPR Compliance', description: 'Prevents image capture of people for legal safety.' },
-    { icon: customenclosure, title: 'Custom Enclosures', description: 'Adapts to various retail environments for more durability.' },
-    { icon: rechargebattery, title: 'Rechargeable Battery', description: <>Durable and long-lasting, runs up to one year on a single charge.* <br></br>(*Based on 2 images/day usage)</> },
-    { icon: aipower, title: 'On-Camera AI Intelligence', description: 'Focuses solely on shelf images, smartly filtering out interference from people or carts.' },
+    { icon: fourk, title: '13MP Resolution', description: 'Captures high-quality images for precise shelf analysis in real time. (Upgradable to 20MP) ' },
+    { icon: wideangle, title: 'Multi-Rack Optics Coverage', description: 'Monitors 18-20 feet of shelf space with a single camera, reducing costs and simplifying setup.' },
+    { icon: flexible, title: 'On-Camera AI Intelligence', description: 'Focuses solely on shelf images, smartly filtering out interference from people or carts. ' },
+    { icon: lowpower, title: 'Dual-Band Wi-Fi (2.4/5 GHz)', description: 'Seamlessly connect with dual-band Wi-Fi, supporting 2.4 GHz and 5 GHz. ' },
+    { icon: configurable, title: 'AI- Powered Privacy Compliance', description: 'Ensure privacy with AI that prevents image capture when people are in the frame.' },
+    { icon: gdpr, title: 'Rechargeable Battery', description: <>Durable and long-lasting, operates for up to a year on a single charge.*<br></br> *Depends on image capture per day.</> },
+    { icon: customenclosure, title: 'Secure, Cloud-Enabled Solution', description: 'Protects data with end-to-end encryption, enabling secure cloud transfers. ' },
+    { icon: customenclosure, title: 'Mobile Application', description: 'Simplifies setup with quick installation, live preview, and easy configuration' },
+    { icon: rechargebattery, title: 'Flexible Capture Modes', description: "Supports continuous and scheduled modes." },
+    { icon: aipower, title: 'Custom Enclosures', description: 'Adapts to various retail environments, offering enhanced protection and durability.' },
 
   ];
 

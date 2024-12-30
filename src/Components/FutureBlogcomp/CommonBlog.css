@@ -172,7 +172,15 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  
+  .blogborder-box h4 {
+    width: 100%;
+    color: #4190fc;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .custombutton-row {
     display: flex;
     gap: 0px;
