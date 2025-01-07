@@ -123,7 +123,7 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
     else {
       values.productName = productName;
       values.documentName = docName;
-      axios.post(`https://api.dental.e-consystems.com/api/contactusform`, { values })
+      axios.post(`https://api.dental.e-consystems.com/api/contactusform`, { values }, { withCredentials: true })
         .then(result => {
           message.success('Message sent successfully!');
           onClose();

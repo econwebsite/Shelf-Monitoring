@@ -25,7 +25,7 @@ function ProductVedios() {
             <FsLightbox
               toggler={toggler}
               sources={[
-                "https://www.youtube.com/embed/Bpg4bHDLZsY?autoplay=1"
+                "https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"
               ]}
             />
           </div>

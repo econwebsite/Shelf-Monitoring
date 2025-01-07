@@ -10,7 +10,7 @@ const Totalproducts = () => {
     return (
         <div>
             <ShelfVisible/>
-            {/* <ProductVedios/> */}
+            <ProductVedios/>
             <ShelfKey/>
             <Trackwork/>
             <SolutionComp/>
