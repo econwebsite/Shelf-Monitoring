@@ -9,12 +9,18 @@ import planogram from "../../assets/futureblog/plannogramcompliance.jpg"
 import pricingcover from "../../assets/futureblog/pricing&label-cover.jpg"
 import electronics from "../../assets/futureblog/electronics.jpg"
 import bussinessbenifitsofpricing from "../../assets/futureblog/bussinessbenifitsofpricing.jpg"
+import { Helmet } from 'react-helmet-async';
+
 
 
 
 const PricingLabeling = () => {
     return (
         <div>
+            <Helmet>
+            <title>The Role of Shelf Monitoring Cameras in Ensuring Pricing & Labeling Accuracy</title>
+            <meta name='description' content='Learn how shelf monitoring cameras help retailers ensure pricing accuracy and labeling compliance. Discover key camera features and how they improve inventory management, reduce human error, and enhance customer satisfaction in retail environments.' />
+            </Helmet>
             <div className="Blogpage-cointainer">
                 <div className='mainContainer'>
                     <div className="content-Blog">
@@ -105,29 +111,29 @@ const PricingLabeling = () => {
                                 <p style={{ "font-weight": "bold" }}>Related Blogs</p>
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
-                                    <Link className="cardImgLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <img src={digital} alt="Camera Model 1" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
                                     <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/shelfdigitalization' />
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/latest-shelf-digitalization-technologies-for-retailers' />
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/osa-oos-monitoring-with-smart-cameras" style={{ textDecoration: "none" }}>
                                         <img src={outofstocks} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/osa-oos-monitoring-with-smart-cameras" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2></Link>
                                     <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/outofstocks"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/osa-oos-monitoring-with-smart-cameras"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/smart-shelf-monitoring-planogram-compliance" style={{ textDecoration: "none" }}>
                                         <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/smart-shelf-monitoring-planogram-compliance" style={{ textDecoration: "none" }}>
                                         <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                                     </Link>
                                     <p>Planograms dictate the optimal placement of products on shelves to maximize visibility and sales. Learn how shelf monitoring cameras automate planogram compliance verification, enabling real-time tracking of product placement and improving overall retail strategy. </p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/planogramcompliance"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/smart-shelf-monitoring-planogram-compliance"></AnimatedButton>
                                 </div>
                             </div>
                         </div>

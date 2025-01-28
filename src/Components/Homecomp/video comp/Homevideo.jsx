@@ -1,34 +1,43 @@
+
 import React, { useState } from 'react';
 import './Homevideo.css';
 import Vediothumbnail from "../../../assets/homepage/homevideothump.jpg"; 
 
+
 import FsLightbox from "fslightbox-react";
 
 function Homevideo() {
-  const [toggler, setToggler] = useState(false);
+  const [leftToggler, setLeftToggler] = useState(false);
+  const [rightToggler, setRightToggler] = useState(false);
 
   return (
     <>
       <div className="tot-denvedio">
-      <div className='mainContainer'>
-        <h2>Video</h2>
-        <div className="video-title-container">
-          <div className="home-thumbnail">
+        <div className="mainContainer">
+          <h2>Video</h2>
+          <div className="thumbnail-row">
             <img
               src={Vediothumbnail}
               alt="Left Thumbnail"
-              className="homeside-img"
-              onClick={() => setToggler(!toggler)}
+              className="small-thumbnail"
+              onClick={() => setLeftToggler(!leftToggler)}
+            />
+            <img
+              src={Vediothumbnail}
+              alt="Right Thumbnail"
+              className="small-thumbnail"
+              onClick={() => setRightToggler(!rightToggler)}
             />
           </div>
 
           <FsLightbox
-            toggler={toggler}
-            sources={[
-              "https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1" 
-            ]}
+            toggler={leftToggler}
+            sources={["https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"]}
           />
-        </div>
+          <FsLightbox
+            toggler={rightToggler}
+            sources={["https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"]}
+          />
         </div>
       </div>
     </>
@@ -36,3 +45,4 @@ function Homevideo() {
 }
 
 export default Homevideo;
+

@@ -9,9 +9,15 @@ import outofstock from "../../assets/futureblog/outofstocks.jpg"
 import blueprint from "../../assets/futureblog/blueprient.jpg"
 import shelfsnap from "../../assets/futureblog/shelfsnap.jpg"
 import planagromcover from "../../assets/futureblog/planogram-cover.jpg"
+import { Helmet } from 'react-helmet-async';
+
 const PlanogramCompliance = () => {
     return (
         <div>
+            <Helmet>
+            <title>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</title>
+            <meta name='description' content='Learn how smart shelf monitoring cameras help retailers maintain accurate planogram compliance. Discover key camera features for real-time monitoring, improving product placement, and enhancing retail operations with minimal labor.' />
+            </Helmet>
             <div className="Blogpage-cointainer">
                 <div className='mainContainer'>
                     <div className="content-Blog">
@@ -81,29 +87,29 @@ const PlanogramCompliance = () => {
                                 <p style={{ "font-weight": "bold" }}>Related Blogs</p>
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
-                                    <Link className="cardImgLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/the-role-of-smart-cameras-in-inventory-and-compliance" style={{ textDecoration: "none" }}>
                                         <img src={vision} alt="Camera Model 1" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/retailexperience" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/the-role-of-smart-cameras-in-inventory-and-compliance" style={{ textDecoration: "none" }}>
                                         <h2>How vision-based shelf monitoring helps retailers</h2></Link>
                                         <p>The shelves in retail stores are packed with thousands of unique Consumer Packaged Goods (CPG). Retail store owners must keep track of out-of-stock and on-shelf availability of goods, price compliance, etc. In this blog, we explore how shelf-monitoring cameras can be used to perform these retail operations.</p>
-                                        <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/retailexperience' />
+                                        <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/the-role-of-smart-cameras-in-inventory-and-compliance' />
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <img src={digital} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers?</h2></Link>
                                         <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
-                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/shelfdigitalization"></AnimatedButton>
+                                        <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/latest-shelf-digitalization-technologies-for-retailers"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/osa-oos-monitoring-with-smart-cameras" style={{ textDecoration: "none" }}>
                                         <img src={outofstock} alt="Camera Model 3" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/outofstocks" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/osa-oos-monitoring-with-smart-cameras" style={{ textDecoration: "none" }}>
                                         <h2>How Shelf Monitoring Cameras Tackle the Retail Out-of-Stock Problem</h2>
                                     </Link>
                                     <p>Tracking the availability of store products and knowing when products go out-of-stock is critical in retail. On-shelf availability (OSA) is a metric that measures if products are available on display, and Out-of-Stock (OOS) is used to measure when items are not available on the shelves. In this blog, we discuss how shelf monitoring cameras can be used to track OSA and OOS and the key camera features required for it.</p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/outofstocks"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more"  to="/blogs/osa-oos-monitoring-with-smart-cameras"></AnimatedButton>
                                 </div>
                             </div>
                         </div>

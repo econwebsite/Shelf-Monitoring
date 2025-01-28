@@ -8,12 +8,17 @@ import tic from "../../assets/homepage/certificates-04.png";
 import { MdLocationOn } from "react-icons/md";
 import { BsCalendarDate } from "react-icons/bs";
 import cesbanner from "../../assets/homepage/cesbanner.jpg"
+import { Helmet } from 'react-helmet-async';
 
 
 
 const AboutUs = () => {
   return (
     <div className="AboutUs-container">
+      <Helmet>
+      <title>About e-con Systems - Leading OEM Camera Solutions Provider</title>
+      <meta name='description' content='e-con Systems, established in 2003, is a global leader in OEM camera solutions, offering MIPI, GMSL, USB, stereo, and more. With 350+ solutions shipped worldwide, we provide end-to-end vision solutions across various industries.' />
+      </Helmet>
               <div className="mainContainer">
 
       <h1 className="AboutUs-title">About e-con Systems</h1>
@@ -33,7 +38,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-<div className="AboutUs-new-container">
+{/* <div className="AboutUs-new-container">
   <div className="AboutUs-new-left">
     <h2 className="AboutUs-new-title">BEYOND IMAGING</h2>
     <h6>
@@ -65,7 +70,7 @@ const AboutUs = () => {
       </a>
     </div>
   </div>
-</div>
+</div> */}
 
 
       <div className="AboutUs-quality-policy">

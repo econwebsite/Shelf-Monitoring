@@ -10,9 +10,15 @@ import outcover from "../../assets/futureblog/outofstock-cover.jpg"
 import shoppingexp from "../../assets/futureblog/shoppingexpeience.jpg"
 import keyfeature from "../../assets/futureblog/keyfeatures.jpg"
 import bussiness from "../../assets/futureblog/bussinessbenifits.jpg"
+import { Helmet } from 'react-helmet-async';
+
 const OutofStocks = () => {
     return (
         <div>
+            <Helmet>
+            <title>Tracking OSA & Preventing OOS in Retail Stores with Smart Monitoring Cameras</title>
+            <meta name='description' content='Explore how smart shelf monitoring cameras help retailers track On-Shelf Availability (OSA) and prevent Out-of-Stock (OOS) issues. Discover key camera features and business benefits for efficient inventory management in retail environments.' />
+            </Helmet>
             <div className="Blogpage-cointainer">
                 <div className='mainContainer'>
                     <div className="content-Blog">
@@ -86,29 +92,29 @@ const OutofStocks = () => {
                                 <p style={{ "font-weight": "bold" }}>Related Blogs</p>
                                 <hr />
                                 <div className="CardBlogs" style={{ cursor: "pointer" }}>
-                                    <Link className="cardImgLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <img src={digtal} alt="Camera Model 1" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/shelfdigitalization" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/latest-shelf-digitalization-technologies-for-retailers" style={{ textDecoration: "none" }}>
                                         <h2>What are the Latest Shelf Digitalization Technologies For Retailers</h2></Link>
                                     <p>Explore various shelf digitalization technologies, their unique benefits, implementation challenges, and how they're transforming traditional retail operations. Get expert insights on choosing the right technology for your needs.</p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/shelfdigitalization' />
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to='/blogs/latest-shelf-digitalization-technologies-for-retailers' />
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/pricinglabeling" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/shelf-monitoring-cameras-pricing-labeling-accuracy" style={{ textDecoration: "none" }}>
                                         <img src={pricing} alt="Camera Model 2" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/pricinglabeling" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/shelf-monitoring-cameras-pricing-labeling-accuracy" style={{ textDecoration: "none" }}>
                                         <h2>What is the Role of Shelf Monitoring Cameras in Ensuring Pricing and Labeling Accuracy</h2></Link>
                                     <p>Shelf monitoring cameras help in maintaining price compliance in retail stores by automated price tag scanning and verification. In this blog, you’ll learn about the role of shelf monitoring cameras in pricing and labeling, and the key camera features required. </p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/pricinglabeling"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/shelf-monitoring-cameras-pricing-labeling-accuracy"></AnimatedButton>
                                 </div>
                                 <div className="CardBlogs">
-                                    <Link className="cardImgLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
+                                    <Link className="cardImgLink" to="/blogs/smart-shelf-monitoring-planogram-compliance" style={{ textDecoration: "none" }}>
                                         <img src={planogram} alt="Camera Model 3" className="Cardrelated-image" /></Link>
-                                    <Link className="cardTitleLink" to="/blogs/planogramcompliance" style={{ textDecoration: "none" }}>
+                                    <Link className="cardTitleLink" to="/blogs/smart-shelf-monitoring-planogram-compliance" style={{ textDecoration: "none" }}>
                                         <h2>How Smart Shelf Monitoring Ensures Accurate Planogram Compliance</h2>
                                     </Link>
                                     <p>Planograms dictate the optimal placement of products on shelves to maximize visibility and sales. Learn how shelf monitoring cameras automate planogram compliance verification, enabling real-time tracking of product placement and improving overall retail strategy. </p>
-                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/planogramcompliance"></AnimatedButton>
+                                    <AnimatedButton className="Blogreadmore-1" text="Read more" to="/blogs/smart-shelf-monitoring-planogram-compliance"></AnimatedButton>
                                 </div>
                             </div>
                         </div>

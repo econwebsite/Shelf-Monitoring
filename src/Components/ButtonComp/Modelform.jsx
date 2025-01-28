@@ -94,7 +94,7 @@ const usaStates = [
 ];
 function Modelform({ visible, onClose, type, docName, productName, title }) {
   const [form] = Form.useForm();
-  const [selectedCountry, setSelectedCountry] = useState('United States');
+  const [selectedCountry, setSelectedCountry] = useState('US');
   const [showStates, setShowStates] = useState(true);
   const [isSuccess, setIsSuccess] = useState(false);
   const [downloadUrl, setDownloadUrl] = useState('');
@@ -138,7 +138,7 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
     setSelectedCountry(value);
     setShowStates(country?.value === 'US');
     if (country?.value !== 'US') {
-      form.setFieldsValue({ state: undefined });
+      form.setFieldsValue({ state: "NA" });
     }
   };
   const handleEmailValidate = async (e) => {

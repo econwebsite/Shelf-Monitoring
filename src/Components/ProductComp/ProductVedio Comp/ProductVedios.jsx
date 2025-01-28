@@ -1,34 +1,42 @@
 import React, { useState } from 'react';
 import './ProductVedios.css';
-import Vediothumbnail from "../../../assets/productpage/productvideothump.jpg";
+import LeftThumbnail from "../../../assets/productpage/productvideothump.jpg";
+// import RightThumbnail from "../../../assets/productpage/rightthumb.jpg";
 
 import FsLightbox from "fslightbox-react";
 
 function ProductVedios() {
-  const [toggler, setToggler] = useState(false);
+  const [leftToggler, setLeftToggler] = useState(false);
+  const [rightToggler, setRightToggler] = useState(false);
 
   return (
     <>
       <div className="product-vedios-container">
         <div className='product-main-container'>
           <h2>Video</h2>
-          <div className="product-video-title-container">
-            <div className="product-home-thumbnail">
-              <img
-                src={Vediothumbnail}
-                alt="Left Thumbnail"
-                className="product-homeside-img"
-                onClick={() => setToggler(!toggler)}
-              />
-            </div>
-
-            <FsLightbox
-              toggler={toggler}
-              sources={[
-                "https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"
-              ]}
+          <div className="product-thumbnail-row">
+            <img
+              src={LeftThumbnail}
+              alt="Left Thumbnail"
+              className="product-thumbnail"
+              onClick={() => setLeftToggler(!leftToggler)}
+            />
+            <img
+              src={LeftThumbnail}
+              alt="Right Thumbnail"
+              className="product-thumbnail"
+              onClick={() => setRightToggler(!rightToggler)}
             />
           </div>
+
+          <FsLightbox
+            toggler={leftToggler}
+            sources={["https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"]}
+          />
+          <FsLightbox
+            toggler={rightToggler}
+            sources={["https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"]}
+          />
         </div>
       </div>
     </>

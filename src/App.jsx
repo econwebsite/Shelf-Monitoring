@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -18,27 +18,14 @@ import RetailExperience from "./Components/FutureBlogcomp/RetailExperience"
 import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUsComp/AboutUs';
 import OutofStocks from './Components/FutureBlogcomp/OutofStocks';
-import Popupcomp from "./Components/Popupcomp"
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const App = () => {
-  const [isPopupVisible, setPopupVisible] = useState(false);
-  useEffect(() => {
-    const referrer = document.referrer; 
-    let timer;
-
-    if (referrer !== "https://www.e-consystems.com/events/ces-2025.asp") {
-      timer = setTimeout(() => setPopupVisible(true), 5000);
-    } else {
-      console.log("Popup not shown because user came from CES 2025 page.");
-    }
-    return () => clearTimeout(timer);
-  }, []); 
-
-  
   return (
 
           <BrowserRouter>
+          <HelmetProvider>
               <ScrollToTop /> 
     <div className='fixed-container'>
       <NavBar/>
@@ -47,18 +34,18 @@ const App = () => {
         <Route path="/home" element={<Totalhome />} />
         <Route path="/shelfvista" element={<Totalproducts />} />
         <Route path="/blogs" element={<BlogHub />} />
-        <Route path="/blogs/pricinglabeling" element={<PricingLabeling />} />
-        <Route path="/blogs/shelfdigitalization" element={<ShelfDigitalization />} />
-        <Route path="/blogs/planogramcompliance" element={<PlanogramCompliance />} />
-        <Route path="/blogs/retailexperience" element={<RetailExperience />} />
-        <Route path="/blogs/outofstocks" element={<OutofStocks/>} />
+        <Route path="/blogs/shelf-monitoring-cameras-pricing-labeling-accuracy" element={<PricingLabeling />} />
+        <Route path="/blogs/latest-shelf-digitalization-technologies-for-retailers" element={<ShelfDigitalization />} />
+        <Route path="/blogs/smart-shelf-monitoring-planogram-compliance" element={<PlanogramCompliance />} />
+        <Route path="/blogs/the-role-of-smart-cameras-in-inventory-and-compliance" element={<RetailExperience />} />
+        <Route path="/blogs/osa-oos-monitoring-with-smart-cameras" element={<OutofStocks/>} />
         <Route path="/contactus" element={< ContactUs/>} />
         <Route path="/aboutus" element={< AboutUs/>} />        
         <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footerpage/>
-        <Popupcomp isVisible={isPopupVisible} onClose={() => setPopupVisible(false)} />
         </div>
+        </HelmetProvider>
         </BrowserRouter>
 
 
