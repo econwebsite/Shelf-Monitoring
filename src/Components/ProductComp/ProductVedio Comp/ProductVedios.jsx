@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ProductVedios.css';
-import LeftThumbnail from "../../../assets/productpage/productvideothump.jpg";
-// import RightThumbnail from "../../../assets/productpage/rightthumb.jpg";
+import LeftThumbnail from "../../../assets/productpage/productvideothump-1.jpg";
+import RightThumbnail from "../../../assets/productpage/productvideothump-2.jpg";
 
 import FsLightbox from "fslightbox-react";
 
@@ -22,7 +22,7 @@ function ProductVedios() {
               onClick={() => setLeftToggler(!leftToggler)}
             />
             <img
-              src={LeftThumbnail}
+              src={RightThumbnail}
               alt="Right Thumbnail"
               className="product-thumbnail"
               onClick={() => setRightToggler(!rightToggler)}
@@ -35,7 +35,7 @@ function ProductVedios() {
           />
           <FsLightbox
             toggler={rightToggler}
-            sources={["https://www.youtube.com/embed/g6rJBSUpMYE?autoplay=1"]}
+            sources={["https://www.youtube.com/embed/kfyMM11ny1M?autoplay=1"]}
           />
         </div>
       </div>
