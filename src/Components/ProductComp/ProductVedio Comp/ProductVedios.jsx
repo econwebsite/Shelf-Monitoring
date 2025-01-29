@@ -13,7 +13,7 @@ function ProductVedios() {
     <>
       <div className="product-vedios-container">
         <div className='product-main-container'>
-          <h2>Video</h2>
+          <h2>Videos</h2>
           <div className="product-thumbnail-row">
             <img
               src={LeftThumbnail}

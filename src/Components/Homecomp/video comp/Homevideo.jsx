@@ -16,7 +16,7 @@ function Homevideo() {
     <>
       <div className="tot-denvedio">
         <div className="mainContainer">
-          <h2>Video</h2>
+          <h2>Videos</h2>
           <div className="thumbnail-row">
             <img
               src={leftthump}
