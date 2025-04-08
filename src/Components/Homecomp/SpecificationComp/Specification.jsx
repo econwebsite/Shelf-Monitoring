@@ -32,7 +32,7 @@ const Specification = () => {
           <div className="spec-item">
             <span className="spec-label">Camera</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">Resolution: 13MP (4208(H)x 3120(V)), Upgradeable to 20MP<br></br> Field of view: Covers up to 20 feet horizontally with 1 Shelf Camera</span>
+            <span className="spec-value">Resolution: 13MP (4192(H)x 3120(V)), Upgradeable to 20MP<br></br> Field of view: Covers up to 20 feet horizontally with 1 Shelf Camera</span>
           </div>
           <div className="spec-item">
             <span className="spec-label">Power</span>
@@ -42,13 +42,13 @@ const Specification = () => {
           <div className="spec-item">
             <span className="spec-label">Dimensions</span>
             <span className="spec-colon">:</span>
-            <span className="spec-value">74mm (L) *50mm (H) *25.70mm (W)</span>
+            <span className="spec-value">77mm (L) *50mm (H) *25.7mm (W)</span>
           </div>
         </div>
         <div className="spec-butt">
         <AnimationButton text="Learn more" to="/shelfvista" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button"  />
-        {/* <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button" to="" productName="ProductDocument" docName="product-specification"/> */}
-        <Modelbutton text="Contact Us" backgroundColor="#f9cd47" textColor="black" hoverTextColor="#344ea1" className='spec-button' />
+        <Modelbutton text="Download Tech document" backgroundColor="#f9cd47" textColor="#131b2d"  hoverTextColor="#344ea1" className="spec-button" to="" productName="ProductDocument" docName="shelf-vista-technical-document" title="Shelf Vista technical documents"/>
+        {/* <Modelbutton text="Contact Us" backgroundColor="#f9cd47" textColor="black" hoverTextColor="#344ea1" className='spec-button' /> */}
 
 
     </div>

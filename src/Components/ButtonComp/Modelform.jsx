@@ -3,7 +3,7 @@ import { Form, Input, Select, Button, Row, Col, message, Modal, Result } from 'a
 import axios from 'axios';
 import "./Modelbutton.css";
 import countryList from 'react-select-country-list';
-import AnimatedButton from './AnimationButton';
+import AnimatedButton from './Modelbutton';
 import DownloadButton from './DownloadButton';
 
 const { TextArea } = Input;
@@ -94,7 +94,7 @@ const usaStates = [
 ];
 function Modelform({ visible, onClose, type, docName, productName, title }) {
   const [form] = Form.useForm();
-  const [selectedCountry, setSelectedCountry] = useState('US');
+  const [selectedCountry, setSelectedCountry] = useState('United States');
   const [showStates, setShowStates] = useState(true);
   const [isSuccess, setIsSuccess] = useState(false);
   const [downloadUrl, setDownloadUrl] = useState('');
@@ -109,21 +109,19 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
     if (type === 'download') {
       values.productName = productName;
       values.documentName = docName;
-      axios.post(`https://api.dental.e-consystems.com/api/downloadform`, { values }, { withCredentials: true })
-      //axios.post(`http://localhost:3001/api/downloadform`, { values }, { withCredentials: true })
-        .then(result => {
+      axios.post(`https://shelfvista.e-consystems.com/api/downloadform`, { values })
+      .then(result => {
           if (result.status === 200) {
-            setIsSuccess(true);
-            setDownloadUrl(result.data[0].docName);
+              setIsSuccess(true);
+              setDownloadUrl(result.data.documentUrl);
           }
-          //onClose();
-        })
+      })
         .catch(err => console.log(err));
     }
     else {
       values.productName = productName;
       values.documentName = docName;
-      axios.post(`https://api.dental.e-consystems.com/api/contactusform`, { values }, { withCredentials: true })
+      axios.post(`https://shelfvista.e-consystems.com/api/contactusform`, { values })
         .then(result => {
           message.success('Message sent successfully!');
           onClose();
@@ -138,13 +136,13 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
     setSelectedCountry(value);
     setShowStates(country?.value === 'US');
     if (country?.value !== 'US') {
-      form.setFieldsValue({ state: "NA" });
+      form.setFieldsValue({ state: undefined });
     }
   };
   const handleEmailValidate = async (e) => {
     const email = e.target.value;
     if (email) {
-      axios.post(`https://api.dental.e-consystems.com/api/validateEmail`, { email })
+      axios.post(`https://shelfvista.e-consystems.com/api/validateEmail`, { email })
         .then(result => {
           if (result.data.status === 'valid' || result.data.status === 'catch-all' || result.data.status === 'role_based') {
             if (!result.data.free_email) {
@@ -170,12 +168,11 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
 
         })
         .catch(err => console.log(err));
-
     }
   };
   return (
     <Modal
-      title={type === 'download' ? `Download - Documents` : "Write to us"}
+      title={type === 'download' ? `Download - ${title}` : "Contact Form"}
       visible={visible}
       onCancel={onClose}
       footer={null}
@@ -187,7 +184,12 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
         title="Ready to Download"
         subTitle="Please click below button to downlaod"
         extra={[
-          <DownloadButton url={downloadUrl} />
+          <DownloadButton 
+          key="download"
+          productName={productName}
+          documentName={docName}
+        />
+    
         ]}
       /> : <Form
         form={form}
@@ -297,15 +299,12 @@ function Modelform({ visible, onClose, type, docName, productName, title }) {
         <Row justify="center">
           <Col>
             <Form.Item>
-              <AnimatedButton
-                type="primary"
-                htmlType="submit"
-                className="Contacts-btn"
-                text="Submit"
-                backgroundColor="#344ea1"
-                animationColor="#69ba2f"
-                hoverColor="yellow"
-              />
+            <button 
+  type="submit"
+  className="submitContacts-btn"
+>
+  Submit
+</button>
             </Form.Item>
           </Col>
         </Row>

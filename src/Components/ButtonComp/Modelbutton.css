@@ -80,6 +80,17 @@ textarea::placeholder {
 }
 
 
+.submitContacts-btn{
+  color: white;
+  background-color: #344ea1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+}
+.submitContacts-btn:hover{
+  background-color: #00aeef;
+  color: white;
+}
 
 
   @media (max-width: 600px) {
