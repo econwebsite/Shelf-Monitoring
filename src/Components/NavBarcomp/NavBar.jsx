@@ -55,6 +55,8 @@ const NavBar = () => {
               <div className="navbarpage-divider"></div>
               <Link to="/aboutus" className="navbarpage-navLink">About Us</Link>
             </div>
+            {/* Search bar */}
+            <SearchBar />
             <div className="navbarpage-rightColumn">
               {/* <input type="text" placeholder="Search.." className="navbarpage-searchInput" /> */}
               <div className="navbarpage-contact">
