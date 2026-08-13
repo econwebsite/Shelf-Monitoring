@@ -6,6 +6,7 @@ import { Navbar, Nav, Container, Offcanvas, Form, Button } from 'react-bootstrap
 import './Navbar.css';
 import shelflogo from "../../assets/homepage/shelfmonitor-logo.svg";
 import Modelbutton from '../ButtonComp/Modelbutton';
+import SearchBar from '../SearchComp/SearchBar';
 
 const NavBar = () => {
   const offcanvasRef = useRef(null);
