@@ -86,7 +86,7 @@ function SearchBar() {
           <Box
             sx={{
               position: "fixed",
-              top: "50%",
+              top: "20%",
               left: "50%",
               transform: "translate(-50%, -50%)",
               zIndex: 1300,
@@ -149,7 +149,7 @@ color: "#ffffff",
             <Box
               sx={{
                 position: "fixed",
-                top: "calc(50% + 35px)",
+                top: "calc(20% + 35px)",
                 left: "50%",
                 transform: "translateX(-50%)",
                 zIndex: 1300,
@@ -160,7 +160,8 @@ color: "#ffffff",
                 backgroundColor: "#ffffff",
                 borderRadius: "12px",
                 boxShadow: "0 8px 25px rgba(0, 56, 115, 0.2)",
-                overflow: "hidden",
+                 maxHeight: "400px",
+    overflowY: "auto"
               }}
             >
               {searchResults.length > 0 ? (
